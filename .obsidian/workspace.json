@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "b357f55661e1f926",
+    "type": "split",
+    "children": [
+      {
+        "id": "96168e0f11784227",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bfe639889882bcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "101e1a298eb19ca4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS-1331/Classes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "993b112cad23ef37",
+    "type": "split",
+    "children": [
+      {
+        "id": "a14196421b38af11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "868acbaa47b56048",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7d2d2813077c496c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "79104da36755b06a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c57a451bd9637a3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7f7021b81f2c428",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7ed102f2f9c5357",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CS-1331/Classes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "01aeba6179dfe834",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CS-1331/Classes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e7e9f2bb8e9f7db3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a236fce94ef86fc0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CS-1331/Classes.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "101e1a298eb19ca4",
+  "lastOpenFiles": [
+    "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff",
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff",
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff",
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff",
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff",
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff",
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff",
+    "18.06sc-fall-2011/static_shared/images/youtube.svg",
+    "18.06sc-fall-2011/static_shared/images/videojs_download.svg",
+    "18.06sc-fall-2011/static_shared/images/video_thumbnail.png",
+    "18.06sc-fall-2011/static_shared/images/video_play_overlay.png",
+    "18.06sc-fall-2011/static_shared/images/search.svg",
+    "18.06sc-fall-2011/static_shared/images/pdf_thumbnail.png",
+    "18.06sc-fall-2011/static_shared/images/page_thumbnail.png",
+    "18.06sc-fall-2011/static_shared/images/oeg_logo.png",
+    "18.06sc-fall-2011/static_shared/images/ocw_logo_white_v2.svg",
+    "18.06sc-fall-2011/static_shared/images/ocw_logo_orange.png",
+    "CS-1331/Things to Memorize Before Test.md",
+    "CS-1331/Textbook Notes.md",
+    "CS-1331/Static Methods, Ambiguous Invocation.md",
+    "CS-1331/Conditionals, Short-circuit, switch.md",
+    "CS-1331/Lecture Notes.md",
+    "CS-1331/Arrays.md",
+    "CS-1331/Classes.md",
+    "CS1331/Classes.md",
+    "Graph Theory Ethan.md",
+    "MicroEcon 2106/Things To Study.md",
+    "MicroEcon 2106/Supply and Demand Equilibrium Lecture Notes.md",
+    "MicroEcon 2106/Midterm Studying.md",
+    "MicroEcon 2106/Lecture Notes.md",
+    "MicroEcon 2106/Chapter 5- Elasticity.md",
+    "MicroEcon 2106/Chapter 4- Equilibrium.md",
+    "Discrete Math 2050/Things To Study For Discrete.md",
+    "Discrete Math 2050/1.1 - Propositional Logic.md",
+    "README.md"
+  ]
+}

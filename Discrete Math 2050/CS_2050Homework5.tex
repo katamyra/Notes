@@ -1,0 +1,362 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\setlength{\parindent}{0px}
+\usepackage{sqrcaps}
+\usepackage[T1]{fontenc}
+\usepackage{cancel}
+\usepackage{framed}
+\usepackage{mdframed}
+\usepackage{graphicx, tipa}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{asymptote}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{amsfonts}
+\usepackage[document]{ragged2e}
+\usepackage[total={6.5in, 8in}]{geometry}
+\usepackage{amsmath, amsfonts, amssymb, mathtools, versions}
+\usepackage{fourier}
+\usepackage{adjustbox}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{anyfontsize}
+\begin{asydef}
+usepackage("fouriernc");
+\end{asydef}
+\newcommand{\overarc}[1]{{\setbox9=\hbox{#1}\ooalign{\resizebox{\wd9}{\height}{\
+texttoptiebar{\phantom{A}}}\cr#1}}}
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+\DeclareMathOperator{\lcm}{lcm}
+%For bolded items in enumerate
+\newenvironment{enumbf}{\begin{enumerate}[font=\textbf]}{\end{enumerate}}
+%For answer choices
+\newcommand{\ans}[5]{\bigskip
+$\textbf{(A)}\ #1 \qquad\textbf{(B)}\ #2 \qquad\textbf{(C)}\ #3 \qquad\textbf{(D)}\
+#4 \qquad\textbf{(E)}\ #5$}
+%For colored boxed answer
+\newcommand{\bboxed}[1]{\color{maincolor}\boxed{#1}}
+%For solutions
+\newenvironment{solution}
+{
+\vspace{0.5mm}
+\begin{mdframed}
+[linewidth=3pt,leftline=true,rightline=false,bottomline=false,topline=false,linecol
+or=maincolor,backgroundcolor=maincolor!10]\color{maincolor}\textbf{\
+textsf{Solution: }}\color{black}
+}
+{\color{black}\end{mdframed}\vspace{0.5mm}}
+%For alternate solutions
+\newcommand{\orr}{
+\begin{center}
+\textbf{OR}
+\end{center}
+}
+%For remarks
+\newcommand{\bbold}[1]{\color{maincolor}\textbf{\textsf{#1} }\color{black}}
+%For problem proposers
+\newcommand{\prop}[1]{\color{maincolor}\textbf{\textsf{(#1)} }\color{black} }
+%For headings (manual bigskips)
+\newcommand{\bhead}[1]{\textbf{\textsf{\Large #1}}\normalsize}
+%For headings (automatic bigskips)
+\newcommand{\bbhead}[1]{\bigskip\textbf{\textsf{\Large #1}}\normalsize\bigskip}
+\newcommand{\pt}[1]{\textcolor{maincolor}{(#1 points)}}
+\newcommand{\pte}[1]{\textcolor{maincolor}{(#1 points each)}}
+\title{CS 2050 Fall 2023 Homework 5}
+\author{Due: October 6 @ 11:59 PM}
+\date{Released: September 29}
+\definecolor{maincolor}{RGB}{114, 140, 255}
+\begin{document}
+\maketitle
+\begin{justify}
+This assignment is due at \textbf{11:59 PM EDT} on \textbf{Friday, October 6,
+2023}. Submissions submitted at least 24 hours prior to the due date will receive
+2.5 points of extra credit. On-time submissions receive no penalty. You may turn it
+in one day late for a 10-point penalty or two days late for a 25-point penalty.
+Assignments more than two days late will NOT be accepted. We will prioritize on-
+time submissions when grading before an exam.
+\bigskip
+You should submit a typeset or \emph{neatly} written PDF on Gradescope. The
+grading TA should not have to struggle to read what you've written; if your
+handwriting is hard to decipher, you will be required to typeset your future
+assignments. Illegible solutions will be given 0 credit. A 5-point penalty will
+occur if pages are incorrectly assigned to questions when submitting.
+\bigskip
+You may collaborate with other students, but any written work should be your own.
+Write the names of the students you work with on the top of your assignment.
+\bigskip
+Always justify your work, even if the problem doesn't specify it. It can help the
+TA's to give you partial credit.
+\bigskip
+Author(s): Kavya Selvakumar, Anthony Zang, Taiki Aiba, Atharva Gorantiwar
+\clearpage
+\begin{enumerate}
+\item \pte{2} Determine whether the following statements are true or false. You
+do not need to justify your answer.
+\begin{enumerate}
+\item $\emptyset \subset \emptyset$
+\begin{mdframed}
+    \textbf{Solution:} False.
+\end{mdframed}
+\item $a \in \{a\} $
+\begin{mdframed}
+    \textbf{Solution:} True. 
+\end{mdframed}
+\item $\emptyset \subseteq \{a\}$
+\begin{mdframed}
+    \textbf{Solution:} True.
+\end{mdframed}
+\item $\emptyset \in \{a\}$
+\begin{mdframed}
+    \textbf{Solution:} False.
+\end{mdframed}
+\item $\{\emptyset\} \in \{\emptyset\}$
+\begin{mdframed}
+    \textbf{Solution:} False.
+\end{mdframed}
+\item $\{\{\emptyset\}\} \subseteq \{\{\emptyset\},\{\emptyset\}\}$
+\begin{mdframed}
+    \textbf{Solution:} True.
+\end{mdframed}
+\end{enumerate}
+\item \pte{3} Determine the cardinality of the following sets. You do not need
+to justify your answer.
+\begin{enumerate}
+\item $\emptyset$
+\begin{mdframed}
+    \textbf{Solution:} 0.
+\end{mdframed}
+\item $\{T\}$
+\begin{mdframed}
+    \textbf{Solution:} 1.
+\end{mdframed}
+\item $\{\emptyset, \{\emptyset\}\}$
+\begin{mdframed}
+    \textbf{Solution:} 2.
+\end{mdframed}
+\item $\{a, \{a\},\{a, \{a\}\}\}$
+\begin{mdframed}
+    \textbf{Solution:} 3.
+\end{mdframed}
+\end{enumerate}
+\item \pte{3} Find the power set of each of the following sets. You do not need
+to justify your answer.
+\begin{enumerate}
+\item $\{a,b\}$
+\begin{mdframed}
+    $\{\emptyset, \{a\}, \{b\}, \{a, b\}\}$
+\end{mdframed}
+\item $\{1, \{2\}, 3\}$
+\begin{mdframed}
+    $\{\emptyset, \{1\}, \{\{2\}\}, \{3\}, \{1, \{2\}\}, \{1, 3\}, \{\{2\}, 3\}, \{1, \{2\}, 3\}\}$
+\end{mdframed}
+\item $\{\emptyset, \{\emptyset, \{\emptyset\}\}\}$
+\begin{mdframed}
+    $\{\emptyset, \{\emptyset, \{\emptyset\}\}, \{\{\emptyset, \{\emptyset\}\}\}, \{\emptyset, \{\emptyset, \{\emptyset\}\}\}\}$
+\end{mdframed}
+\end{enumerate}     
+\item \pte{2} Find the truth set of each of the following predicates, where the
+domain is the set of integers. You do not need to justify your answer.
+\begin{enumerate}
+\item $Q(x): x^2 < 16$
+\begin{mdframed}
+    $\{-3, -2, -1, 0, 1, 2, 3\}$
+\end{mdframed}
+\item $S(x): 3x - 5 = 9$
+\begin{mdframed}
+    $\{\emptyset\}$
+\end{mdframed}
+\end{enumerate}
+\item \pte{3} Let $A = \{1, 2, 3, 4\}$ and $B = \{y,z\}$. Find the following
+sets. You do not need to justify your answer.
+\begin{enumerate}
+\item $A \times B$
+\begin{mdframed}
+    $\{\{1, y\}, \{1, z\}, \{2, y\}, \{2, z\}, \{3, y\}, \{3, z\}, \{4, y\}, \{4, z\}\}$
+\end{mdframed}
+\item $B \times A$
+\begin{mdframed}
+    $\{\{y, 1\}, \{y, 2\}, \{y, 3\}, \{y, 4\}, \{z, 1\}, \{z, 2\}, \{z, 3\}, \{z, 4\}\}$
+\end{mdframed}
+\end{enumerate}
+\newpage
+\item \pte{3} Let $A = \{a,b,c,d\} $ and $B = \{a,b,c,d,e,f,g,h,i\}$, and let
+$U$ represent a universal set $\{a,b,c,d,e,f,g,h,i,j,k,l\}$. Find the following
+sets. You do not need to justify your answer.
+\begin{enumerate}
+\item $A \cup B \cup \emptyset$
+\begin{mdframed}
+    $\{a, b, c, d, e, f, g, h, i\}$
+\end{mdframed}
+\item $A - B$
+\begin{mdframed}
+    $\{\emptyset\} $
+\end{mdframed}
+\item $B - A$
+\begin{mdframed}
+    $\{e, f, g, h, i\}$
+\end{mdframed}
+\item $A^C$
+\begin{mdframed}
+    $\{e, f, g, h, i, j, k, l\}$
+\end{mdframed}
+\end{enumerate}
+\item \pte{2} Suppose that $A$ is the set of Swifties at Georgia Tech and $B$
+is the set of students who are majoring in computer science (CS). Express each of
+these sets in terms of $A$ and $B$. This should be done with set operations, not
+set-builder notation. You do not need to justify your answer.
+\begin{enumerate}
+\item The set of Swifties majoring in CS at Georgia Tech.
+\begin{mdframed}
+    $A \cap B$
+\end{mdframed}
+\item The set of Swifties at Georgia Tech who are not majoring in CS.
+\begin{mdframed}
+    $A - B$
+\end{mdframed}
+\item The set of students at Georgia Tech who are not Swifties and not
+majoring in CS.
+\begin{mdframed}
+    $\overline{A} \cap \overline{B}$
+\end{mdframed}
+\item The set of student at Georgia Tech who are either Swifties or
+majoring in CS.
+\begin{mdframed}
+    $A \cup B$ 
+\end{mdframed}
+\end{enumerate}
+\item \pte{4} Prove or disprove the following statements, for all sets $A$,
+$B$, and $C$ such that $A$, $B$, and $C$ are pairwise disjoint sets. You may use
+set-builder notation and laws of logical equivalence; you are not permitted to use
+set identities.
+\begin{enumerate}
+\item $A \cup (B \cup A) = A$
+\begin{mdframed}
+    I proceed with a direct proof to prove $A \cup (B \cup A) = A$.
+    \begin{align*}
+        &Statement \tag{Reason} \\
+        1) &A \cup (B \cup A) = \{\, x \mid x \in A \cup (B \cup A) \,\} \tag{1. given} \\
+        2) &A \cup (B \cup A) = \{\, x \mid x \in A \lor x \in (B \cup A) \,\} \tag{2. defintion of union} \\
+        3) &A \cup (B \cup A) = \{\, x \mid x \in A \lor (x \in B \lor x \in A) \,\} \tag{3. definition of union} \\
+        4) &A \cup (B \cup A) = \{\, x \mid (x \in A \lor x \in A) \lor x \in B\,\} \tag{4. commutative and associative law} \\
+        5) &A \cup (B \cup A) = \{\, x \mid x \in A \lor x \in B \,\} \tag{5. idempotent law} \\
+        6) &A \cup (B \cup A) = \{\, x \mid x \in (A \cup B)\} \tag{6. definition of set} \\
+        7) &A \cup (B \cup A) = A \cup B \tag{7. definition of set and set builder} \\
+    \end{align*}
+    We have proven that $A \cup (B \cup A) = A$ is equal to $A \cup B$. Since it is given that the two sets \\ are disjoint
+    this means that $A \cup B$ is not equal to $A$. Thus, we have direcly proven that $A \cup (B \cup A)$ is not equal to
+    $A$. \\
+\end{mdframed}
+\item $\mathbb{P}(A) \cup \mathbb{P}(B)= \mathbb{P}(A \cup B)$
+\begin{mdframed}
+    I proceed with a direct proof showing that both sides are subsets of each other. Let A and B be sets.
+    \begin{align*}
+        &Statement \tag{Reason} \\
+        1) &P(A \cup B) \tag{1. Given} \\
+        2) &Let x \in P(A \cup B) \tag{2. def of arbitrary element} \\
+        3) &x \subseteq A \cup B \tag{3. def of power set} \\
+        4) &x \subseteq A \lor x \subseteq B \tag{4. def of union} \\
+        5) &x \in P(A) \lor  x \in P(B) \tag{5. def of power set} \\
+        6) &x \in P(A) \cup P(B) \tag{6. def of union} \\
+        7) &P(A \cup B) \subseteq P(A) \cup P(B) \tag{7. def of subset} \\
+    \end{align*}
+    This, by assuming $x \in P(A \cup B)$, we have proved directly that $P(A \cup B) \subseteq P(A) \cup P(B)$.
+    \begin{align*}
+        &Statement \tag{Reason} \\
+        1) &P(A) \cup P(B) \tag{1. Given} \\
+        2) &Let x \in P(A) \cup P(B) \tag{2. def of arbitrary element} \\
+        3) &x \in P(A) \lor x \in P(B) \tag{3. def of union} \\
+        4) &x \subset A \lor x \in P(B) \tag{4. def of power set} \\
+        5) &x \subseteq A \lor x \subseteq B \tag{5. def of power set} \\
+        6) &x \subseteq (A \cup B) \tag{6. definition of union} \\
+        7) &x \subseteq P(A \cup B) \tag{7. def of power set} \\
+        8) &P(A) \cup P(B) \subseteq P(A \cup B) \tag{8. def of subset} \\
+    \end{align*}
+    This, by assuming $x \in P(A) \cup P(B)$, we have proved directly that $P(A) \cup P(B) \subseteq P(A \cup B)$. \\
+    Because both the sets $P(A) \cup P(B)$ and $P(A \cup B)$ are subsets of each other, we have directly proven that they are equal.
+\end{mdframed}
+\item $\overline{A \cup B} = \overline{A} \cap \overline{B}$
+\begin{mdframed}
+    We proceed with a direct proof to prove $\overline{A \cup B} = \overline{A} \cap \overline{B}$ assuming A and B are sets.
+    \begin{align*}
+        &Statement \tag{Reason} \\
+        1) &\overline{A \cup B} = \{\, x \mid x \in \overline{A \cup B} \} \tag{1. Given} \\
+        2) &\overline{A \cup B} = \{\, x \mid x \notin A \cup B \} \tag{2. def of complement} \\
+        3) &\overline{A \cup B} = \{\, x \mid \neg(x \in A \cup B)\} \tag{3. def of not element in } \\
+        4) &\overline{A \cup B} = \{\, x \mid \neg(x \in A \lor x \in B)\} \tag{4. def of union} \\
+        5) &\overline{A \cup B} = \{\, x \mid \neg(x \in A) \land \neg(x \in B)\} \tag{5. De Morgan's Law} \\
+        6) &\overline{A \cup B} = \{\, x \mid x \notin A \land \neg(x \in B)\} \tag{6. def of not element in} \\
+        7) &\overline{A \cup B} = \{\, x \mid x \notin A \land x \notin B\} \tag{7. def of not element in} \\
+        8) &\overline{A \cup B} = \{\, x \mid x \in \overline{A} \land x \notin B\} \tag{8. def of complement} \\
+        9) &\overline{A \cup B} = \{\, x \mid x \in \overline{A} \land x \in \overline{B}\} \tag{9. def of complement} \\
+        10) &\overline{A \cup B} = \overline{A} \cap \overline{B} \tag{10. def of intersection} \\
+    \end{align*}
+    This, we have directly proven that $\overline{A \cup B} = \overline{A} \cap \overline{B}$.
+\end{mdframed}
+\end{enumerate}
+\item \pt{5} List all the elements of $\mathbb{P}(\mathbb{P}(\mathbb{P}(\emptyset)))-\mathbb{P}(\mathbb{P}(\emptyset))\cup \mathbb{P}(\emptyset)-\emptyset$.
+You do not need to justify your answer.
+\begin{mdframed}
+    $P(\emptyset) = \{\emptyset\}$ \\
+    $P(P(\emptyset)) = \{ \emptyset, \{ \emptyset\}\}$ \\
+    $P(P(\emptyset)) \cup P(\emptyset) = \{\emptyset, \{\emptyset\}\}$ \\
+    $P(P(P(\emptyset))) = \{ \emptyset, \{ \emptyset\}, \{ \{ \emptyset\}\}, \{ \emptyset, \{ \emptyset\}\}\}$ \\
+    $P(P(P(\emptyset))) - P(P(\emptyset)) \cup P(\emptyset) - \emptyset = 
+    \{\emptyset,\{\{ \emptyset\}\}, \{\emptyset, \{\emptyset\}\} \}$ \\
+\end{mdframed}
+\item \pt{8} Prove that: \{$5a + 6b$ | $a,b \in \mathbb{Z}$\} $ = \mathbb{Z}$
+\begin{mdframed}
+    In order to prove that \{$5a + 6b$ | $a,b \in \mathbb{Z}$\} $ = \mathbb{Z}$, we will prove that each are subsets of each other.
+    \begin{align*}
+        &Statement \tag{Reason} \\
+        1) &\{5a + 6b \,|\, a,b \in \mathbb{Z}\} \tag{1. Given}\\
+        2) &j = 5a+6b \text{\;for some j $\in \mathbb{Z}$} \tag{2. closure of add and mult in Z}\\
+        3) &\text{Since j $\in \mathbb{Z}$, }\;\{5a + 6b \,| \,a,b \in \mathbb{Z}\} \subseteq \mathbb{Z} \tag{3. def of subset and combine (1) and (2)} \\
+        &Statement \tag{Reason} \\
+        1) &j=5a+6b\, \text{for some j $\in \mathbb{Z}$} \tag{1. Given} \\
+        2) &\text{Because $j \in \mathbb{Z}$, $\mathbb{Z} \subseteq \{5a + 6b \,|\, a,b \in \mathbb{Z}\}$} \tag{2. def of subset with (1)} \\
+    \end{align*}
+    Because both sets are subsets of each other, they are equivalent and thus we have directly proven that \{$5a + 6b$ | $a,b \in \mathbb{Z}$\} $ = \mathbb{Z}$.
+\end{mdframed}
+\item \pte{2} For each of the following maps, determine whether $f$ is onto,
+one-to-one, and/or a function. $A = \{a, b, c\}$, $B = \{a, b, c, d\}$, $C = \{1,
+2, 3\}$, and $D = \{1, 2, 3, 4\}$. You do not need to justify your answer.
+\begin{enumerate}
+\item $f: A \to C$, $f(a) = 2, f(b) = 3, f(c) = 1$
+\begin{mdframed}
+    \textbf{Solution:} Function, one to one, and onto.
+\end{mdframed}
+\item $f: A \to D$, $f(a) = 1, f(b) = 2, f(c) = 3$
+\begin{mdframed}
+    \textbf{Solution:} One-to-one and a function.
+\end{mdframed}
+\item $f: B \to C$, $f(a) = 3, f(b) = 2, f(c) = 2, f(d) = 1$
+\begin{mdframed}
+    \textbf{Solution:} Function, onto.
+\end{mdframed}
+\item $f: B \to D$, $f(a) = 1, f(a) = 2, f(b) = 3, f(b) = 4$
+\begin{mdframed}
+    \textbf{Solution:} Not a function, onto.
+\end{mdframed}
+\end{enumerate}
+\item \pte{2} For each of the following, find the inverse function $f^{-1}$ or
+state why it does not exist. You do not need to justify your answer.
+\begin{enumerate}
+\item $f: \mathbb{R} \to \mathbb{R}$, $f(x) = \frac{1}{x}$
+\begin{mdframed}
+    \textbf{Solution:} The inverse doesn't exist because $f(0)$ is undetermined.
+\end{mdframed}
+\item $f: \mathbb{R} \to \mathbb{R}$, $f(x) = 5x - 6$
+\begin{mdframed}
+    $f^-1(x) = \frac{x+6}{5}$
+\end{mdframed}
+\item $f: \mathbb{R} \to \mathbb{R}$, $f(x) = |x|$
+\begin{mdframed}
+    \textbf{Solution: }Inverse is not a function as a absolute value will cause the same input value to have multiple outpue values.
+\end{mdframed}
+\end{enumerate}
+\end{enumerate}
+\end{justify}
+\end{document}
