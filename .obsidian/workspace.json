@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS-1331/Classes.md",
+                "file": "CS-1331/Things to Memorize Before Test.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS-1331/Classes.md",
+                "file": "CS-1331/Things to Memorize Before Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS-1331/Classes.md",
+                "file": "CS-1331/Things to Memorize Before Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS-1331/Classes.md"
+                "file": "CS-1331/Things to Memorize Before Test.md"
               }
             }
           }
@@ -161,6 +161,14 @@
   },
   "active": "101e1a298eb19ca4",
   "lastOpenFiles": [
+    "CS-1331/Conditionals, Short-circuit, switch.md",
+    "CS-1331/Classes.md",
+    "Discrete Math 2050/1.1 - Propositional Logic.md",
+    "Discrete Math 2050/CS_2050Homework5.pdf",
+    "MicroEcon 2106/Chapter 5- Elasticity.md",
+    "README.md",
+    "CS-1331/Arrays.md",
+    "Untitled.canvas",
     "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
@@ -171,7 +179,6 @@
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff",
-    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff",
     "18.06sc-fall-2011/static_shared/images/youtube.svg",
     "18.06sc-fall-2011/static_shared/images/videojs_download.svg",
     "18.06sc-fall-2011/static_shared/images/video_thumbnail.png",
@@ -185,20 +192,14 @@
     "CS-1331/Things to Memorize Before Test.md",
     "CS-1331/Textbook Notes.md",
     "CS-1331/Static Methods, Ambiguous Invocation.md",
-    "CS-1331/Conditionals, Short-circuit, switch.md",
     "CS-1331/Lecture Notes.md",
-    "CS-1331/Arrays.md",
-    "CS-1331/Classes.md",
     "CS1331/Classes.md",
     "Graph Theory Ethan.md",
     "MicroEcon 2106/Things To Study.md",
     "MicroEcon 2106/Supply and Demand Equilibrium Lecture Notes.md",
     "MicroEcon 2106/Midterm Studying.md",
     "MicroEcon 2106/Lecture Notes.md",
-    "MicroEcon 2106/Chapter 5- Elasticity.md",
     "MicroEcon 2106/Chapter 4- Equilibrium.md",
-    "Discrete Math 2050/Things To Study For Discrete.md",
-    "Discrete Math 2050/1.1 - Propositional Logic.md",
-    "README.md"
+    "Discrete Math 2050/Things To Study For Discrete.md"
   ]
 }
