@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS-1331/Things to Memorize Before Test.md",
+                "file": "Discrete Math 2050/Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS-1331/Things to Memorize Before Test.md",
+                "file": "Discrete Math 2050/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS-1331/Things to Memorize Before Test.md",
+                "file": "Discrete Math 2050/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS-1331/Things to Memorize Before Test.md"
+                "file": "Discrete Math 2050/Functions.md"
               }
             }
           }
@@ -161,6 +161,12 @@
   },
   "active": "101e1a298eb19ca4",
   "lastOpenFiles": [
+    "Screenshot 2023-10-16 at 2.02.23 PM.png",
+    "CS-1331/Textbook Notes.md",
+    "Discrete Math 2050/Functions.md",
+    "CS-1331/Things to Memorize Before Test.md",
+    "CS-1331/Static Methods, Ambiguous Invocation.md",
+    "Discrete Math 2050/Things To Study For Discrete.md",
     "CS-1331/Conditionals, Short-circuit, switch.md",
     "CS-1331/Classes.md",
     "Discrete Math 2050/1.1 - Propositional Logic.md",
@@ -189,9 +195,6 @@
     "18.06sc-fall-2011/static_shared/images/oeg_logo.png",
     "18.06sc-fall-2011/static_shared/images/ocw_logo_white_v2.svg",
     "18.06sc-fall-2011/static_shared/images/ocw_logo_orange.png",
-    "CS-1331/Things to Memorize Before Test.md",
-    "CS-1331/Textbook Notes.md",
-    "CS-1331/Static Methods, Ambiguous Invocation.md",
     "CS-1331/Lecture Notes.md",
     "CS1331/Classes.md",
     "Graph Theory Ethan.md",
@@ -199,7 +202,6 @@
     "MicroEcon 2106/Supply and Demand Equilibrium Lecture Notes.md",
     "MicroEcon 2106/Midterm Studying.md",
     "MicroEcon 2106/Lecture Notes.md",
-    "MicroEcon 2106/Chapter 4- Equilibrium.md",
-    "Discrete Math 2050/Things To Study For Discrete.md"
+    "MicroEcon 2106/Chapter 4- Equilibrium.md"
   ]
 }
