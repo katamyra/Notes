@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete Math 2050/Functions.md",
+                "file": "Discrete Math 2050/Integer Representation.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discrete Math 2050/Functions.md",
+                "file": "Discrete Math 2050/Integer Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discrete Math 2050/Functions.md",
+                "file": "Discrete Math 2050/Integer Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discrete Math 2050/Functions.md"
+                "file": "Discrete Math 2050/Integer Representation.md"
               }
             }
           }
@@ -161,9 +162,12 @@
   },
   "active": "101e1a298eb19ca4",
   "lastOpenFiles": [
+    "Discrete Math 2050/Modular Arithmetic.md",
+    "Discrete Math 2050/Integer Representation.md",
+    "Screenshot 2023-10-16 at 2.34.52 PM.png",
+    "Discrete Math 2050/Functions.md",
     "Screenshot 2023-10-16 at 2.02.23 PM.png",
     "CS-1331/Textbook Notes.md",
-    "Discrete Math 2050/Functions.md",
     "CS-1331/Things to Memorize Before Test.md",
     "CS-1331/Static Methods, Ambiguous Invocation.md",
     "Discrete Math 2050/Things To Study For Discrete.md",
@@ -193,8 +197,6 @@
     "18.06sc-fall-2011/static_shared/images/pdf_thumbnail.png",
     "18.06sc-fall-2011/static_shared/images/page_thumbnail.png",
     "18.06sc-fall-2011/static_shared/images/oeg_logo.png",
-    "18.06sc-fall-2011/static_shared/images/ocw_logo_white_v2.svg",
-    "18.06sc-fall-2011/static_shared/images/ocw_logo_orange.png",
     "CS-1331/Lecture Notes.md",
     "CS1331/Classes.md",
     "Graph Theory Ethan.md",
