@@ -11,7 +11,7 @@
 > ![[Screenshot 2023-10-16 at 7.39.47 PM.png]]
 > **Default visibility** makes a field or method accessible to members of the class itself and to other classes within the same package. Classes outside the package cannot see these “package-private” fields and method
 > 
-> **Protected Visibility** means protected members are visible to the subclasses of the class, even if they are defined in a different package. This is slightly less restrictive than the default level of accessibility.
+> **Protected Visibility** means protected members are visible to the subclasses of the class, even if they are defined in a different package. This is slightly less restrictive than the default level of accessibility
 > 
 
 >[!info] Super and Constructor Chaining
