@@ -10,4 +10,4 @@
 If x does not divide y, *then there is a non-zero remainder when x is divided into y*.
 >[!info] The **Division Algorithm** states that the result of the division (the quotient) and the remainder are unique. 
 >Aka: Let n be an integer and let d be a positive integer. Then, there are unique integers q and r with 0 ≤ r ≤ d -1, such that $n=qd+r$
->
+
