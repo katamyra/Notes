@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Discrete Math 2050/Integer Properties & Representation.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Discrete Math 2050/Integer Properties & Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Discrete Math 2050/Integer Properties & Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Discrete Math 2050/Integer Properties & Representation.md"
               }
             }
           }
@@ -161,28 +160,28 @@
   },
   "active": "0bfe639889882bcb",
   "lastOpenFiles": [
-    "CS-1331/Inheritance.md",
-    "Screenshot 2023-10-16 at 7.39.47 PM.png",
-    "Screenshot 2023-10-16 at 2.34.49 PM.png",
-    "CS-1331/Wrapper Classes.md",
-    "CS-1331/Copy Constructors, Interobject Comms.md",
-    "CS-1331/Classes.md",
-    "CS-1331/Static Methods, Ambiguous Invocation.md",
-    "Discrete Math 2050/Integer Representation.md",
-    "Discrete Math 2050/Modular Arithmetic.md",
     "Screenshot 2023-10-16 at 2.34.52 PM.png",
-    "Discrete Math 2050/Functions.md",
+    "Screenshot 2023-10-16 at 2.34.49 PM.png",
     "Screenshot 2023-10-16 at 2.02.23 PM.png",
+    "Screenshot 2023-10-16 at 7.39.47 PM.png",
+    "CS-1331/Classes.md",
+    "Untitled.canvas",
+    "Discrete Math 2050/Modular Arithmetic.md",
+    "Discrete Math 2050/Integer Properties & Representation.md",
+    "CS-1331/Conditionals, Short-circuit, switch.md",
+    "CS-1331/Wrapper Classes.md",
     "CS-1331/Textbook Notes.md",
+    "README.md",
+    "CS-1331/Inheritance.md",
+    "CS-1331/Copy Constructors, Interobject Comms.md",
+    "CS-1331/Static Methods, Ambiguous Invocation.md",
+    "Discrete Math 2050/Functions.md",
     "CS-1331/Things to Memorize Before Test.md",
     "Discrete Math 2050/Things To Study For Discrete.md",
-    "CS-1331/Conditionals, Short-circuit, switch.md",
     "Discrete Math 2050/1.1 - Propositional Logic.md",
     "Discrete Math 2050/CS_2050Homework5.pdf",
     "MicroEcon 2106/Chapter 5- Elasticity.md",
-    "README.md",
     "CS-1331/Arrays.md",
-    "Untitled.canvas",
     "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
