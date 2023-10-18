@@ -27,4 +27,20 @@ ArrayList is implemented using an array with the dynamic resizing occurring “b
 > We can write a generic class or method using generics so that it can handle any time of different objects. **Generics also allow us to parameterize the types of variables/fields.** 
 > 
 
-Originally ArrayList stored objects, which would provide no real compile-time checking that we are using it cirrectly, 
+Originally ArrayList stored objects, which would provide no real compile-time checking that we are using it correctly (ie storing the same data types in it). 
+
+After Java 5, we can now parameterize the data type stored with ArrayList and the methods will “adjust” to that time, granting is additional compile-time checks for type-safety
+
+**This means the key benefit to generics is to enable errors to be detected at *compile time* instead of at runtime**
+
+Ex:
+```java
+RUNTIME ERROR EXAMPLE
+Comparable c = new Date();
+System.out.println(c.compareTo("red"))
+
+COMPILE TIME ERROR EXAMPLE
+Comparable<Date> c = new Date();
+System.out.println(c.compareTo("red"))
+```
+

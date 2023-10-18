@@ -19,3 +19,6 @@ Static vs Dynamic
 ## Short Coding
 Copy Constructor
 Equals()
+
+## Weird Topics
+Knowing when something is a compile error vs a runtime error for polymorphism/visibility modifiers
