@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS-1331/Overriding & Object Class.md",
+                "file": "CS-1331/Abstract Classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS-1331/Overriding & Object Class.md",
+                "file": "CS-1331/Abstract Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS-1331/Overriding & Object Class.md",
+                "file": "CS-1331/Abstract Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS-1331/Overriding & Object Class.md"
+                "file": "CS-1331/Abstract Classes.md"
               }
             }
           }
@@ -161,8 +161,9 @@
   },
   "active": "0bfe639889882bcb",
   "lastOpenFiles": [
-    "Discrete Math 2050/Integer Properties & Representation.md",
     "CS-1331/Overriding & Object Class.md",
+    "CS-1331/Abstract Classes.md",
+    "Discrete Math 2050/Integer Properties & Representation.md",
     "Screenshot 2023-10-16 at 2.34.52 PM.png",
     "Screenshot 2023-10-16 at 2.34.49 PM.png",
     "Screenshot 2023-10-16 at 2.02.23 PM.png",
@@ -206,7 +207,6 @@
     "MicroEcon 2106/Things To Study.md",
     "MicroEcon 2106/Supply and Demand Equilibrium Lecture Notes.md",
     "MicroEcon 2106/Midterm Studying.md",
-    "MicroEcon 2106/Lecture Notes.md",
-    "MicroEcon 2106/Chapter 4- Equilibrium.md"
+    "MicroEcon 2106/Lecture Notes.md"
   ]
 }
