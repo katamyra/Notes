@@ -24,6 +24,7 @@ ArrayList is implemented using an array with the dynamic resizing occurring “b
 > [!info] **Generics** - the use of parameterized types in class and method definitions
 > This is the \<String>, etc in the ArrayList definitions.
 > 
-> We can write a generic class or method using generics so that it can handle any time of different objects. Generics also allow us to parameterize the types of variables/fields. 
+> We can write a generic class or method using generics so that it can handle any time of different objects. **Generics also allow us to parameterize the types of variables/fields.** 
 > 
 
+Originally ArrayList stored objects, which would provide no real compile-time checking that we are using it cirrectly, 
