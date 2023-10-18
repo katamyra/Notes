@@ -38,4 +38,3 @@ Keep in mind that these types apply *only to the variable*, and the objects type
 > ```
 > This works because Fish “is-a” Animal. We can assign or substitute a member of a subclass for a parent class **but not vice-verca**
 
-
