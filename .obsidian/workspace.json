@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete Math 2050/Integer Properties & Representation.md",
+                "file": "CS-1331/Overriding & Object Class.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discrete Math 2050/Integer Properties & Representation.md",
+                "file": "CS-1331/Overriding & Object Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discrete Math 2050/Integer Properties & Representation.md",
+                "file": "CS-1331/Overriding & Object Class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discrete Math 2050/Integer Properties & Representation.md"
+                "file": "CS-1331/Overriding & Object Class.md"
               }
             }
           }
@@ -160,6 +161,8 @@
   },
   "active": "0bfe639889882bcb",
   "lastOpenFiles": [
+    "Discrete Math 2050/Integer Properties & Representation.md",
+    "CS-1331/Overriding & Object Class.md",
     "Screenshot 2023-10-16 at 2.34.52 PM.png",
     "Screenshot 2023-10-16 at 2.34.49 PM.png",
     "Screenshot 2023-10-16 at 2.02.23 PM.png",
@@ -167,7 +170,6 @@
     "CS-1331/Classes.md",
     "Untitled.canvas",
     "Discrete Math 2050/Modular Arithmetic.md",
-    "Discrete Math 2050/Integer Properties & Representation.md",
     "CS-1331/Conditionals, Short-circuit, switch.md",
     "CS-1331/Wrapper Classes.md",
     "CS-1331/Textbook Notes.md",
