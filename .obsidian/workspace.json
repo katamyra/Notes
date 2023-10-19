@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CS-1331/Test 2 Content/Recitation Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "CS-1331/Test 2 Content/Recitation Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "CS-1331/Test 2 Content/Recitation Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,11 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "CS-1331/Test 2 Content/Recitation Notes.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -158,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "101e1a298eb19ca4",
+  "active": "868acbaa47b56048",
   "lastOpenFiles": [
-    "CS-1331/Test 2 Content/Recitation Notes.md",
+    "Images/Screenshot 2023-10-19 at 11.53.50 AM.png",
     "README.md",
+    "CS-1331/Test 2 Content/Recitation Notes.md",
     "CS-1331/Test 2 Content/Exam 2 Main Review Topics.md",
     "CS-1331/Test 2 Content/Exam 2 Textbook Notes.md",
     "MicroEcon 2106/Screenshot 2023-10-19 at 11.47.43 AM.png",

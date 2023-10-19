@@ -141,4 +141,8 @@ Integer sum = num1 + val + 5;
 * A subclass can override a method from its parent class
 * It has the **same method name and same parameters**, but a different implementation
 	* This is different from **method overloading**, which has different *parameters*
+* You can have the compiler manually confirm if a method is properly overriding another using the ***@Override*** annotation before the method header
+	* However, this is *not required nor does it change the functionality of code*, it is simtly a check
+* ***STATIC AND FINAL METHODS CANNOT BE OVERRIDDEN***
+![[Screenshot 2023-10-19 at 11.53.50 AM.png]]
 * 
