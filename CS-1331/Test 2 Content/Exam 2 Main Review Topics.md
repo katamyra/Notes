@@ -30,3 +30,18 @@ Equals()
 
 ## Weird Topics
 Knowing when something is a compile error vs a runtime error for polymorphism/visibility modifiers
+
+1) compiles and runs, Cake implements
+2) car, oreo implements
+3) car, cake implements
+4) car, orea 
+5) car, cake
+6) no compile
+7) no compile
+8) no compile
+9) no compile
+10) compile, red velvet
+11) compile, no run
+12) compile, no run
+13) compiles and runs (red velv)
+14) 
