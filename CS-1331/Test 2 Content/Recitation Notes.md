@@ -169,4 +169,64 @@ Integer sum = num1 + val + 5;
 * “Template” for behaviors that subclasses of the abstract class must follow
 * Can have **abstract methods**, which need no implementation and just a method header
 	* These classes must be overridden when inherited by a *concrete* class
-		* **Cannot be private**, since then private
+		* **Cannot be private**, since then private methods cant be visible to override
+		* **Cannot be static**, since static methods cant be overridden 
+		* **Cannot be final**, since final methods can’t be overridden by definition
+	* Can still have constructors, non-abstract methods, and instance variables
+
+# Polymorphism
+* Describes the ability of an object to behave differently based on the content of the action
+* **Static Type**
+	* The type of reference at compile time
+	* What the compiler knows the object to be
+	* This is determined once the variable is declared and never changes after that point
+* **Dynamic Type**
+	* The type of reference at runtime
+	* What the object actually “is”
+	* Dynamic type of variable may change via the assignment operator
+* The ***dynamic type** must have an “is a” relationship with the **static type***
+	* A student “is a” person, etc
+```java
+Hierarchy
+Person 
+Student | Teacher
+Person p1 = new Person(); //compiles
+Person p2 = new Student(); //compiles
+Student s1 = new Student(); //compiles
+Object o1 = new Person(); //compiles
+Object o2 = new Student(); //compiles
+
+//invalid
+Student s3 = new Person(); //Person is not "is a" student
+Person p3 = new Object();
+```
+
+What happens for the following?
+```java
+Person p1 = new Student();
+p1.study();
+	```
+* At **compile time**, java checks if method exists in the *static type*
+	* Does Person have a .study() method?
+* At **runtime**, java runs the implementation provided by the **dynamic type**
+	* If both classes implement study(), java runs the *dynamic* implementation
+	* If the *dynamic class has no implementation for the method*, Java runs the static classes implementation instead
+
+**Method calls take precedence over casting**
+```java
+Person p1 = new Student("Bob", 20);
+Below causes compiling error because casting int from .getAge() to a student
+int age = (Student) p1.getAge()
+
+Below does compile, since you are casting p1 to student type and then calling .getAge() on Student reference
+int age = ((Student) p1).getAge();
+```
+
+* Casting temporarily changes the **static** type of the reference being casted
+	* Does not impact what happens at runtime, just **compile** time
+* **Upcasting**
+	* Casting a type to a super type. Always compiles and runs.
+* **Downcasting**
+	* Casting a type to a subtype. Always compiles, sometimes runs.
+* **Sidecasting**
+	* Casting a type to neither a a super type nor subtype. Never compiles, never runs.

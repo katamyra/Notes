@@ -159,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "868acbaa47b56048",
+  "active": "101e1a298eb19ca4",
   "lastOpenFiles": [
-    "Images/Screenshot 2023-10-19 at 11.53.50 AM.png",
     "README.md",
+    "Images/Screenshot 2023-10-19 at 11.53.50 AM.png",
     "CS-1331/Test 2 Content/Recitation Notes.md",
     "CS-1331/Test 2 Content/Exam 2 Main Review Topics.md",
     "CS-1331/Test 2 Content/Exam 2 Textbook Notes.md",
@@ -206,7 +206,6 @@
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff",
     "18.06sc-fall-2011/static_shared/images/youtube.svg",
-    "18.06sc-fall-2011/static_shared/images/videojs_download.svg",
-    "18.06sc-fall-2011/static_shared/images/video_thumbnail.png"
+    "18.06sc-fall-2011/static_shared/images/videojs_download.svg"
   ]
 }
