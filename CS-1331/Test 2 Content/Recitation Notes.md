@@ -64,20 +64,41 @@ int[] a1 = {1, 2, 3, 4, 5};
 int[] a2 = a1;
 a2[3] = 0; BOTH ARE MODIFIED
 ```
-* 
+* Any mutable object, such as arrays or reference variables (Strings) *must be deep copied, rather than shallow copied*
+	* This is because otherwise, only their reference is passed and this means multiple objects point to the same reference
 
-static methods cannot be overridennnnn
+## Wrapper Classes
+* A wrapper is used to represent primitive data, but is still an object
+	* This means you can **call methods on a wrapper class interface**
+* There is a corresponding wrapper type for every primitive type
+	* byte → Byte
+	* short → Short
+	* int → Integer
+	* long → Long
+	* float → Float
+	* double → Double
+	* char → Character
+	* boolean → Boolean
+* Each of these wrappers are in ***java.lang***, meaning there is no reason to import, since .lang packages are automatically imported
+* **Autoboxing/Autounboxing**
+	* Java automatically converts between primitive types and wrapper types when needed
+	* *Autoboxing*: conversion from primitive type to wrapper type
+	* *Autounboxing*: conversion from wrapper type to primitive type
+```java
+Integer num1 = 5; //autoboxing, int, to Integer
+int val = num1; //autounboxing, Integer to int
+Integer sum = num1 + val + 5;
+//num1 is unboxed to perform the operation, then the value is autoboxed into Integer
+```
+* **Helpful Wrapper Class Methods**
+	* `int num = Integer.parseInt(String s);`
+		* Takes in a String and parses it into an int
+	* `String s = String.valueOf(int i);`
+		* Takes in an in t and turns it into a string
 
-a) True
-b) True
-c) True
-d) False
-
-f) Tru
-g) True
-h) True
-
-2) f
-	1) B
-	2) 
-
+## Inheritance
+* Classes can extend from another class to establish an *“is a”* relationship
+	* **Parent class (superclass)** is being extended
+	* **Child class (subclass)** extends the parent class
+* Subclasses inherit the method and data from the class it extends from 
+	* If a method is in the parent class, the child will also have that method
