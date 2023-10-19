@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a5d7340195e94810",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "868acbaa47b56048",
+  "active": "a5d7340195e94810",
   "lastOpenFiles": [
     "CS-1331/Test 2 Content/Computational Complexity.md",
     "CS-1331/Test 2 Content/ArrayList.md",
