@@ -16,6 +16,7 @@
 * ***Static Methods*** can be called without making an instance of the class
 * Both *static method and data* can be accessed from a reference variable or from their class name
 	* However, doing it from class name is much more preferred and more readable
+* **Static methods can only call other static methods**
 
 ### Visibility Modifiers
 * You can use **public** visibility modifiers for classes, methods, and data fields to denote that they can be accessed from any other classes
