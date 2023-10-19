@@ -239,4 +239,7 @@ int age = ((Student) p1).getAge();
 # Notes from Recitation Worksheets
 ## Recitation 6
 * While you cant access instance fields in a static method, you *can* access static fields within an instance method
-* 
+## Recitation 7
+* Everything was obvious
+## Recitation 8
+* This is obvious but I keep forgetting, even if dynamic and static type are child class and they don’t implement a method, if their parent class does then it still works
