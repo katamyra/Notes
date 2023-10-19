@@ -67,3 +67,17 @@ a2[3] = 0; BOTH ARE MODIFIED
 * 
 
 static methods cannot be overridennnnn
+
+a) True
+b) True
+c) True
+d) False
+
+f) Tru
+g) True
+h) True
+
+2) f
+	1) B
+	2) 
+
