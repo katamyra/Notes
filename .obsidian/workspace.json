@@ -25,24 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS-1331/Test 2 Content/Exam 2 Main Review Topics.md",
+                "file": "CS-1331/Test 2 Content/Exam 2 Textbook Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "a5d7340195e94810",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,7 +51,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -108,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS-1331/Test 2 Content/Exam 2 Main Review Topics.md",
+                "file": "CS-1331/Test 2 Content/Exam 2 Textbook Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS-1331/Test 2 Content/Exam 2 Main Review Topics.md",
+                "file": "CS-1331/Test 2 Content/Exam 2 Textbook Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS-1331/Test 2 Content/Exam 2 Main Review Topics.md"
+                "file": "CS-1331/Test 2 Content/Exam 2 Textbook Notes.md"
               }
             }
           }
@@ -169,12 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5d7340195e94810",
+  "active": "101e1a298eb19ca4",
   "lastOpenFiles": [
+    "CS-1331/Test 2 Content/Exam 2 Main Review Topics.md",
+    "CS-1331/Test 2 Content/Exam 2 Textbook Notes.md",
     "CS-1331/Test 2 Content/Computational Complexity.md",
     "CS-1331/Test 2 Content/ArrayList.md",
     "CS-1331/Test 2 Content/Static vs Dynamic Types, Polymorphism.md",
-    "CS-1331/Test 2 Content/Exam 2 Main Review Topics.md",
     "CS-1331/Test 2 Content/Interfaces.md",
     "CS-1331/Test 2 Content/Abstract Classes.md",
     "CS-1331/Test 2 Content",
@@ -216,7 +207,6 @@
     "18.06sc-fall-2011/static_shared/images/video_thumbnail.png",
     "18.06sc-fall-2011/static_shared/images/video_play_overlay.png",
     "18.06sc-fall-2011/static_shared/images/search.svg",
-    "18.06sc-fall-2011/static_shared/images/pdf_thumbnail.png",
-    "CS1331/Classes.md"
+    "18.06sc-fall-2011/static_shared/images/pdf_thumbnail.png"
   ]
 }
