@@ -50,4 +50,20 @@
 	* This saves us from rewriting code
 		* Use **this()** in your constructor (MUST BE WRITTEN ON FIRST LINE OF BODY) and pass in the arguments from the main constructor
 	* A lesser-argument constructor should chain with one with more arguments to **reduce code repetition** and **maximize code reuse**
-	
+
+
+## Aliasing
+* Situation in which an object has multiple aliases
+	* **Consequence:** there are multiple aliases through which an object’s state can be accessed and modified
+```java
+String s1 = new String("string1");
+String s2 = s1;
+System.out.println(s1 == s2); //prints true
+
+int[] a1 = {1, 2, 3, 4, 5};
+int[] a2 = a1;
+a2[3] = 0; BOTH ARE MODIFIED
+```
+* 
+
+static methods cannot be overridennnnn
