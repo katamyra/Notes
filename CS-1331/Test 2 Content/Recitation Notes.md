@@ -235,4 +235,8 @@ int age = ((Student) p1).getAge();
 	* If a method is not found in the static type, this is a **compile** error
 	* Trying to instantiate an abstract class is a **runtime** error
 	* Downcasting an object to a static type that is not “is a” is a  **compile error**
-	* 
+
+# Notes from Recitation Worksheets
+## Recitation 6
+* While you cant access instance fields in a static method, you *can* access static fields within an instance method
+* 
