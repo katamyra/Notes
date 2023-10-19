@@ -13,6 +13,7 @@
 	* If they require an equal amount of conversions, it will **raise an error**
 
 # Classes
+[[Classes]]
 * Can have instances fields describing the state of the object
 	* Can have instance methods describing the actions an object can perform
 * An **instance** is created using the *new* keyword
@@ -102,3 +103,42 @@ Integer sum = num1 + val + 5;
 	* **Child class (subclass)** extends the parent class
 * Subclasses inherit the method and data from the class it extends from 
 	* If a method is in the parent class, the child will also have that method
+	* A child class is said to *inherit* these fields or methods
+* Inheritance only occurs when the field of method is **public** or **protected**
+	* We use inheritance because it allows code reuse and reduces repetition
+* To prevent a class from being extended, use the **final** keyword, etc `final class Seal `
+* Either *super()* or *this()* must be the first line of every constructor body. If you don’t include it yourself, Java will insert super() for you, whether or not the parent class has a no-argument constructor
+
+## Class Hierarchies
+* Every class in Java extends from Object class, either directly or indirectly
+	* If you don’t specify that a certain class extends another class, **the class will implicitly extend Object (directly extends object)**, otherwise it will indirectly extend Object
+		* Thus, all classes are both a child and parent class (other than *Object class*)
+* Every subclass can only extend *one single superclass*
+	* Classes should be more specific as you go down a chain
+	* For this reason, a parent class can have any number of child classes, while a child class can only have one parent class (*single inheritance*)
+
+### Packages
+* Useful for grouping together classes with similar purposes or functions
+* To create a package
+	* Create a folder and place Java files inside
+	* Write package <folder.name> at the top of each class in the package
+	* When compiling, tell java where to find the package (classFile)
+	* Be default, java uses looks in current working directory
+
+## Visibility Modifiers
+* **Public** - accessible to literally anything
+	* Any class inside and outside of package
+* **Private** - only accessible to the class itself
+	* Subclasses inherit, but cannot access the variables
+* **Protected** - accessible to subclasses (in any package) and all classes within that package
+	* Subclasses always inherit protected data of superclass
+* **Default (*no visibility modifiers*)*** - accessible to all classes in the same package
+	* Also known as *package private*
+	* Subclasses only inherit *package-private* members of superclass if the subclass is in the same package as the superclass
+![[Screenshot 2023-10-19 at 11.47.43 AM.png]]
+
+## Overriding 
+* A subclass can override a method from its parent class
+* It has the **same method name and same parameters**, but a different implementation
+	* This is different from **method overloading**, which has different *parameters*
+* 
