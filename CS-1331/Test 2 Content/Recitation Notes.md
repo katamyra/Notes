@@ -226,7 +226,13 @@ int age = ((Student) p1).getAge();
 	* Does not impact what happens at runtime, just **compile** time
 * **Upcasting**
 	* Casting a type to a super type. Always compiles and runs.
+	* Unless cannot find symbol in static type, then it is compile error
 * **Downcasting**
 	* Casting a type to a subtype. Always compiles, sometimes runs.
 * **Sidecasting**
 	* Casting a type to neither a a super type nor subtype. Never compiles, never runs.
+* Compile Time vs Runtime errors
+	* If a method is not found in the static type, this is a **compile** error
+	* Trying to instantiate an abstract class is a **runtime** error
+	* Downcasting an object to a static type that is not “is a” is a  **compile error**
+	* 
