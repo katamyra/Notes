@@ -145,4 +145,28 @@ Integer sum = num1 + val + 5;
 	* However, this is *not required nor does it change the functionality of code*, it is simtly a check
 * ***STATIC AND FINAL METHODS CANNOT BE OVERRIDDEN***
 ![[Screenshot 2023-10-19 at 11.53.50 AM.png]]
-* 
+
+## Components of a Good Class
+* Override these methods from the **Object class**
+	* ***equals()***
+		* The default implementation provided by Object class just checks *reference* equality
+		* Instead, override so that it evaluates quality. It should be: 
+			* **Reflexive**: x.equals(x) should be True
+			* **Symmetric**: x.equals(y) == y.equals(x)
+			* **Transitive**: If x.equals(y) == true and y.equals(z) == true, then x.equals(z) == true
+			* **Consistent**: If no object data is modified, x.equals(y) should have returned the same result
+			* **Comparison with null**: x.equals(null) is false
+	* ***toString()***
+		* Object’s implementation simply returns a representation of the hashcode, override it to give a meaningful String representation instead
+	* ***hashCode()***
+		* We do not need to know how to implement hashCode, but we should know its functionality
+		* Natively, returns some integer representation of the Object
+		* If **two objects are equal**, they must return the **same hashcode**
+			* However, if two objects have the same hah code, they *do not necessarily have to be the same object
+* Include private encapsulated data and use getters and setters as necessary
+
+### Abstract Classes
+* “Template” for behaviors that subclasses of the abstract class must follow
+* Can have **abstract methods**, which need no implementation and just a method header
+	* These classes must be overridden when inherited by a *concrete* class
+		* **Cannot be private**, since then private
