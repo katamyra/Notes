@@ -14,8 +14,9 @@ Multiple Interfaces
 ## Visibility Modifiers
 ## Wrapper Classes
 ## Abstract Classes
+* do a lot of testing for edge cases, what works and what doesn’t?
 ## Polymorphism
-Static vs Dynamic
+**Static vs Dynamic** - this is many scuffed rn do a lot of testing
 ## Short Coding
 Copy Constructor
 Equals()
