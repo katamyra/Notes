@@ -245,8 +245,34 @@ int age = ((Student) p1).getAge();
 * This is obvious but I keep forgetting, even if dynamic and static type are child class and they don’t implement a method, if their parent class does then it still works
 
 ```java
-public class Flower extends Plant {
-
-
+Parameters: this.name, this.randomList
+public boolean equals(Object o) {
+if (o == null || !this.getClass().equals(o.getClass())) {
+	return false
+}
+Animal other = (Animal) o;
+if (this.randomList.length != o.randomList.length) {
+	return false;
+}
+for (int i = 0; i < o.randomList.length; i++) {
+	if (this.randomList[i] == null || !this.randomList[i].equals(o.randomList[i])) {
+	return false;
+	}
+}
+return (this.name != null && this.name.equals(o.name));
+} 
+```
+```java
+Parameters: this.names -> array of strings and this.cat --> object Cat
+public Mammal(Mammal o) {
+	this.names = new String[o.names];
+	for (int i = 0; i < this.names.length; i++) {
+		if (o.names[i] != null) {
+			this.names[i] = new String(o.names[i]);
+		} else {
+			this.names[i] = null;
+		}
+	}
+	this.cat = new Cat(o.cat);
 }
 ```
