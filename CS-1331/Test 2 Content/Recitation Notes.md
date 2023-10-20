@@ -243,3 +243,10 @@ int age = ((Student) p1).getAge();
 * Everything was obvious
 ## Recitation 8
 * This is obvious but I keep forgetting, even if dynamic and static type are child class and they don’t implement a method, if their parent class does then it still works
+
+```java
+public class Flower extends Plant {
+
+
+}
+```
