@@ -76,3 +76,51 @@
 			* This then leads to underproduction as businesses with market power tend to produce less than the efficient quantity
 	* **Market Failure 2: Externalities create side-effects**
 		* The problem of *externalities* arises whenever the choices that buyers and sellers make have side effects on others
+			* For example, many utilities produce electricity by burning coal, which has side effects including smog, acid, rain, etc. You are affected by these side effects. even if you don’t buy or sell coal
+			* Businesses tend to produce more than the efficient quantity of products with negative side effects
+	* **Market Failure 3: Information problems undermine trust**
+		* The problem of private information can arise when you’re worried that the folks you’re doing business with know something you don’t
+			* For example, if a seller knows more about the quality of the used cars they’re selling than you do, you might wonder why they’re selling it
+		* Its an example of how *private information* (information one side has but not the other), can undermine trust and lead people to buy or sell less than the efficient quantity
+	* **Market Failure 4: Irrationality leads to bad decisions**
+		* Sometimes people make decisions that aren’t in their best interest
+		* If buyers don’t follow the **Rational Rule for Buyers**, or sellers don’t follow the **Rational Rule for Sellers**, their supply decisions may not be driven by their marginal costs, and so efficient production is unlikely
+	* **Market Failure 5: Government can impede market forces**
+		* Government regulations can impede market forces
+			* Taxes on buying or selling stuff leads a lower quantity to be bought or sold. Likewise regulating the price sellers can charge or limiting the quantity they can sell also changes the quantity sold
+		* Sometimes government regulations create their own distortions, pushing the market away from the efficient quantity
+## Deadweight Loss
+* The idea behind **deadweight loss** is that the cost of market failure can be measured by calculating how much it reduces the economic surplus
+	* `Deadweight Loss = Economic surplus at efficient quanaity - actual economic surplus`
+* **Economic surplus and deadlight loss focus on marginal benefits and marginal costs**
+	* Economic surplus = Marginal Benefit - Marginal Cost
+	* Often when we measure economic surplus, we use a shortcut: We look at the demand and supply curves. When there is no market failure, the demand curve corresponds with marginal benefits, and the supply curve corresponds with marginal costs. 
+* **Producing less than the efficient quantity** creates a deadweight loss
+![[Screenshot 2023-10-22 at 5.33.21 PM.png]]
+* **Producing more than the efficient quantity also creates deadweight loss**
+![[Screenshot 2023-10-22 at 5.34.02 PM.png]]
+* **Deadweight loss looks like an arrowhead pointed at the efficient quantity**
+	* **Quantities rather than prices are essential to measuring deadweight loss**
+
+## Market Failure versus Government Failure
+* **The efficiency of well-functioning markets points to the importance of market forces**
+	* *We discovered that well-functioning competitive markets can do extraordinary thing*
+		* They ensure that each good or service is produced by the business that can do so at the lowest possible marginal cost (*productive efficiency*), and that each good goes to the person who gets the most benefit from it
+* **Market Failure points to an important role of government**
+	* In reality, market failure is common, and that means that markets will typically produce somewhat worse outcomes than the ideal case. 
+	* Therefore, the role of government should be to create policies that limit market failure
+		* There are lots of debates about how big that role should be
+* **Government failure limits the extend to which we should rely on government**
+	* The existence of market failures don’t necessarily mean that the government will do better. Thats because of another problem, **government failure**, which exists when government policies lead to worse outcomes. 
+
+# 7.5 - Beyond Economic Efficiency
+
+## Critiques of Economic Efficiency
+ * Focusing on economic efficiency can sound like a version of the argument that we should always choose the largest possible pie
+	 * However, there are some critiques
+ * **Critique 1: Distribution matters, and so it’s also important to account for equity**
+ * **Critique 2: Willingness to pay reflects ability to pay, not just marginal benefit**
+	 * Realize that economics often equate marginal benefits with your willingness to pay, but sometimes you really want something but you can’t afford as much as others can
+ * **Critique 3: The means matter, not just the ends**
+	 * Economic efficiency is all about outcomes, but we also need to look at the means to get there
+ * *For these reasons, use economic efficiency cautiously. Use it carefully, aided by a clear sense of its precise meaning.*
