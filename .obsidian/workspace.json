@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -147,13 +148,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "868acbaa47b56048",
+  "active": "0bfe639889882bcb",
   "lastOpenFiles": [
+    "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
     "Images/Screenshot 2023-10-22 at 2.37.06 AM.png",
     "Images/Screenshot 2023-10-22 at 2.33.59 AM.png",
     "Images/Screenshot 2023-10-22 at 2.29.43 AM.png",
     "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
-    "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
     "README.md",
     "CS-1331/Test 2 Content/Recitation Notes.md",
     "CS-1331/Test 2 Content/Exam 2 Main Review Topics.md",
@@ -183,7 +184,6 @@
     "Discrete Math 2050/Integer Properties & Representation.md",
     "Images/Screenshot 2023-10-16 at 2.34.52 PM.png",
     "Screenshot 2023-10-16 at 2.34.49 PM.png",
-    "Images/Screenshot 2023-10-16 at 7.39.47 PM.png",
     "Untitled.canvas",
     "Discrete Math 2050/Modular Arithmetic.md",
     "CS-1331/Test 1 Content/Conditionals, Short-circuit, switch.md",

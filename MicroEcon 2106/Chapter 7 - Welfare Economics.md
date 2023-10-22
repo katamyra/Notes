@@ -36,7 +36,6 @@
 * **Producer surplus is the area above the supply curve and below the price**
 ![[Screenshot 2023-10-22 at 2.33.59 AM.png]]
 * *You earn producer surplus on all but your last sale*
-
 ## Voluntary Exchange and Gains from Trade
 * Voluntary transactions create **both consumer and producer surplus**, meaning both the buyers and sellers gain from the trade
 	* Trading/selling is not a *zero sum game*, and can actually be a win-win situation
