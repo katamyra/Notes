@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -148,11 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bfe639889882bcb",
+  "active": "868acbaa47b56048",
   "lastOpenFiles": [
-    "Screenshot 2023-10-22 at 2.37.06 AM.png",
-    "Screenshot 2023-10-22 at 2.33.59 AM.png",
-    "Screenshot 2023-10-22 at 2.29.43 AM.png",
+    "Images/Screenshot 2023-10-22 at 2.37.06 AM.png",
+    "Images/Screenshot 2023-10-22 at 2.33.59 AM.png",
+    "Images/Screenshot 2023-10-22 at 2.29.43 AM.png",
     "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
     "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
     "README.md",
@@ -161,7 +160,7 @@
     "CS-1331/Test 2 Content/Overriding & Object Class.md",
     "Images/Screenshot 2023-10-19 at 11.53.50 AM.png",
     "CS-1331/Test 2 Content/Exam 2 Textbook Notes.md",
-    "MicroEcon 2106/Screenshot 2023-10-19 at 11.47.43 AM.png",
+    "Images/Screenshot 2023-10-19 at 11.47.43 AM.png",
     "Images/Screenshot 2023-10-16 at 2.02.23 PM.png",
     "Images",
     "CS-1331/Test 2 Content/Classes.md",
