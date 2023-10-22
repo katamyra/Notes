@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
+                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
+                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
+                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md"
+                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md"
               }
             }
           }
@@ -134,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,6 +150,11 @@
   },
   "active": "0bfe639889882bcb",
   "lastOpenFiles": [
+    "Screenshot 2023-10-22 at 2.37.06 AM.png",
+    "Screenshot 2023-10-22 at 2.33.59 AM.png",
+    "Screenshot 2023-10-22 at 2.29.43 AM.png",
+    "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
+    "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
     "README.md",
     "CS-1331/Test 2 Content/Recitation Notes.md",
     "CS-1331/Test 2 Content/Exam 2 Main Review Topics.md",
@@ -183,16 +190,12 @@
     "CS-1331/Test 1 Content/Conditionals, Short-circuit, switch.md",
     "Discrete Math 2050/Functions.md",
     "Discrete Math 2050/Things To Study For Discrete.md",
-    "Discrete Math 2050/1.1 - Propositional Logic.md",
     "Discrete Math 2050/CS_2050Homework5.pdf",
-    "MicroEcon 2106/Chapter 5- Elasticity.md",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff",
-    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff",
-    "18.06sc-fall-2011/static_shared/images/youtube.svg",
-    "18.06sc-fall-2011/static_shared/images/videojs_download.svg"
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff"
   ]
 }
