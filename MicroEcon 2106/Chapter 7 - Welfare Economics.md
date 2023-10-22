@@ -44,3 +44,35 @@
 	* Markets aren’t just competition, but also cooperation because buyers and sellers work together
 * Since economic surplus is marginal benefit minus marginal cost, this means **economic surplus is the area between the demand and supply curves**
 ![[Screenshot 2023-10-22 at 2.37.06 AM.png]]
+
+# 7.3 -  Market Efficiency 
+* *Markets are the central organizing institution of our lives* 
+	* They determine which products are made, how much is produced, who makes what, who gets what, etc
+	* Most countries prefer market based economies because markets yield more efficient outcomes 
+## Who Makes What?
+* How do we know which businesses should produce which products?
+	* **Efficient production minimizes costs**
+		* Supply and Demand lead companies to divvy up total production in such a way as to ensure that it occurs at the powers possible cost
+		* This is how competitive markets lead to efficient production in which each item is produced at the lowest possible cost
+	* **Markets distribute production across firms in a way that minimizes costs**
+## Who Gets What?
+* **Efficient allocation maximizes benefits**
+	* An *efficient allocation* occurs when goods are allocated to create the largest economic surplus from the allocation
+		* This means that goods go to the person that gets the highest marginal benefit from it 
+## How Much Gets Bought and Sold?
+* **The Rational Rules says to produce until marginal benefit equals marginal cost**
+	* This means that the *forces of supply and demand produce the surplus maximizing quantity* automatically
+	* Its almost like there is an **invisible hand** directing all economic activity into being efficient
+# 7.4 - Market Failure and Deadweight Loss
+* Our supply and demand curves represent well-informed buyers and sellers interacting in a well functioning market with perfect competition 
+	* However, the real world doesn’t always work this perfectly
+## Market Failure
+* In reality, supply and demand doesn’t always work as smoothly as one would one
+* **Market failure** is when the forces of supply and demand lead to an inefficient outcome
+* There are *5 main factors for market failure*
+	* **Market Failure 1: Market power undermines competitive pressures**
+		* The problem of *market power* arises when markets don’t meet the perfectly competitive ideal of many sellers selling identical products. Instead some markets are only dominated by a few handful of companies, such as Laptop brands
+			* These companies can take advantage of this and charge higher prices, leading to consumers buying smaller quantity 
+			* This then leads to underproduction as businesses with market power tend to produce less than the efficient quantity
+	* **Market Failure 2: Externalities create side-effects**
+		* The problem of *externalities* arises whenever the choices that buyers and sellers make have side effects on others
