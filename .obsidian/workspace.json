@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+                "file": "Discrete Math 2050/Complexity of Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+                "file": "Discrete Math 2050/Complexity of Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+                "file": "Discrete Math 2050/Complexity of Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md"
+                "file": "Discrete Math 2050/Complexity of Algorithms.md"
               }
             }
           }
@@ -150,7 +149,9 @@
   },
   "active": "0bfe639889882bcb",
   "lastOpenFiles": [
+    "Screenshot 2023-10-22 at 8.01.35 PM.png",
     "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+    "Discrete Math 2050/Complexity of Algorithms.md",
     "Screenshot 2023-10-22 at 5.34.02 PM.png",
     "Screenshot 2023-10-22 at 5.33.21 PM.png",
     "Images/Screenshot 2023-10-22 at 2.37.06 AM.png",
@@ -188,7 +189,6 @@
     "Discrete Math 2050/Modular Arithmetic.md",
     "CS-1331/Test 1 Content/Conditionals, Short-circuit, switch.md",
     "Discrete Math 2050/Functions.md",
-    "Discrete Math 2050/Things To Study For Discrete.md",
     "Discrete Math 2050/CS_2050Homework5.pdf",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",

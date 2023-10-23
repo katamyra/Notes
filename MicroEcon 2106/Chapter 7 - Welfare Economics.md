@@ -123,4 +123,5 @@
 	 * Realize that economics often equate marginal benefits with your willingness to pay, but sometimes you really want something but you can’t afford as much as others can
  * **Critique 3: The means matter, not just the ends**
 	 * Economic efficiency is all about outcomes, but we also need to look at the means to get there
- * *For these reasons, use economic efficiency cautiously. Use it carefully, aided by a clear sense of its precise meaning.*
+ * *For these reasons, use economic efficiency cautiously. Use it carefully, aided by a clear sense of its precise meaning
+ 
