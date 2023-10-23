@@ -13,3 +13,12 @@
 	* 3 loops running through a list usually runs in O(n^3)
 	* Splitting a list in half each time usually runs in O(log(n))
 	* **However, the logic in the loop matters because this can and often does change the runtime**
+* Examples
+![[Screenshot 2023-10-22 at 10.17.19 PM.png]]
+Simply iterating through list, so O(n)
+![[Screenshot 2023-10-22 at 10.17.49 PM.png]]
+O(1), because the input doesn’t affect number of operations
+![[Screenshot 2023-10-22 at 10.19.58 PM.png]]
+O(n^3)
+![[Screenshot 2023-10-22 at 10.20.18 PM.png]]
+This is binary search (splitting list in half each time), meaning its O(log2(n))

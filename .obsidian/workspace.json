@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete Math 2050/Complexity of Algorithms.md",
+                "file": "Discrete Math 2050/Division.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discrete Math 2050/Complexity of Algorithms.md",
+                "file": "Discrete Math 2050/Division.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discrete Math 2050/Complexity of Algorithms.md",
+                "file": "Discrete Math 2050/Division.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discrete Math 2050/Complexity of Algorithms.md"
+                "file": "Discrete Math 2050/Division.md"
               }
             }
           }
@@ -147,13 +147,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bfe639889882bcb",
+  "active": "868acbaa47b56048",
   "lastOpenFiles": [
-    "Screenshot 2023-10-22 at 8.01.35 PM.png",
-    "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
     "Discrete Math 2050/Complexity of Algorithms.md",
-    "Screenshot 2023-10-22 at 5.34.02 PM.png",
-    "Screenshot 2023-10-22 at 5.33.21 PM.png",
+    "Discrete Math 2050/Division.md",
+    "Images/Screenshot 2023-10-22 at 10.20.18 PM.png",
+    "Images/Screenshot 2023-10-22 at 10.19.58 PM.png",
+    "Images/Screenshot 2023-10-22 at 10.17.49 PM.png",
+    "Images/Screenshot 2023-10-22 at 10.17.19 PM.png",
+    "Images/Screenshot 2023-10-22 at 8.01.35 PM.png",
+    "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+    "Images/Screenshot 2023-10-22 at 5.34.02 PM.png",
+    "Images/Screenshot 2023-10-22 at 5.33.21 PM.png",
     "Images/Screenshot 2023-10-22 at 2.37.06 AM.png",
     "Images/Screenshot 2023-10-22 at 2.33.59 AM.png",
     "Images/Screenshot 2023-10-22 at 2.29.43 AM.png",
@@ -162,16 +167,11 @@
     "CS-1331/Test 2 Content/Recitation Notes.md",
     "CS-1331/Test 2 Content/Exam 2 Main Review Topics.md",
     "CS-1331/Test 2 Content/Overriding & Object Class.md",
-    "Images/Screenshot 2023-10-19 at 11.53.50 AM.png",
     "CS-1331/Test 2 Content/Exam 2 Textbook Notes.md",
-    "Images/Screenshot 2023-10-19 at 11.47.43 AM.png",
-    "Images/Screenshot 2023-10-16 at 2.02.23 PM.png",
     "Images",
     "CS-1331/Test 2 Content/Classes.md",
     "CS-1331/Test 2 Content/Inheritance.md",
     "CS-1331/Test 2 Content/Abstract Classes.md",
-    "Images/Screenshot 2023-10-18 at 11.26.09 PM.png",
-    "Images/Screenshot 2023-10-18 at 10.26.51 PM.png",
     "CS-1331/Test 2 Content/Computational Complexity.md",
     "CS-1331/Test 2 Content/ArrayList.md",
     "CS-1331/Test 2 Content/Static vs Dynamic Types, Polymorphism.md",
