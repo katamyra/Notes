@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete Math 2050/Division.md",
+                "file": "Discrete Math 2050/Primes, GCD, LCM.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discrete Math 2050/Division.md",
+                "file": "Discrete Math 2050/Primes, GCD, LCM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discrete Math 2050/Division.md",
+                "file": "Discrete Math 2050/Primes, GCD, LCM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discrete Math 2050/Division.md"
+                "file": "Discrete Math 2050/Primes, GCD, LCM.md"
               }
             }
           }
@@ -147,10 +148,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "868acbaa47b56048",
+  "active": "0bfe639889882bcb",
   "lastOpenFiles": [
-    "Discrete Math 2050/Complexity of Algorithms.md",
+    "com.md",
+    "Discrete Math 2050/Primes, GCD, LCM.md",
     "Discrete Math 2050/Division.md",
+    "Discrete Math 2050/Complexity of Algorithms.md",
     "Images/Screenshot 2023-10-22 at 10.20.18 PM.png",
     "Images/Screenshot 2023-10-22 at 10.19.58 PM.png",
     "Images/Screenshot 2023-10-22 at 10.17.49 PM.png",
@@ -187,8 +190,6 @@
     "Discrete Math 2050/Integer Properties & Representation.md",
     "Untitled.canvas",
     "Discrete Math 2050/Modular Arithmetic.md",
-    "CS-1331/Test 1 Content/Conditionals, Short-circuit, switch.md",
-    "Discrete Math 2050/Functions.md",
     "Discrete Math 2050/CS_2050Homework5.pdf",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
