@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MicroEcon 2106/Chapter 8 - Comparative Advantage.md",
+                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MicroEcon 2106/Chapter 8 - Comparative Advantage.md",
+                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MicroEcon 2106/Chapter 8 - Comparative Advantage.md",
+                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MicroEcon 2106/Chapter 8 - Comparative Advantage.md"
+                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md"
               }
             }
           }

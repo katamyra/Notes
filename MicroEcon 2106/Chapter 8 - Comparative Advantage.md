@@ -40,4 +40,33 @@
 # 8.3 - The Power of Prices
 * Markets help allocate tasks in a way that gets the most out of the gains from trade. To do that, everyone needs to be able to focus on tasks for which they hold a comparative advantage.
 	* This requires knowing where each resource-such as your time-has the most relative value. *This is where prices come in*
-* 
+## Roles of Prices
+## Role 1: A price is a message
+* The recent quinoa fad took place far away from the farmers who are high in the Andes mountains, cut off from news about the rest of the world. How do they learn about food friends in the United States
+* **The price acts as a messenger communicating the sharp increase in demand**
+	* *The price is a message to potential suppliers*. It tells them that quinoa is valuable, so grow more
+	* *The price is a message to potential buyers*. It tells them quinoa is scarce- buy less of it!
+	* These messages help coordinate better outcomes.
+## Role 2: A price is an incentive
+* A high price is an incentive for **suppliers to increase production, because it creates new profit opportunities**
+* A high price is an incentive for **buyers to consume less, which can have far-reaching effects**
+* **A price provides an incentive for strangers to cooperate**
+	* When the price of quinoa rose, quinoa farmers received a message that they should selling it.
+## Role 3: A Price Aggregates Information
+* A price also **aggregates information**, and learning how to interpret it will help you make better decisions
+	* The clearest example of this involves **prediction markets**, in which people trade contracts whose payoffs are linked to whether an uncertain event occurs
+* **The process of buying and selling also aggregates**
+	* Prediction markets yield useful forecasts because prices aggregate information
+	* For instance, someone in Wisconsin who sees a lot of yard signs and number stickers supporting the Democrat might buy stock, while someone in New Mexico who saw the candidate give a bad speech might sell it.
+* **Market prices broadcast useful information**
+	* The same idea applies in other markets and there are financial prices that yield valuable business intelligence
+	* The prices of financial contracts linked to Federal Reserve decisions reveals the odds that interest rates will rise
+
+# 8.4 - How Managers Can Harness Market Forces
+## Internal Markets Allocate Resources
+* **Internal markets** are markets that managers set up *within* their organization so that different divisions can buy and sell scarce resources
+	* The idea is to harness more of the power of market forces to help businesses grow and become more profitable
+	* **Markets solve the knowledge problem**
+		* For example, the folks running Feeding America realized that they can set up and internal market to help allocate food to where it’ll be more useful
+		* This avoids the **knowledge problem**, which is that the knowledge or information you need to make a good decision may be so broadly dispersed that its not available to any individual decision maker
+	* *Use internal markets to allocate scarce resources*
