@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+                "file": "MicroEcon 2106/Chapter 8 - Comparative Advantage.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+                "file": "MicroEcon 2106/Chapter 8 - Comparative Advantage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+                "file": "MicroEcon 2106/Chapter 8 - Comparative Advantage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md"
+                "file": "MicroEcon 2106/Chapter 8 - Comparative Advantage.md"
               }
             }
           }
@@ -149,6 +150,8 @@
   },
   "active": "0bfe639889882bcb",
   "lastOpenFiles": [
+    "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+    "MicroEcon 2106/Chapter 8 - Comparative Advantage.md",
     "Discrete Math 2050/Primes, GCD, LCM.md",
     "Images/Screenshot 2023-10-23 at 2.27.05 PM.png",
     "Images/Screenshot 2023-10-23 at 2.20.17 PM.png",
@@ -161,7 +164,6 @@
     "Images/Screenshot 2023-10-22 at 10.17.49 PM.png",
     "Images/Screenshot 2023-10-22 at 10.17.19 PM.png",
     "Images/Screenshot 2023-10-22 at 8.01.35 PM.png",
-    "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
     "Images/Screenshot 2023-10-22 at 5.34.02 PM.png",
     "Images/Screenshot 2023-10-22 at 5.33.21 PM.png",
     "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
