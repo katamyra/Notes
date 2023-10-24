@@ -84,3 +84,5 @@
 	* The price rises to the world price
 	* This higher price leads to a higher quantity supplied by domestic sellers but a lower quantity demanded by domestic buyers
 	* Exports fill the gap between quantity supplied and the quantity demanded
+# 9.3 - The Debate About International Trade
+## Five Arguments for Limiting International Trade (and Five Counterarguments)
