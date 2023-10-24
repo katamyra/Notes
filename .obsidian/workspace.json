@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+                "file": "MicroEcon 2106/Chapter 9 - International Markets.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+                "file": "MicroEcon 2106/Chapter 9 - International Markets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+                "file": "MicroEcon 2106/Chapter 9 - International Markets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MicroEcon 2106/Chapter 7 - Welfare Economics.md"
+                "file": "MicroEcon 2106/Chapter 9 - International Markets.md"
               }
             }
           }
@@ -149,8 +150,10 @@
   },
   "active": "0bfe639889882bcb",
   "lastOpenFiles": [
-    "MicroEcon 2106/Chapter 8 - Comparative Advantage.md",
+    "MicroEcon 2106/Chapter 9 - International Markets.md",
+    "Screenshot 2023-10-23 at 11.36.48 PM.png",
     "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
+    "MicroEcon 2106/Chapter 8 - Comparative Advantage.md",
     "Discrete Math 2050/Primes, GCD, LCM.md",
     "Images/Screenshot 2023-10-23 at 2.27.05 PM.png",
     "Images/Screenshot 2023-10-23 at 2.20.17 PM.png",
@@ -164,7 +167,6 @@
     "Images/Screenshot 2023-10-22 at 10.17.19 PM.png",
     "Images/Screenshot 2023-10-22 at 8.01.35 PM.png",
     "Images/Screenshot 2023-10-22 at 5.34.02 PM.png",
-    "Images/Screenshot 2023-10-22 at 5.33.21 PM.png",
     "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
     "README.md",
     "CS-1331/Test 2 Content/Recitation Notes.md",
@@ -186,8 +188,6 @@
     "CS-1331/Test 1 Content/Lecture Notes.md",
     "CS-1331/Test 1 Content",
     "CS-1331/Test 2 Content/Wrapper Classes.md",
-    "CS-1331/Things to Memorize Before Test.md",
-    "Discrete Math 2050/Integer Properties & Representation.md",
     "Untitled.canvas",
     "Discrete Math 2050/CS_2050Homework5.pdf",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
