@@ -35,3 +35,52 @@
 ## How Imports Change Your Market
 * The **domestic demand curve** illustrates the quantity of goods that domestic buyers–that is all Americans take together–play to buy at each price
 * The **domestic supply curves** illustrates the quantity of goods that domestic producers plan to sell at each price
+* **Evaluate the equilibrium when theres no trade**
+	* To set a baseline for the comparison, we’ll start by assessing the likely outcome if there were no trade. As before, its about where supply meets demand
+* **3 Step Process**
+	* *Step 1: Figure out the new price*
+		* When you can buy goods from abroad, you have new options to consider. For instance, international trade gives buyers the option to import shirts at the world price of 12. As a result, no US buyer will ever pay a seller more than 12 for a shirt. *For traded goods, the price is equal to the world price*
+	* *Step 2: Determine the quantities demanded and supplied by domestic buyers and sellers at this price*
+		* To find the responses of Americans to this new lower price, consult their domestic demand and domestic supply curves
+	* *Step 3: Assess the quantity that will be traded*
+		* International trade makes up the gap between the quantity demanded by domestic buyers and the quantity supplied by domestic sellers
+		* In this case, Americans want to buy more shirts than Americans producers supply, and so imports make up the difference
+	* **Imports lead to lower prices, less domestic production, and more domestic consumption**
+		* The prices declines to the world prices
+		* This lower price leads to a lower quantity supplied by domestic sellers, but a higher demanded by domestic buyers
+		* Imports fill the gap between the quantity demanded and the quantity supplied
+## Imports Raise Economic Surplus
+* US Consumers gain when they import their shirts, because they get lower prices
+	* But US producers lose, because foreign competition forces them to lower their prices of lose customers
+	* The **cost-benefit principle** suggests that policy makers should make decisions about trade policy based on whether the gains exceed the losses
+![[Screenshot 2023-10-24 at 12.21.27 AM.png]]
+* **Start by assessing economic surplus when theres no international trade to set a baseline**
+	* In this case, the no-trade equilibrium occurs where the domestic supply and demand curves cross
+	* The consumer surplus is where they get to buy a shirt that is lower than their marginal benefit, so this is **the area below the domestic demand curve but above the price**, this is A
+	* The producer surplus is **the area above the domestic supply curve but below the price**, this is B + C
+* So the total economic surplus is the area A + B + C. This is the baseline. Now what happens if we allow trade?
+* **Lower-priced imports raise consumer surplus**
+	* Allowing imports leads domestic buyers to pay a lower prices, and at this lower price they buy a larger quantity of these low priced shirts
+		* And so consumer surplus increases to A + B + D
+	* At the same time, **domestic producers lower producer surplus due to producer surplus**
+		* So their producer surplus does from B + C to just C
+* **The benefits exceed the costs,  and imports raise total economic surplus**
+	* Overall, we get a net gain of the area D
+* **Recap: Consequences of allowing imports**
+	* Competition from foreign sellers causes the price of goods we import to fall, and buyers respond by raising the quantity demand while sellers reduce the quantity they supply, with imports filling the difference.
+![[Screenshot 2023-10-24 at 12.35.11 AM.png]]
+
+## How Exports Change Your Market
+![[Screenshot 2023-10-24 at 12.36.10 AM.png]]
+* **Use the three-step recipe to evaluate how exports shape domestic markets**
+	* Step 1) Figure out the new price
+		* *For traded goods, the price is equal to the world price*
+	* Step 2) Determine the quantities demanded and supplied by domestic buyers and sellers at this price
+		* To do this, put a line for the new price and check the new supply and demand
+		* Supply will be higher than demand
+	* Step 3) 
+		* Exports make up the gap between the quantity supplied by domestic sellers and the quantity demanded by domestic buyers
+* **Exports lead to higher prices, more domestic production, and less domestic consumption**
+	* The price rises to the world price
+	* This higher price leads to a higher quantity supplied by domestic sellers but a lower quantity demanded by domestic buyers
+	* Exports fill the gap between quantity supplied and the quantity demanded
