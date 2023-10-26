@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MicroEcon 2106/Chapter 9 - International Markets.md",
+                "file": "CS-1331/Test 3 Content/Generics.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MicroEcon 2106/Chapter 9 - International Markets.md",
+                "file": "CS-1331/Test 3 Content/Generics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MicroEcon 2106/Chapter 9 - International Markets.md",
+                "file": "CS-1331/Test 3 Content/Generics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MicroEcon 2106/Chapter 9 - International Markets.md"
+                "file": "CS-1331/Test 3 Content/Generics.md"
               }
             }
           }
@@ -150,11 +149,15 @@
   },
   "active": "0bfe639889882bcb",
   "lastOpenFiles": [
-    "Screenshot 2023-10-24 at 12.36.10 AM.png",
-    "Screenshot 2023-10-24 at 12.35.11 AM.png",
-    "Screenshot 2023-10-24 at 12.21.27 AM.png",
+    "CS-1331/Test 3 Content/ArrayList.md",
+    "CS-1331/Test 3 Content/Generics.md",
     "MicroEcon 2106/Chapter 9 - International Markets.md",
-    "Screenshot 2023-10-23 at 11.36.48 PM.png",
+    "CS-1331/Test 3 Content",
+    "CS-1331/Untitled.md",
+    "Images/Screenshot 2023-10-24 at 12.36.10 AM.png",
+    "Images/Screenshot 2023-10-24 at 12.35.11 AM.png",
+    "Images/Screenshot 2023-10-24 at 12.21.27 AM.png",
+    "Images/Screenshot 2023-10-23 at 11.36.48 PM.png",
     "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
     "MicroEcon 2106/Chapter 8 - Comparative Advantage.md",
     "Discrete Math 2050/Primes, GCD, LCM.md",
@@ -167,7 +170,6 @@
     "Images/Screenshot 2023-10-22 at 10.20.18 PM.png",
     "Images/Screenshot 2023-10-22 at 10.19.58 PM.png",
     "Images/Screenshot 2023-10-22 at 10.17.49 PM.png",
-    "Images/Screenshot 2023-10-22 at 10.17.19 PM.png",
     "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
     "README.md",
     "CS-1331/Test 2 Content/Recitation Notes.md",
@@ -179,23 +181,20 @@
     "CS-1331/Test 2 Content/Inheritance.md",
     "CS-1331/Test 2 Content/Abstract Classes.md",
     "CS-1331/Test 2 Content/Computational Complexity.md",
-    "CS-1331/Test 2 Content/ArrayList.md",
     "CS-1331/Test 2 Content/Static vs Dynamic Types, Polymorphism.md",
-    "CS-1331/Test 2 Content/Interfaces.md",
+    "CS-1331/Test 3 Content/Interfaces.md",
     "CS-1331/Test 2 Content",
     "CS-1331/Test 2 Content/Copy Constructors, Interobject Comms.md",
     "CS-1331/Test 1 Content/Textbook Notes.md",
     "CS-1331/Test 1 Content/Static Methods, Ambiguous Invocation.md",
     "CS-1331/Test 1 Content/Lecture Notes.md",
     "CS-1331/Test 1 Content",
-    "CS-1331/Test 2 Content/Wrapper Classes.md",
     "Untitled.canvas",
     "Discrete Math 2050/CS_2050Homework5.pdf",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff",
-    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff",
-    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff"
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff"
   ]
 }
