@@ -38,4 +38,77 @@
 ## The Rational Rule for Society
 * W'e’re trying to find the **society optimal quantity**, which is the quantity that’s most efficient for society as a whole, taking account of *all* costs and benefits
 * ***The Rational Rule For Society***: Produce until marginal social benefit equals marginal social cost
-	* Thus, the socially optimal quantity is when **marginal social benefit = marginal social cost**
+	* *Thus, the socially optimal quantity is when **marginal social benefit = marginal social cost**
+
+## Consequences of Negative Externalities
+* **Step 1: Predict the Equilibrium Quantity**
+	* This is basically a supply and demand curve looking only at marginal private benefits and marginal private costs
+![[Screenshot 2023-10-27 at 4.07.25 PM.png]]
+* **Step 2: Assess the externalities**
+	* Find the externalities and add them to the graph
+![[Screenshot 2023-10-27 at 4.08.04 PM.png]]
+* **Step 3: Find the socially optimal quantity**
+	* The socially optimal quantity occurs when the marginal social benefit is equal to the marginal social cost
+	* In this case, since there are no positive externalities, the demand curve is also the marginal social benefit curve
+![[Screenshot 2023-10-27 at 4.10.01 PM.png]]
+* **Step 4: Compare your forecast of the equilibrium quantity with the socially optimal quantity**
+	* Finally, compare your forecast of what will happen with what’s in society’s best interest
+	* In this, it shows us that **negative externalities are overproduced**
+		* **The logic of this analysis extends beyond the market for gasoline, suggesting that any product involving negative externalities are overproduced**
+		* *If people don’t take account of the external costs of their actions, they’ll pursue those actions too often*
+* **There is a socially optimal quantity of pollution**
+## Positive Externalities
+![[Screenshot 2023-10-27 at 4.26.05 PM.png]]
+* **This analysis shows that positive externalities are underproduced**
+
+# 10.3 - Solving Externality Problems
+* The externality problem can be summed up simply: worse outcomes occur when people don’t take into account the interest of bystanders
+## Solution 1: Private Bargaining and the Coase Theorem
+* Private bargaining can sometimes solve the externality problems
+	* Get bystanders and interest parties in a room to negotiate
+* Often these problems can be solved without government involvement
+* **Side payments can solve externalities**
+	* The idea is if someone else’s actions harm you, you can pay them to do something else instead
+	* *The **Coase Theorem** explains why side payments work* 
+		* It says that if people can bargain costlessly and legal rights are clear and enforced (to ensure that each side holds up their end of the deal)
+* **Strategic investments can solve externality problems**
+	* Strategic investments are another type of private bargain
+		* For example, network providers see Google’s extra ad revenue as a positive externality but ignore it, which means they tend to under provide internet access
+		* So google builds high speed wireless internet networks to reach people outside of major cities
+	* **Mergers** can solve externality problems 
+		* Google could also have merged with a network provider
+* While private bargaining can solve externality problems when bargaining costs are low, private bargaining doesn’t work when **bargaining is difficult**
+## Solution 2: Corrective Taxes and Subsidies
+* An alternative approach to the externality approach to the externality problem uses prices to change the incentives of buyers and sellers
+* **Corrective taxes can solve negative externalities**
+	* A *corrective tax* can induce people to take account of the negative externalities they create
+* How this works is the tax leads you to respond as if you were taking account of the marginal external costs
+	* Thus, the tax effectively internalizes the externality by making the costs of the negative externality internal to the producers cost-benefit analysis
+* **Set a corrective tax equal to the marginal external cost**
+	* Imposing a tax leads suppliers to make choices based on their new marginal cost, which now coincides with the marginal social cost. Aka now we are making them act as if they care about both their private costs and external costs
+* **Corrective subsidies can fix positive externalities**
+	* For instance, insurance companies will often subsidize your purchase of an alarm system for your house or car
+* **Lawsuits, norms, and social sanctions are like corrective taxes**
+	* These are sort of like “correction taxes”, making you act as if you care about the external costs
+* **A warm glow and social recognition are like corrective subsidies**, as they also make you seem like you care about positive benefits
+* **Corrective taxes and subsidies fix distortion caused by market failures**, rather than distort them
+## Solution 3: Cap and Trade
+* An alternative to changing prices is instead to change the *quantity* of the harmful activity directly, by imposing a quantity regulations
+* **Cap negative externalities using a quantity regulation**
+	* This reduces the negative production
+![[Screenshot 2023-10-27 at 5.16.17 PM.png]]
+* Your choice between quantity regulation and taxes depends on what you know
+* **Increase efficiency by allowing businesses to trade their permits**
+	* When the governments sets a quota, it has to determine not only the socially optimal quantity for the whole market to produce, but also how much each individual supplier is allowed to produce
+		* It can’t be equal because inefficient businesses would produce as much as efficient businesses
+	* The solution is to issue each business a number of permits, where each permit gives the rights to produce a certain amount of outputs, and then allow the businesses to trade permits
+* **Regulate pollution rather than output**
+# FINISH THE REST OF 10.3 LATER I LOST MOTIVATION
+# 10.4 - Public Goods and the Tragedy of the Commons
+* In this section we talk about the externalities that occur when a product is **nonexcludable**, meaning that other people cannot easily be excluded from using it
+	* When something is **nonrival**, one person’s enjoyment or use of it doesn’t subtract from another person’s enjoyment or use
+## Public Goods and the Free-Rider Problem
+* The **free rider problem** occurs when someone can enjoy the benefits of something without bearing the costs
+	* For example, if you enjoy clean air, beautiful architecture, etc, you are probably free riding on the work of others
+		* These are *non-excludable*, meaning you can’t prevent people who don’t pay for enjoying these benefits
+	* Free riders don’t pay for the benefits they receive and are therefore bystanders, enjoying positive externalities
