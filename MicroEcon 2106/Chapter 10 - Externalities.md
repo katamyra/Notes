@@ -112,3 +112,39 @@
 	* For example, if you enjoy clean air, beautiful architecture, etc, you are probably free riding on the work of others
 		* These are *non-excludable*, meaning you can’t prevent people who don’t pay for enjoying these benefits
 	* Free riders don’t pay for the benefits they receive and are therefore bystanders, enjoying positive externalities
+* **With nonrival goods, free riders enjoy positive externalities without hurting others**
+	* If you clean your apartment, then you roommates will enjoy a tidy home, whether or not they helped. In this example, these benefits don’t come at any cost from you
+* **When goods or services are rival and its easy to exclude those who don’t pay, theres no free-rider problem**
+* ***Public goods* are nonrival goods suffering from the free-rider problem**
+	* This is a nonrival good that is nonexcludable
+	* Example: Private company offered to keep country safe from foreign invaders for just 20 per person per month. The problem was they realized they couldn’t exclude people who didn’t pay for this, which caused a free rider problem
+* **Markets underproduce public goods**
+
+## Solution 5: Government Support for Public Goods
+* A simple solution to the underprovision of public goods is for **the government to purchase public goods for everyone to use**, paid from tax revenues
+	* This is why military, police and public parks are all paid for out of our taxes, rather than being (under) produced by private businesses 
+* *Three facts about public goods to know*
+	* Just because the government provides something doesn’t mean that it is a public good
+		* Mail (USPS) is excludable
+	* Just because something is a public good doesn’t mean that the government should fund it
+	* Just because the government should fund a public good doesn’t mean the government should provide it
+		* Sometimes government should pay for private companies to do it instead
+* **Public goods can be provided by communities**
+	* Sometimes public goods occur on much smaller cases, so you “local government” should pitch in to make something happen
+* **Businesses often try to turn public goods into club goods**
+	* Because public goods are nonexcludable and nonrival it. is hard to monetize, which is why companies try to transform them into **club goods** by keeping non payers out
+## Solution 6: Assign Ownership Rights for Common Resource Problems
+* So far we’ve considered situations in which nonrival goods are nonexcludable, but what happens when rival goods are nonexcludable?
+	* Goods that are rival but nonexcludable are **common resources**, with private gains but shared costs
+	* Once you catch a fish, you privately benefit from eating it, but the cost (less fish) is shared by everyone
+* **Common resources can lead to a tragedy of the commons**
+	* This happens whenever rival goods are nonexcludable
+	* To solve this, **assign ownership rights**
+		* If someone, such as an individual, business, or organization owns a common resource, they will have an incentive to ensure that its not overused
+		* The new owner of the commons might charge shepherds to graze their sheep, etc
+* **Nonexcludable goods create externality problems**
+	* When its a nonrival good, the free riders enjoyment doesn’t come at anyones expensive, they we have a **public good**
+		* These are underfunded
+	* When its a rival good, we get the tragedy of the commons, creating a *negative externality*
+![[Screenshot 2023-10-27 at 5.49.43 PM.png]]
+![[Screenshot 2023-10-27 at 5.50.32 PM.png]]
