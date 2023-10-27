@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS-1331/Test 3 Content/Generics.md",
+                "file": "MicroEcon 2106/Chapter 10 - Externalities.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS-1331/Test 3 Content/Generics.md",
+                "file": "MicroEcon 2106/Chapter 10 - Externalities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS-1331/Test 3 Content/Generics.md",
+                "file": "MicroEcon 2106/Chapter 10 - Externalities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS-1331/Test 3 Content/Generics.md"
+                "file": "MicroEcon 2106/Chapter 10 - Externalities.md"
               }
             }
           }
@@ -149,8 +150,9 @@
   },
   "active": "0bfe639889882bcb",
   "lastOpenFiles": [
-    "CS-1331/Test 3 Content/ArrayList.md",
     "CS-1331/Test 3 Content/Generics.md",
+    "MicroEcon 2106/Chapter 10 - Externalities.md",
+    "CS-1331/Test 3 Content/ArrayList.md",
     "MicroEcon 2106/Chapter 9 - International Markets.md",
     "CS-1331/Test 3 Content",
     "CS-1331/Untitled.md",
@@ -187,7 +189,6 @@
     "CS-1331/Test 2 Content/Copy Constructors, Interobject Comms.md",
     "CS-1331/Test 1 Content/Textbook Notes.md",
     "CS-1331/Test 1 Content/Static Methods, Ambiguous Invocation.md",
-    "CS-1331/Test 1 Content/Lecture Notes.md",
     "CS-1331/Test 1 Content",
     "Untitled.canvas",
     "Discrete Math 2050/CS_2050Homework5.pdf",
