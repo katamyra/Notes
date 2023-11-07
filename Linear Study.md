@@ -4,3 +4,13 @@
 * **6.3** - 4a and 4b are both hard
 ## Topics To Study
 * The U(T) * U and U * U*(T) thing
+* Understanding R
+* Look at spring 2022 5c
+
+## Random Notes/Questions
+* Are least squares solutions unique?
+	* If A has linearly independent columns, then yes, otherwise no?
+	* Is Dot Product of something by itself, the same as its transpose times itself
+* Null A = null (A^T * A)
+* Diagonal matrix = diagonals 
+* Upper triangular = diagonalizable

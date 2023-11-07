@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS-1331/Test 3 Content/Iterator and Iterable.md",
+                "file": "CS-1331/Test 3 Content/Searching & Sorting.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS-1331/Test 3 Content/Iterator and Iterable.md",
+                "file": "CS-1331/Test 3 Content/Searching & Sorting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS-1331/Test 3 Content/Iterator and Iterable.md",
+                "file": "CS-1331/Test 3 Content/Searching & Sorting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS-1331/Test 3 Content/Iterator and Iterable.md"
+                "file": "CS-1331/Test 3 Content/Searching & Sorting.md"
               }
             }
           }
@@ -160,16 +160,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02113bd6a6d8db6d",
+  "active": "868acbaa47b56048",
   "lastOpenFiles": [
-    "CS-1331/Test 3 Content/Searching & Sorting.md",
+    "Linear Study.md",
     "CS-1331/Test 3 Content/Iterator and Iterable.md",
+    "CS-1331/Test 3 Content/Searching & Sorting.md",
     "CS-1331/Test 3 Content/Asymptotics.md",
     "Screenshot 2023-11-06 at 7.03.20 PM.png",
     "CS-1331/Test 3 Content/ArrayList.md",
     "CS-1331/Test 3 Content/Generics.md",
     "CS-1331/Test 3 Content/Interfaces.md",
-    "Linear Study.md",
     "MicroEcon 2106/Chapter 10 - Externalities.md",
     "com.md",
     "Images/Screenshot 2023-10-27 at 5.50.32 PM.png",
