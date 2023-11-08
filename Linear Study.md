@@ -14,3 +14,8 @@
 * Null A = null (A^T * A)
 * Diagonal matrix = diagonals 
 * Upper triangular = diagonalizable
+* geom ≤ alg always
+* Diagonal matrices always diagonalizable
+* dim S  + dum S perp = total dimension
+* To check if least squares line is one to one, check if unique
+	* line means y = mx+b in problem
