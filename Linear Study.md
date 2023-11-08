@@ -19,3 +19,4 @@
 * dim S  + dum S perp = total dimension
 * To check if least squares line is one to one, check if unique
 	* line means y = mx+b in problem
+* Rank B = Rank B Transpose
