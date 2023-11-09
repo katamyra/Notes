@@ -76,6 +76,7 @@ ArrayList list = new ArrayList();
 * Cannot create instances of a type parameter, so `T obj = new T();` doesn’t compile
 	* Cannot create an array of parameterized types either
 * Type parameters can be the type of return values, parameters, and variables
+	* *You can have multiple type parameters*
 ## Generics: Wildcards
 * **There are two types of wildcards: *\<? Super  X> and \<? extends Y>***
 	* The extend is the **upper bound**, meaning whatever is utilizing the generic for parameterization can use **all classes that extend X**
