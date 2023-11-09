@@ -179,3 +179,20 @@ public static int factorial(int n) {
 ```
 
 # ***ADT’s***
+* An **abstract data type (ADT)** is a data type whose creation and update are constrained to a specific well defined operations. A class can be used to implement an ADT
+	* **Abstract** - because we don’t talk about the underlying representation (heart concept abstract)
+* **ArrayList Pros and Cons**
+	* Pros: the following methods for accessing and modifying the list through an index are efficient 
+		* get(index)
+		* set(index)
+		* add(Object o)
+	* Cons: the following methods are inefficient
+		* add()
+		* remove()
+## LinkedList
+* A **linked list** contains *Nodes* that hold a reference to the next item in the list
+
+
+## Things to Study
+* Iterator vs Interable
+* Abstract vs interface
