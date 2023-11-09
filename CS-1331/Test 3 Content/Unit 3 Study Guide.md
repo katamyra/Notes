@@ -1,4 +1,4 @@
-# Interfaces
+# ***Interfaces***
 * Another level of abstraction
 * A contract that defines what a class can do
 * Often have *-able* in the name since they are describing functionality
@@ -39,7 +39,7 @@ public class PeanutButter implements Spreadable {
 * Good for sorting
 * Comparable has one abstract method (**functional interface**) 
 
-# ArrayLists
+# ***ArrayLists***
 * ArrayLists are a data structure that is a type of **List**
 	* Lists are ordered sequence of elements where duplicates are allowed
 	* **Arraylists implement the List interface**
@@ -64,7 +64,7 @@ public class PeanutButter implements Spreadable {
 ArrayList list = new ArrayList();
 ```
 
-# Generics
+# ***Generics***
 * Generics allowed for the **parameterization** of classes
 	* Means that the type of a variable is parameterized rather than being fixed
 * When we pass in a type for the type parameter, it must be a **reference type**
@@ -76,13 +76,12 @@ ArrayList list = new ArrayList();
 * **There are two types of wildcards: *\<? Super  X> and \<? extends Y>***
 	* The extend is the **upper bound**, meaning whatever is utilizing the generic for parameterization can use **all classes that extend X**
 	* The super is the **lower bound**, meaning whatever is utilizing the generic for parameterization can use all the classes that are a **supertype of whatever something is**
-# Big O / Asymptotics
+# ***Big O / Asymptotics***
 * How can we analyze how “good” an algorithm is?
 	* We need a consistent way to analyze the efficiency of an algorithm
 * **Asymptotics: we can analyze the growth rate of the number of operations in an algorithm as the input size grows large**
-* 
 
-# Searching
+# ***Searching***
 ## Linear Search
 * Iterate through the list and make one comparison per element in the input
 * *Time complexity: O(n)*
@@ -94,7 +93,7 @@ ArrayList list = new ArrayList();
 	* Determine if the target element is on the left or right side of the element, and remove the other half
 	* Repeat until element is found or there is nothing more to compare with
 * *Time Complexity: O(logn)*
-# Sorting
+# ***Sorting***
 ## Bubble Sort
 * **Main Idea**
 	* Iterate through the list and swap adjacent elements that are unsorted
@@ -114,8 +113,15 @@ ArrayList list = new ArrayList();
 	* After each iteration, one more element has been relatively sorted
 	* After k passes, the first k+1 elements have been inserted into relatively sorted order but not necessarily in their final positions
 * *Time Complexity: O(n^2)*
-
-# Exceptions
+## Merge Sort
+* **Main Idea**
+	* Divide an array into two different halves and apply a merge sort on each half again
+		* Eventually you get to just two elements which can be reordered
+	* Then go backwards and “conquer the array”
+		* Merge all the sorted sublists together in sorted order
+![[Screenshot 2023-11-09 at 3.14.29 PM.png]]
+* *Time Complexity: O(nlogn)* //Not Sure
+# ***Exceptions***
 * Extends, not implements Exception
 * **Exceptions** are actually objects that define unusual or erroneous situations **thrown** by a program, and can be **caught or handled**
 	* **Errors** are similar but are typically unrecoverable. Ie: some problem with the virtual machine or the system itself
@@ -130,9 +136,46 @@ ArrayList list = new ArrayList();
 		* This is usually because theres nothing we can do about them or they are rare
 	* *Checked exceptions* must either be caught or listed in the “throws clause” of a method or the code will not compile
 		* So you add `throws exceptionName` in the method header
-# Iterable and Iterator
+# ***Iterable and Iterator***
 * An **iterable** is any object in Java that can provide an iterator, which is then used to iterate over elements of the iterable
 	* This process can be done using a for-each or enhanced for loop
 		* The syntax is for (iterable: iterator), and you cannot edit the iterator
 
-# File I/O
+# ***File I/O***
+* **Stream** - flow of data - input and output streams between your program and I/O devices in the system
+* *I/O In Java*: Text and binary files, but in this class we mostly focus on text files
+* Imports: import java.io.*
+* **File Class**
+	* File classes are not a stream, but rather are just *abstract representations* of files and pathnames
+	* We can use the *scanner class* to read files just like we did with console input by giving it a File on construction
+* Can use **FileReader** instead, but you must close it after
+## Output
+* Three Different methods for Output: **PrintWriter(File), PrintWriter(FileWriter), and PrintWriter(FileName)**
+	* Need to close *print writer* after!
+![[Screenshot 2023-11-09 at 2.50.24 PM.png]]
+* **.flush()** method immediately moves output to the disk
+	* JVM decides when theres enough data to actually push the IO Buffer to the disk, but this method makes it happen automatically
+	* Sometimes this might happen if the code ends so quick that it cant be flushed automatically
+## File IO Exceptions
+* File I/O often generates many **checked exceptions**
+* ***IO Exception*** is a superclass for lots of other exceptions such as **FileNotFoundException**
+	* Meaning you need to either: mark the method as throws **IOException** or catch the exception
+
+# ***Recursion***
+* **Recursive call** - a call made to the same method as resident (a method invoking itself)
+* *Recursion is not the same as calling yourself, because a new “copy” (**method activation**) is produced*
+	* This method gets pushed onto the **stack** and consumes memory
+* **Recursion Rules**
+	* You need to establish a *base case* that is “trivial” and does not do the recursive call
+	* **Recurrence relation**: make progress towards the base case over time
+```java
+Factorial.java
+public static int factorial(int n) {
+	if (n== 0) {
+		return 1;
+	}
+	return n * factorial(n-1);
+}
+```
+
+# ***ADT’s***

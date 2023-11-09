@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS-1331/Test 3 Content/Study Guide.md",
+                "file": "CS-1331/Test 3 Content/Unit 3 Study Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS-1331/Test 3 Content/Study Guide.md",
+                "file": "CS-1331/Test 3 Content/Unit 3 Study Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS-1331/Test 3 Content/Study Guide.md",
+                "file": "CS-1331/Test 3 Content/Unit 3 Study Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS-1331/Test 3 Content/Study Guide.md"
+                "file": "CS-1331/Test 3 Content/Unit 3 Study Guide.md"
               }
             }
           }
@@ -162,9 +162,11 @@
   },
   "active": "02113bd6a6d8db6d",
   "lastOpenFiles": [
+    "Screenshot 2023-11-09 at 3.14.29 PM.png",
+    "Screenshot 2023-11-09 at 2.50.24 PM.png",
     "Screenshot 2023-11-09 at 1.03.18 AM.png",
     "CS-1331/Test 3 Content/Searching & Sorting.md",
-    "CS-1331/Test 3 Content/Study Guide.md",
+    "CS-1331/Test 3 Content/Unit 3 Study Guide.md",
     "Linear Study.md",
     "MicroEcon 2106/Chapter 10 - Externalities.md",
     "CS-1331/Test 3 Content/Iterator and Iterable.md",
@@ -181,8 +183,6 @@
     "Images/Screenshot 2023-10-27 at 4.10.01 PM.png",
     "Images/Screenshot 2023-10-27 at 4.08.04 PM.png",
     "Images/Screenshot 2023-10-27 at 4.07.25 PM.png",
-    "Images/Screenshot 2023-10-27 at 3.51.14 PM.png",
-    "Images/Screenshot 2023-10-27 at 3.40.16 PM.png",
     "MicroEcon 2106/Chapter 9 - International Markets.md",
     "CS-1331/Test 3 Content",
     "CS-1331/Untitled.md",
