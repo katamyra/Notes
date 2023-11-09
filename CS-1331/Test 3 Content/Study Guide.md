@@ -117,7 +117,19 @@ ArrayList list = new ArrayList();
 
 # Exceptions
 * Extends, not implements Exception
-
+* **Exceptions** are actually objects that define unusual or erroneous situations **thrown** by a program, and can be **caught or handled**
+	* **Errors** are similar but are typically unrecoverable. Ie: some problem with the virtual machine or the system itself
+* When exceptions happen, these are our options:
+	* Not handle and allow program to terminate’
+	* Handle it when it occurs (*catch the exception*)
+	* Handle exceptions elsewhere in the program (throw the exception or let the exception progress upward)
+* When you want to log/output some information during exception, using ***getMessage()*** method
+* Theoretically you can just catch (Exception e), to cover any possible exception, but this is *lazy* and not recommended
+* **Checked vs Unchecked Exceptions**
+	* Unchecked exceptions are generally not caught and requires no throw clause at compile time (Runtime exception)
+		* This is usually because theres nothing we can do about them or they are rare
+	* *Checked exceptions* must either be caught or listed in the “throws clause” of a method or the code will not compile
+		* So you add `throws exceptionName` in the method header
 # Iterable and Iterator
 * An **iterable** is any object in Java that can provide an iterator, which is then used to iterate over elements of the iterable
 	* This process can be done using a for-each or enhanced for loop
