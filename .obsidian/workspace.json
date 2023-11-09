@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS-1331/Test 3 Content/Searching & Sorting.md",
+                "file": "CS-1331/Test 3 Content/Study Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS-1331/Test 3 Content/Searching & Sorting.md",
+                "file": "CS-1331/Test 3 Content/Study Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS-1331/Test 3 Content/Searching & Sorting.md",
+                "file": "CS-1331/Test 3 Content/Study Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS-1331/Test 3 Content/Searching & Sorting.md"
+                "file": "CS-1331/Test 3 Content/Study Guide.md"
               }
             }
           }
@@ -162,10 +162,11 @@
   },
   "active": "02113bd6a6d8db6d",
   "lastOpenFiles": [
+    "CS-1331/Test 3 Content/Searching & Sorting.md",
+    "CS-1331/Test 3 Content/Study Guide.md",
     "Linear Study.md",
     "MicroEcon 2106/Chapter 10 - Externalities.md",
     "CS-1331/Test 3 Content/Iterator and Iterable.md",
-    "CS-1331/Test 3 Content/Searching & Sorting.md",
     "CS-1331/Test 3 Content/Asymptotics.md",
     "Screenshot 2023-11-06 at 7.03.20 PM.png",
     "CS-1331/Test 3 Content/ArrayList.md",
@@ -199,7 +200,6 @@
     "CS-1331/Test 2 Content/Classes.md",
     "CS-1331/Test 2 Content/Inheritance.md",
     "CS-1331/Test 2 Content/Abstract Classes.md",
-    "CS-1331/Test 2 Content/Computational Complexity.md",
     "CS-1331/Test 2 Content",
     "CS-1331/Test 1 Content",
     "Untitled.canvas",
