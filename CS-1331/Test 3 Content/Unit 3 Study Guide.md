@@ -72,10 +72,24 @@ ArrayList list = new ArrayList();
 	* Allows detection of type-related errors at compile time instead of runtime
 	* Allows us to write a generic implementation that works for a variety of types
 * When we use generics, we can use any identifier, but we usually use E for element or T for type
+* **Generics must take a reference type, not an reference type**
+* Cannot create instances of a type parameter, so `T obj = new T();` doesn’t compile
+	* Cannot create an array of parameterized types either
+* Type parameters can be the type of return values, parameters, and variables
 ## Generics: Wildcards
 * **There are two types of wildcards: *\<? Super  X> and \<? extends Y>***
 	* The extend is the **upper bound**, meaning whatever is utilizing the generic for parameterization can use **all classes that extend X**
 	* The super is the **lower bound**, meaning whatever is utilizing the generic for parameterization can use all the classes that are a **supertype of whatever something is**
+## Generic Methods
+* Generic methods are those that introduce their own type parameters 
+	* This is most commonly done for *static methods* since it cant access the class’s type parameter, but can also be done for instance methods and constructors
+* Type parameters must be specified within angle brackets immediately before the turn type
+* A methods type parameters are limited to within the scope of the method
+## Type Erasure
+* Java compiler removes/erases type parameters after compilation
+	* The **generic type** is replaced with the bounded type or Object if unbounded
+* One consequence is that we *cannot instantiate an array of parameterized type*
+* Since generics were created to enforce stronger type-checking at compile-time, they are removed after so there is less overhead
 # ***Big O / Asymptotics***
 * How can we analyze how “good” an algorithm is?
 	* We need a consistent way to analyze the efficiency of an algorithm
@@ -140,6 +154,19 @@ ArrayList list = new ArrayList();
 * An **iterable** is any object in Java that can provide an iterator, which is then used to iterate over elements of the iterable
 	* This process can be done using a for-each or enhanced for loop
 		* The syntax is for (iterable: iterator), and you cannot edit the iterator
+* **Iterator\<E>**
+	* Defines the methods of an object that can iterate over a collection
+		* **boolean** hasNext()
+			* Returns whether there are more elements to be iterated over
+		* E next()
+			* Returns next element in iterator
+	* Is in the java.util Package, so it needs to be imported
+* **Iterable\<T>**
+	* Defines the methods of a collection that can be iterated over
+		* **Iterator\<T> iterator()**
+			* Returns an Iterator object, which can iterate over a collection of type E elements
+	* A collection that implements Iterable can be iterated over a collection of type E elements
+* **ITERABLE IN JAVA LANG, but Iterator in java.util**
 
 # ***File I/O***
 * **Stream** - flow of data - input and output streams between your program and I/O devices in the system
@@ -189,9 +216,33 @@ public static int factorial(int n) {
 	* Cons: the following methods are inefficient
 		* add()
 		* remove()
-## LinkedList
+	* This **contract** is usually represented by an interface, defines the set of behaviors
+		* Concrete data structures implement an ADT
+* **List**
+	* ADT for storing elements in an *ordered* fashion. All elements have an index representing their position.
+## LinkedLists
 * A **linked list** contains *Nodes* that hold a reference to the next item in the list
+	* Implements the **List\<T>** interface
+* Consists of nodes that hold data and a reference to the next node
+	* The *data* field has the same type as type parameter (all nodes hold same data type)
+	* The *next* field has type Node and serves as a reference to the next node
+* **Singly linked list** - nodes only have a reference to the next node
+	* **Doubly linked list** - nodes have a reference to both the previous and next nodes
+* **Head**: a reference to the first node in a list
+	* **Tail** (*optional*): a reference to the last node in a list
+* **Operations On Linked List**
+	* Adding an element
+	* Removing an element
+* Iterating Over Linked List
+```java 
+Node curr = list.head;
+while (curr != null && curr.next != null) {
+	curr = curr.next;
+}
+curr == list.tail //This is Trueimp
+```
 
+ 
 
 ## Things to Study
 * Iterator vs Interable
