@@ -81,6 +81,7 @@ ArrayList list = new ArrayList();
 * **There are two types of wildcards: *\<? Super  X> and \<? extends Y>***
 	* The extend is the **upper bound**, meaning whatever is utilizing the generic for parameterization can use **all classes that extend X**
 	* The super is the **lower bound**, meaning whatever is utilizing the generic for parameterization can use all the classes that are a **supertype of whatever something is**
+* These (I believe) are **inclusive**
 ## Generic Methods
 * Generic methods are those that introduce their own type parameters 
 	* This is most commonly done for *static methods* since it cant access the class’s type parameter, but can also be done for instance methods and constructors
@@ -168,6 +169,7 @@ ArrayList list = new ArrayList();
 			* Returns an Iterator object, which can iterate over a collection of type E elements
 	* A collection that implements Iterable can be iterated over a collection of type E elements
 * **ITERABLE IN JAVA LANG, but Iterator in java.util**
+* Class needs to explicitly state `implements Iterable` to use it in a for each loop
 
 # ***File I/O***
 * **Stream** - flow of data - input and output streams between your program and I/O devices in the system
