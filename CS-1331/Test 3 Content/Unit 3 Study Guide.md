@@ -247,7 +247,12 @@ curr == list.tail //This is Trueimp
 
  
 
-## Things to Study
+# Things to Study
 * Iterator vs Interable
 * Abstract vs interface
+* Practice Big O
 
+# Things to Note
+* Cannot create instance of an interface
+	* Test can you create instance where dynamic type is concrete, and static type is an interfafce
+* ArrayList<X> new ArrayList<>(); can only hold type 
