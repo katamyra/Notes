@@ -117,18 +117,57 @@ ArrayList list = new ArrayList();
 			* Over time, this causes the largest elements to be pushed to the end, “bubbling” them to the right
 	* After k passes, the largest k elements have bubbled into their final positions
 * *Time Complexity: O(n^2)*
+```java
+static void bubbleSort(int arr[]) {
+	int temp;
+	for (int i = 0; i < arr.length - 1; i++) {
+		for (int j = 0; j < arr.length - i - 1; j++) {
+			if (arr[j] > arr[j + 1]) {
+				temp = arr[j];
+				arr[j] = arr[j+1];
+				arr[j+1] = temp;
+			}
+			
+		}
+	}
+}
+```
 ## Selection Sort
 * **Main Idea**
 	* “Select” the smallest element in the unsorted sublist and swap it with the beginning of the unsorted sublist
 	* After each iteration, the next smallest element has been added to the end of the sorted sublist
 	* After k passes, the smallest k elements have been swapped into their final positions
 * *Time Complexity: O(n^2)*
+```java
+for(int i = 0; i < arr.length - 1; i++) {
+	int min_index = i;
+	for (int j = i + 1; j < n; j++) {
+		if (arr[j] < arr[min_index]) {
+			min_index = j;
+		}
+	}
+	int temp = arr[min_index];
+	arr[min_index] = arr[i];
+	arr[i] = temp;
+}
+```
 ## Insertion Sort
 * **Main Idea**
 	* *Insert* the first element of the unsorted sublist by bubbling it towards the beginning of the list until it is in relatively sorted order
 	* After each iteration, one more element has been relatively sorted
 	* After k passes, the first k+1 elements have been inserted into relatively sorted order but not necessarily in their final positions
 * *Time Complexity: O(n^2)*
+```java
+for (int i = 1; i < n; i++) {
+	int key = arr[i];
+	int j = i - 1;
+	while (j >= 0 && arr[j] > key) {
+		arr[j+1] = arr[j];
+		j = j - 1;
+	}
+	arr[j + 1] = key;
+}
+```
 ## Merge Sort
 * **Main Idea**
 	* Divide an array into two different halves and apply a merge sort on each half again
@@ -250,9 +289,15 @@ curr == list.tail //This is Trueimp
 # Things to Study
 * Iterator vs Interable
 * Abstract vs interface
-* Practice Big O
+* All the sorts
+	* Sorts implementations
+* polymorphism
+* Generic vs lower bound
 
 # Things to Note
 * Cannot create instance of an interface
 	* Test can you create instance where dynamic type is concrete, and static type is an interfafce
-* ArrayList<X> new ArrayList<>(); can only hold type 
+* ArrayList\<X> new ArrayList<>(); can only hold type 
+* Default allows you to add an implementation within interfaces
+	* default == add method body
+	* 
