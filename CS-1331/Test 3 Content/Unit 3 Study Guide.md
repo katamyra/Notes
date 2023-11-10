@@ -287,12 +287,19 @@ curr == list.tail //This is Trueimp
  
 
 # Things to Study
-* Iterator vs Interable
-* Abstract vs interface
+* **Iterator vs Iterable**
+	* Iterator
+		* boolean hasNext()
+		* E next()
+		* void remove() //no need to implement
+	* Iterable
+		* iterator() Iterator\<T>
+* **Abstract vs Interface**
 * All the sorts
 	* Sorts implementations
-* polymorphism
+* Polymorphism
 * Generic vs lower bound
+* Exceeds 
 
 # Things to Note
 * Cannot create instance of an interface
