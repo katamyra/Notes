@@ -250,3 +250,4 @@ curr == list.tail //This is Trueimp
 ## Things to Study
 * Iterator vs Interable
 * Abstract vs interface
+
