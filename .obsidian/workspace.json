@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MicroEcon 2106/Chapter-16 - Price Discrimination and Sophistication.md",
+                "file": "CS-1331/Final Studying + Content/Unit 1 Study Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c57a451bd9637a3e",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MicroEcon 2106/Chapter-16 - Price Discrimination and Sophistication.md",
+                "file": "CS-1331/Final Studying + Content/Unit 1 Study Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MicroEcon 2106/Chapter-16 - Price Discrimination and Sophistication.md",
+                "file": "CS-1331/Final Studying + Content/Unit 1 Study Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MicroEcon 2106/Chapter-16 - Price Discrimination and Sophistication.md"
+                "file": "CS-1331/Final Studying + Content/Unit 1 Study Guide.md"
               }
             }
           }
@@ -163,9 +162,13 @@
   },
   "active": "02113bd6a6d8db6d",
   "lastOpenFiles": [
+    "Screenshot 2023-11-16 at 10.56.19 PM.png",
+    "MicroEcon 2106/Chapter-16 - Price Discrimination and Sophistication.md",
+    "CS-1331/Final Studying + Content/Unit 1 Study Guide.md",
+    "CS-1331/Final Studying + Content",
+    "CS-1331/Final Studying.md",
     "Screenshot 2023-11-15 at 10.11.31 PM.png",
     "CS-1331/Test 3 Content/Unit 3 Study Guide.md",
-    "MicroEcon 2106/Chapter-16 - Price Discrimination and Sophistication.md",
     "CS-1331/Test 3 Content/ArrayList.md",
     "Images/Screenshot 2023-11-09 at 3.14.29 PM.png",
     "Images/Screenshot 2023-11-09 at 2.50.24 PM.png",
@@ -184,10 +187,8 @@
     "Images/Screenshot 2023-10-27 at 5.16.17 PM.png",
     "Images/Screenshot 2023-10-27 at 4.26.05 PM.png",
     "Images/Screenshot 2023-10-27 at 4.10.01 PM.png",
-    "Images/Screenshot 2023-10-27 at 4.08.04 PM.png",
     "MicroEcon 2106/Chapter 9 - International Markets.md",
     "CS-1331/Test 3 Content",
-    "CS-1331/Untitled.md",
     "MicroEcon 2106/Chapter 7 - Welfare Economics.md",
     "MicroEcon 2106/Chapter 8 - Comparative Advantage.md",
     "Discrete Math 2050/Primes, GCD, LCM.md",
@@ -200,7 +201,6 @@
     "CS-1331/Test 2 Content/Overriding & Object Class.md",
     "CS-1331/Test 2 Content/Exam 2 Textbook Notes.md",
     "Images",
-    "CS-1331/Test 2 Content/Classes.md",
     "CS-1331/Test 2 Content",
     "CS-1331/Test 1 Content",
     "Untitled.canvas",
@@ -208,7 +208,6 @@
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
     "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff",
-    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff",
-    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff"
+    "18.06sc-fall-2011/static_shared/mathjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff"
   ]
 }
