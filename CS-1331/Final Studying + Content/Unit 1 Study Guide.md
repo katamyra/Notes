@@ -73,6 +73,7 @@ This code still runs because of short circuit evaluation, so the second statemen
 	* Technically, these aren’t even needed lol
 	* **The condition is checked *before* every iteration, including the first**
 # Methods
+* **Method signature: Name and paramters only**
 ## Method Overloading
 * **Method overloading** is when you have more than one method with the **same name** as they have different parameter lists (which means different method signature)
 	* Either a different number of parameters or different parameter types
@@ -108,6 +109,7 @@ public static double sum(double a, int b) {
 	* These can hold either primitive types or reference variables
 * Length (capacity) is **fixed** once instantiated
 * **2d Arrays can be both rectangular or jagged (diff elements in each sub-array)**
+* *Arrays are mutable*
 ## Aliasing: Shallow vs Deep Copy
 * A shallow copied array has the same reference as the original array and also the same reference to each object in the array
 * To instead **deep copy** an array and prevent aliasing, create a new array and deep copy each element in the array
