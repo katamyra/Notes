@@ -100,7 +100,16 @@ public static double sum(double a, int b) {
 	return a + b;
 }
 ```
+## Pass-by-Value
+* Java is **pass-by-value**, meaning when a variable is passed into a method, a copy of the variables value is placed into the method instead of a reference to the variable
+	* However, for methods it is **pass-by-reference**
 # Arrays
 * **Arrays** are objects that represent a sequence (ordered) of homogenous (same type) elements
 	* These can hold either primitive types or reference variables
 * Length (capacity) is **fixed** once instantiated
+* **2d Arrays can be both rectangular or jagged (diff elements in each sub-array)**
+## Aliasing: Shallow vs Deep Copy
+* A shallow copied array has the same reference as the original array and also the same reference to each object in the array
+* To instead **deep copy** an array and prevent aliasing, create a new array and deep copy each element in the array
+	* For primitive data, deep and shallow copy are same
+	* Mutable objects need to be deep copied
