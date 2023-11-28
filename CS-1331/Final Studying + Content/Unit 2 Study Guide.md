@@ -85,3 +85,33 @@ Integer sum = num1 + val + 5, num1 is unboxed to perform arithmetic, them sum is
 	* Reflexive (x.equals(x) –> True), Symmetric, Transitive, Consistent, Comparison w/ null –> False
 		* **instanceof** is not symmetric
 * **toString()**
+	* Object’s implementation returns hexadecimal representation of the object’s hashcode
+	* Instead give it a meaningful representation
+* **hashCode()**
+	* If *two objects are equal*, they have the same hash code, but two objects that have the same hash code are not necessarily equal
+## Abstract Classes
+* These are very similar to concrete classes, but abstract classes cannot be **instantiated**
+* These are used to **define common states and behaviors of subclasses**
+* Abstract classes can still have **constructors, non-abstract methods, and instance variables**
+# Polymorphism
+* Describes how objects have the ability to behave different based on the content of the action
+* **Static Type**
+	* The type of the reference at compile time, aka what the compiler “knows” the objects as
+	* Determined once the variable is declared and never changes
+* **Dynamic Type**
+	* The type of reference at runtime, what the object “actually” is
+	* Dynamic type of a variables may change using the assignment operator
+* **The dynamic type should have an “is a” relationship with the static type”**
+* How does polymorphism work?
+	* At **compile time**, Java checks if the method exists in the **static type**
+	* At **run time**, Java runs the implementation provided by the dynamic type
+		* **If the dynamic type doesn’t have the implementation, it goes up the hierarchy chain looking for an implementation**
+			* There should always be one because the static type has an implementation (otherwise there is a compile time error?)
+* Methods take precedence over casting
+* Casting temporarily changes the **static** type of the reference being casted
+	* Does not impact what happens at runtime, only **compile time**
+* **Types of Casting**
+	* *Up Casting*: always compiles and runes
+	* *Down casting*: casting a type to a subtype. Always compiles, sometimes runs
+		* This only sometimes works because the dynamic type needs to have an “is a” relationship with the static type
+	* *Side Casting*: never compiles or runs
