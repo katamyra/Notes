@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS-1331/Final Studying + Content/Unit 2 Study Guide.md",
+                "file": "CS-1331/Final Studying + Content/Unit 3 Study Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS-1331/Final Studying + Content/Unit 2 Study Guide.md",
+                "file": "CS-1331/Final Studying + Content/Unit 3 Study Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS-1331/Final Studying + Content/Unit 2 Study Guide.md",
+                "file": "CS-1331/Final Studying + Content/Unit 3 Study Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS-1331/Final Studying + Content/Unit 2 Study Guide.md"
+                "file": "CS-1331/Final Studying + Content/Unit 3 Study Guide.md"
               }
             }
           }
@@ -173,8 +173,10 @@
   },
   "active": "cb9db8ea35b6108b",
   "lastOpenFiles": [
-    "CS-1331/Final Studying + Content/Unit 2 Tricky Questions and Forgotten Concepts.md",
+    "CS-1331/Test 3 Content/Unit 3 Study Guide.md",
+    "CS-1331/Final Studying + Content/Unit 3 Study Guide.md",
     "CS-1331/Final Studying + Content/Unit 2 Study Guide.md",
+    "CS-1331/Final Studying + Content/Unit 2 Tricky Questions and Forgotten Concepts.md",
     "CS-1331/Final Studying + Content/Unit 1 Study Guide.md",
     "CS-1331/Final Studying + Content/Unit 1 Tricky Questions and Forgotten Topics.md",
     "Images/Screenshot 2023-11-17 at 3.36.41 PM.png",
@@ -184,7 +186,6 @@
     "CS-1331/Final Studying + Content",
     "CS-1331/Final Studying.md",
     "Images/Screenshot 2023-11-15 at 10.11.31 PM.png",
-    "CS-1331/Test 3 Content/Unit 3 Study Guide.md",
     "CS-1331/Test 3 Content/ArrayList.md",
     "Images/Screenshot 2023-11-09 at 3.14.29 PM.png",
     "Images/Screenshot 2023-11-09 at 2.50.24 PM.png",
@@ -210,7 +211,6 @@
     "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
     "README.md",
     "CS-1331/Test 2 Content/Recitation Notes.md",
-    "CS-1331/Test 2 Content/Exam 2 Main Review Topics.md",
     "Images",
     "CS-1331/Test 2 Content",
     "CS-1331/Test 1 Content",
