@@ -1,4 +1,4 @@
-	### Bits and Bytes
+### Bits and Bytes
 * A computer is really nothing but a series of switches with one of two states: on and off
 	* The 0s and 1s that are interpreted as digits in the binary number system are called *bits* (binary digits)
 	* The minimum storage unit in a computer is a *byte*. A byte is composed of 8 bits and bytes can store very small numbers such as 2
