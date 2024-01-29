@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "e24d4cf315ecd050",
+    "type": "split",
+    "children": [
+      {
+        "id": "82d009ecd905c30c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25411554dd049183",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra Midterm 2 Studying.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "50a7ba4516935b0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c97911159dde9ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdef8c77ad53e765",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "401fac578724fc5b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4de34fbf6166022e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1fedf11c1c895927",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fdeae56af5ee07a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6035d9b37cdcad78",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linear Algebra Midterm 2 Studying.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b94879214d94d194",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linear Algebra Midterm 2 Studying.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e4eab31a10ea68e2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b8c9b2f5656cca6c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linear Algebra Midterm 2 Studying.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "25411554dd049183",
+  "lastOpenFiles": [
+    "CS-1331/Classes.md",
+    "Notes/README.md",
+    "Notes",
+    "Linear Algebra Midterm 2 Studying.md",
+    "Discrete Math 2050/CS_2050Homework5.synctex(busy)",
+    "Discrete Math 2050/pdflatex3768.fls",
+    "Discrete Math 2050/pdflatex3729.fls",
+    "Discrete Math 2050/pdflatex3723.fls",
+    "Discrete Math 2050/pdflatex3557.fls",
+    "Discrete Math 2050/pdflatex3517.fls",
+    "Discrete Math 2050/pdflatex3471.fls",
+    "Discrete Math 2050/pdflatex3420.fls",
+    "Discrete Math 2050/pdflatex3329.fls",
+    "Screenshot 2023-10-04 at 4.46.37 PM.png",
+    "Graph Theory Ethan.md",
+    "Discrete Math 2050/1.1 - Propositional Logic.md",
+    "0821 - 1.md",
+    "MicroEcon 2106/Things To Study.md",
+    "Organizing Talk.md",
+    "MicroEcon 2106/Chapter 4- Equilibrium.md",
+    "MicroEcon 2106/Chapter 5- Elasticity.md",
+    "Discrete Math 2050/Things To Study For Discrete.md",
+    "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
+    "MicroEcon 2106/Midterm Studying.md",
+    "MicroEcon 2106/Lecture Notes.md",
+    "redd.md",
+    "MicroEcon 2106/Supply and Demand Equilibrium Lecture Notes.md",
+    "CS-1331/Things to Memorize Before Test.md",
+    "CS-1331/Textbook Notes.md",
+    "CS-1331/Conditionals, Short-circuit, switch.md",
+    "CS-1331/Lecture Notes.md",
+    "CS-1331/Static Methods, Ambiguous Invocation.md",
+    "CS-1331/Arrays.md",
+    "2023-09-16.md"
+  ]
+}
