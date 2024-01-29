@@ -59,7 +59,7 @@
   code_font: "DejaVu Sans Mono",
 
   // The color of the lecture notes' accent color. Must be a valid HEX color.
-  accent: "#DC143C",
+  accent: "#F460F1",
 
   // The lecture notes' content.
   body
@@ -78,7 +78,7 @@
     } else if type(accent) == "color" {
       accent
     } else {
-      rgb("#DC143C")
+      rgb("#F460F1")
     }
   }
 
@@ -272,7 +272,7 @@
     [#text(size: 11pt, "Published:")],
     [#text(
       size: 11pt,
-      fill: accent_color,
+      fill: rgb("#F460F1"),
       weight: "semibold",
       date.display("[month repr:long] [day padding:zero], [year repr:full]")
     )
@@ -280,7 +280,7 @@
     text(size: 11pt, "Last updated:"),
     text(
       size: 11pt,
-      fill: accent_color,
+      fill: rgb("#F460F1"),
       weight: "semibold",
       datetime.today().display("[month repr:long] [day padding:zero], [year repr:full]")
     )
@@ -300,7 +300,7 @@
   v(18pt, weak: true)
 
   show outline.entry: it => {
-    text(fill: accent_color)[#it]
+    text(fill: rgb("#F460F1"))[#it]
   }
 
   // Display the lecture notes' table of contents.
