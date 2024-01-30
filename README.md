@@ -6,7 +6,7 @@ More thorough compiled notes that I write to study for tests are stored in Compi
 
 ## Current (Important) Classes
 CS 1332 
-CS 2340 - Compiled Notes: 
+CS 2340 - Compiled Notes: [Click Here](https://github.com/katamyra/Notes/blob/main/Compiled%20Notes/CS2340/Notes/LectureNotes.pdf 
 CS 3001  
 CS 2110  
 
