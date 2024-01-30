@@ -18,6 +18,5 @@
 #set text(
   fill: rgb("#04055c")
 )
-
 #include "RequirementsEngineering.typ"
 #include "SoftwareArchitecture.typ"
