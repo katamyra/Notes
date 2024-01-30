@@ -1,0 +1,253 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\setlength{\parindent}{0px}
+\usepackage{sqrcaps}
+\usepackage[T1]{fontenc}
+\usepackage{cancel}
+\usepackage{framed}
+\usepackage{mdframed}
+\usepackage{graphicx, tipa}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{asymptote}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{amsfonts}
+\usepackage[document]{ragged2e}
+\usepackage[total={6.5in, 8in}]{geometry}
+\usepackage{amsmath, amsfonts, amssymb, mathtools, versions}
+\usepackage{fourier}
+\usepackage{adjustbox}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{anyfontsize}
+\usepackage{mdframed}
+\begin{asydef}
+usepackage("fouriernc");
+\end{asydef}
+\newcommand{\overarc}[1]{{\setbox9=\hbox{#1}\ooalign{\resizebox{\wd9}{\height}{\
+texttoptiebar{\phantom{A}}}\cr#1}}}
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+\DeclareMathOperator{\lcm}{lcm}
+%For bolded items in enumerate
+\newenvironment{enumbf}{\begin{enumerate}[font=\textbf]}{\end{enumerate}}
+%For answer choices
+\newcommand{\ans}[5]{\bigskip
+$\textbf{(A)}\ #1 \qquad\textbf{(B)}\ #2 \qquad\textbf{(C)}\ #3 \qquad\textbf{(D)}\
+#4 \qquad\textbf{(E)}\ #5$}
+%For colored boxed answer
+\newcommand{\bboxed}[1]{\color{maincolor}\boxed{#1}}
+%For solutions
+\newenvironment{solution}
+{
+\vspace{0.5mm}
+\begin{mdframed}
+[linewidth=3pt,leftline=true,rightline=false,bottomline=false,topline=false,linecol
+or=maincolor,backgroundcolor=maincolor!10]\color{maincolor}\textbf{\
+textsf{Solution: }}\color{black}
+}
+{\color{black}\end{mdframed}\vspace{0.5mm}}
+%For alternate solutions
+\newcommand{\orr}{
+\begin{center}
+\textbf{OR}
+\end{center}
+}
+%For remarks
+\newcommand{\bbold}[1]{\color{maincolor}\textbf{\textsf{#1} }\color{black}}
+%For problem proposers
+\newcommand{\prop}[1]{\color{maincolor}\textbf{\textsf{(#1)} }\color{black} }
+%For headings (manual bigskips)
+\newcommand{\bhead}[1]{\textbf{\textsf{\Large #1}}\normalsize}
+%For headings (automatic bigskips)
+\newcommand{\bbhead}[1]{\bigskip\textbf{\textsf{\Large #1}}\normalsize\bigskip}
+\newcommand{\pt}[1]{\textcolor{maincolor}{(#1 points)}}
+\newcommand{\pte}[1]{\textcolor{maincolor}{(#1 points each)}}
+\title{CS 2050 Fall 2023 Homework 1}
+\author{Due: September 1 @ 11:59 PM}
+\date{Released: August 25}
+\definecolor{maincolor}{RGB}{114, 140, 255}
+\begin{document}
+\maketitle
+\begin{justify}
+This assignment is due at \textbf{11:59 PM EDT} on \textbf{Friday, September 1,
+2023}. Submissions submitted at least 24 hours prior to the due date will receive
+2.5 points of extra credit. On-time submissions receive no penalty. You may turn it
+in one day late for a 10-point penalty or two days late for a 25-point penalty.
+Assignments more than two days late will NOT be accepted. We will prioritize on-
+time submissions when grading before an exam.
+\bigskip
+You should submit a typeset or \emph{neatly} written PDF on Gradescope. The
+grading TA should not have to struggle to read what you've written; if your
+handwriting is hard to decipher, you will be required to typeset your future
+assignments. Illegible solutions will be given 0 credit. A 5-point penalty will
+occur if pages are incorrectly assigned to questions when submitting.
+\bigskip
+You may collaborate with other students, but any written work should be your own.
+Write the names of the students you work with on the top of your assignment.
+\bigskip
+Always justify your work, even if the problem doesn't specify it. It can help the
+TA's to give you partial credit.
+\bigskip
+Author(s): Ronnie Howard
+\clearpage
+\begin{enumerate}
+\item \pte{2} Rewrite each of the following in the form ``if \ldots, then \
+ldots". (You may adjust verb tense as you wish to make the sentences sound
+natural.)
+\begin{enumerate}
+\item Rowing a boat is necessary for being a Viking.
+\begin{mdframed}
+    If you are a Viking, you row a boat.
+\end{mdframed}
+\item You sharpen your axe unless you are not a Viking.
+\begin{mdframed}
+If you are a viking, you sharten your axe.
+\end{mdframed}
+\item You are a Saxon provided that you are from England.
+\begin{mdframed}
+If you are from England, you are a Saxon
+\end{mdframed}
+\end{enumerate}
+\item \pte{2} Evaluate each of the following propositions as True or False.
+\begin{enumerate}
+\item If humans are birds, then humans are birds.
+\begin{mdframed}
+    True.
+\end{mdframed}
+\item If $2 \leq 3$, then $2 > -1$.
+\begin{mdframed}
+   True. 
+\end{mdframed}
+\item If $4^2 = 33$, then $7-5=100$.
+\begin{mdframed}
+    True.
+\end{mdframed}
+\item If $8$ is even, then $10$ is odd.
+\begin{mdframed}
+    False.
+\end{mdframed}
+\end{enumerate}
+\item \pte{2} Let $s$ be the proposition ``You are a pirate," let $d$ be the
+proposition ``You are on a pirate ship," and let $n$ be the proposition ``It is
+storming." Express the following as English sentences. (You may adjust tense as you
+like.)
+\begin{enumerate}
+\item $(d \lor n) \rightarrow s$
+\begin{mdframed}
+    If you are on a pirate ship or it is storming, then you are a pirate.
+\end{mdframed}
+\item $\lnot d \rightarrow (n \rightarrow s)$
+\begin{mdframed}
+    If you are not on a pirate ship, then if it is storming, you are a pirate.
+\end{mdframed}
+\item $(n \lor d) \leftrightarrow s$
+\begin{mdframed}
+    It is storming or you are on a pirate ship if and only if you are a pirate.
+\end{mdframed}
+\end{enumerate}
+\item \pte{3} Let $l$ be the proposition ``You walk the plank," let $a$ be the
+proposition ``You upset the captain," and let $h$ be the proposition ``You raised
+the sail." Represent each of the following statements using only $l$, $a$, $h$, and
+logical operators. Then, negate the statements you identify pushing all negations
+in as far as possible. Then, translate it back to English.
+\begin{enumerate}
+\item You upset the captain only when you walk the plank.
+\begin{mdframed}
+\begin{align*}
+    &a \rightarrow l && \text{given}\\
+    &\lnot (\lnot a \lor l) && \text{negation} \\
+    &a \land \lnot l && \text{De Morgans Law}\\
+    &\text{You upset the captain and you did not walk the plank} \\
+\end{align*}
+\end{mdframed}
+\item You do not walk the plank unless you did not raise the sail.
+\begin{mdframed}
+\begin{align*}
+    &\lnot\lnot h \rightarrow \lnot l\tag{given}\\
+    &h \rightarrow \lnot l \tag{double negation} \\
+    &\lnot(h \rightarrow \lnot l) \tag{negation}\\
+    &\lnot(\lnot h \lor\lnot l) \tag{conditional disjunction law} \\
+    &h \land l \tag{de morgans law} \\
+    &\text{You raised the sail and you walk the plank.}
+\end{align*}
+\end{mdframed}
+\end{enumerate}
+\item \pt{6} Give the converse, contrapositive, and inverse of the statement
+``I get a treasure chest whenever I find the X on the map." (You can change tense
+as needed.)
+\begin{mdframed}
+    \begin{align*}
+        &\text{t = I get a treasure chest} \\
+        &\text{x = I find x on the map} \\
+        &x \rightarrow t \tag{given} \\
+    \end{align*}
+Contrapositve: $\lnot t \rightarrow \lnot x$ \\
+Contrapositive: If I do not get a treasure chest, I do not find X on the map. \\
+Converse: $t \rightarrow x$ \\
+Converse: If I get a treasure chest, I find X on the map. \\
+Inverse: $\lnot x \rightarrow \lnot t$ \\
+Inverse: If I do not find X on the map, I do not get a treasure chest \\
+\end{mdframed}
+\item \pte{8} Construct truth tables for the following propositions. Include
+all intermediate columns, in an appropriate order, for full credit.
+\begin{enumerate}
+\item $\lnot p \rightarrow (\lnot q \lor \lnot p)$
+\begin{displaymath}
+    \begin{array}{|c c |c c| c| c|}
+    p & q & \lnot p & \lnot q & \lnot q \lor \lnot p & \lnot p \rightarrow (\lnot q \lor \lnot p)\\
+    \hline 
+    T & T & F & F & F & T\\
+    T & F & F & T & T & T\\
+    F & T & T & F & T & T\\
+    F & F & T & T & T & T\\
+    \end{array}
+\end{displaymath}
+\item $(\lnot p \lor q) \rightarrow r$
+\item $(p \land \lnot q) \leftrightarrow \lnot (p \lor q)$
+\end{enumerate}
+\item \pte{8} Simplify each of the following to $p$, $q$, $\neg p$, $\neg q$,
+$T$, or $F$ using logical equivalences. State the equivalence used at each step. Do
+not skip steps. You can only use one equivalence or definition per step (even if
+the same one can be applied multiple times). Do not forget about the double
+negation law.
+\begin{enumerate}
+\item $ \lnot q \rightarrow (p \vee \lnot q)$
+\begin{mdframed}
+    \begin{align*}
+        &\lnot q \rightarrow (p \vee \lnot q) \tag{given} \\
+        &q \lor (p \lor \lnot q) \tag{conditional disjunction law} \\
+        &p \lor (q \lor \lnot q) \tag{associative and commutative law} \\
+        &p \lor T \tag{negation law} \\
+        &T \tag{domination law} \\
+    \end{align*}
+\end{mdframed}
+\item $(\lnot p \rightarrow q) \wedge (q \rightarrow p)$
+\begin{mdframed}
+    \begin{align*}
+        &(\lnot p \rightarrow q) \wedge (q \rightarrow p) \tag{given} \\
+        &(p \lor q) \land (\lnot q \lor p) \tag{conditional disjunction law} \\
+        &p \lor (q \land \lnot q) \tag{some law idk} \\
+        &p \lor F \\
+        &p \\
+    \end{align*}
+\end{mdframed}
+\end{enumerate}
+\item \pte{10} Prove that $(\lnot p\wedge \lnot q) \rightarrow \lnot q \equiv
+(\lnot p\wedge q) \rightarrow q$ in both of the following ways.
+\begin{enumerate}
+\item truth table (do not skip intermediate columns)
+\item logical equivalences (do not skip steps or combine steps)
+\end{enumerate}
+\item \pt{8} Vikings always tell the truth and Saxons always lie. Given the
+following information, use a truth table to determine what type each person is or
+if their status cannot be determined. Be sure to provide a conclusion based on
+your work.
+Person A says: ``I am a Viking and B is a Saxon."\\
+Person B says: ``C is a Saxon if A is a Viking."\\
+Person C says: ``I am a Saxon or A is a Saxon only if B is a Viking."
+\end{enumerate}
+\end{justify}
+\end{document}

@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "e24d4cf315ecd050",
+    "id": "b357f55661e1f926",
     "type": "split",
     "children": [
       {
-        "id": "82d009ecd905c30c",
+        "id": "57567dd4ad4fb0de",
         "type": "tabs",
         "children": [
           {
-            "id": "25411554dd049183",
+            "id": "c3d37e4220242a79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra Midterm 2 Studying.md",
+                "file": "Year 1/Semester 2/CS 1332/LinkedStack.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,25 +25,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "50a7ba4516935b0e",
+    "id": "993b112cad23ef37",
     "type": "split",
     "children": [
       {
-        "id": "9c97911159dde9ce",
+        "id": "a14196421b38af11",
         "type": "tabs",
         "children": [
           {
-            "id": "cdef8c77ad53e765",
+            "id": "868acbaa47b56048",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
           {
-            "id": "401fac578724fc5b",
+            "id": "7d2d2813077c496c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "4de34fbf6166022e",
+            "id": "79104da36755b06a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "1fedf11c1c895927",
+    "id": "c57a451bd9637a3e",
     "type": "split",
     "children": [
       {
-        "id": "7fdeae56af5ee07a",
+        "id": "d7f7021b81f2c428",
         "type": "tabs",
         "children": [
           {
-            "id": "6035d9b37cdcad78",
+            "id": "e7ed102f2f9c5357",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra Midterm 2 Studying.md",
+                "file": "Year 1/Semester 2/CS 1332/LinkedStack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "b94879214d94d194",
+            "id": "01aeba6179dfe834",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra Midterm 2 Studying.md",
+                "file": "Year 1/Semester 2/CS 1332/LinkedStack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "e4eab31a10ea68e2",
+            "id": "e7e9f2bb8e9f7db3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "b8c9b2f5656cca6c",
+            "id": "a236fce94ef86fc0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra Midterm 2 Studying.md"
+                "file": "Year 1/Semester 2/CS 1332/LinkedStack.md"
               }
             }
           }
@@ -146,41 +146,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25411554dd049183",
+  "active": "c3d37e4220242a79",
   "lastOpenFiles": [
-    "CS-1331/Classes.md",
-    "Notes/README.md",
-    "Notes",
-    "Linear Algebra Midterm 2 Studying.md",
-    "Discrete Math 2050/CS_2050Homework5.synctex(busy)",
-    "Discrete Math 2050/pdflatex3768.fls",
-    "Discrete Math 2050/pdflatex3729.fls",
-    "Discrete Math 2050/pdflatex3723.fls",
-    "Discrete Math 2050/pdflatex3557.fls",
-    "Discrete Math 2050/pdflatex3517.fls",
-    "Discrete Math 2050/pdflatex3471.fls",
-    "Discrete Math 2050/pdflatex3420.fls",
-    "Discrete Math 2050/pdflatex3329.fls",
-    "Screenshot 2023-10-04 at 4.46.37 PM.png",
-    "Graph Theory Ethan.md",
-    "Discrete Math 2050/1.1 - Propositional Logic.md",
-    "0821 - 1.md",
-    "MicroEcon 2106/Things To Study.md",
-    "Organizing Talk.md",
-    "MicroEcon 2106/Chapter 4- Equilibrium.md",
-    "MicroEcon 2106/Chapter 5- Elasticity.md",
-    "Discrete Math 2050/Things To Study For Discrete.md",
-    "MicroEcon 2106/Chapter 3 - Supply and Producer Choice.md",
-    "MicroEcon 2106/Midterm Studying.md",
-    "MicroEcon 2106/Lecture Notes.md",
-    "redd.md",
-    "MicroEcon 2106/Supply and Demand Equilibrium Lecture Notes.md",
-    "CS-1331/Things to Memorize Before Test.md",
-    "CS-1331/Textbook Notes.md",
-    "CS-1331/Conditionals, Short-circuit, switch.md",
-    "CS-1331/Lecture Notes.md",
-    "CS-1331/Static Methods, Ambiguous Invocation.md",
-    "CS-1331/Arrays.md",
-    "2023-09-16.md"
+    "Year 1/Semester 2/CS 1332/ArrayList.md",
+    "Year 1/Semester 2/CS 1332/LinkedStack.md",
+    "Year 1/Semester 2/CS 2340/Tutorial/BetterTutorial.md",
+    "().md",
+    "Year 1/Semester 2/CS 2340/Tutorial/Images/FirstDeviceOpen.png",
+    "Year 1/Semester 2/CS 2340/Tutorial/Images/FirstLookImage.png",
+    "Images/Screenshot 2024-01-17 at 8.30.18 PM.png",
+    "Year 1/Semester 2/CS 2340/Tutorial/Images/BasicViews.png",
+    "Year 1/Semester 2/CS 2340/Tutorial/Images/ProjectSettings.png",
+    "Year 1/Semester 2/CS 2340/Tutorial/Images",
+    "Year 1/Semester 2/CS 3001/Ethics.md",
+    "Year 1/Semester 2/CS 2340/Tutorial",
+    "Year 1/Semester 2/CS 2340/Refactoring.md",
+    "Year 1/Semester 2/CS 2340/SOLID.md",
+    "Images/Screenshot 2024-01-17 at 8.07.37 PM.png",
+    "Images/Screenshot 2024-01-17 at 8.07.09 PM.png",
+    "Images/Screenshot 2024-01-17 at 7.56.21 PM.png",
+    "Graph Theory Template.md",
+    "Year 1/Semester 2/CS 2110/Data Types & Representations.md",
+    "Year 1/Semester 2/CS 2340",
+    "Year 1/Semester 2/CS 3001/Do Artifacts have Politics?.md",
+    "Year 1/Semester 2/CS 3001/Technical Artifacts and Politics.md",
+    "Year 1/Semester 1/CS-1331/Test 3 Content/Unit 3 Study Guide.md",
+    "Untitled.canvas",
+    "2024-01-11.md",
+    "Year 1/Semester 2/CS 3001/Therac-25.md",
+    "Year 1/Semester 2/CS 2110",
+    "README.md",
+    "Year 1/Semester 2/CS 1332",
+    "Year 1/Semester 2/CS 3001",
+    "Year 1/Semester 1",
+    "Year 1",
+    "Year 1/Semester 2",
+    "Year 1/Semester 1/CS-1331/Test 2 Content/Recitation Notes.md",
+    "Year 1/Semester 1/CS-1331/Test 2 Content/Exam 2 Textbook Notes.md",
+    "Year 1/Semester 1/CS-1331/Final Studying + Content/Unit 2 Study Guide.md",
+    "Year 1/Semester 1/CS-1331/Final Studying + Content/Unit 1 Study Guide.md",
+    "Year 1/Semester 1/CS-1331/Test 2 Content/Exam 2 Main Review Topics.md",
+    "Year 1/Semester 1/CS-1331/Test 1 Content/Textbook Notes.md",
+    "Year 1/Semester 1/CS-1331/Test 1 Content/Lecture Notes.md",
+    "Year 1/Semester 1/CS-1331/Final Studying + Content/Unit 3 Study Guide.md",
+    "Year 1/Semester 1/CS-1331/Final Studying + Content/Unit 2 Tricky Questions and Forgotten Concepts.md",
+    "Year 1/Semester 1/CS-1331/Final Studying + Content/Unit 1 Tricky Questions and Forgotten Topics.md",
+    "Images/Screenshot 2023-11-17 at 3.36.41 PM.png",
+    "Images/Pasted image 20231117150554.png",
+    "Year 1/Semester 1/MicroEcon 2106/Chapter-16 - Price Discrimination and Sophistication.md",
+    "Year 1/Semester 1/CS-1331/Final Studying + Content"
   ]
 }

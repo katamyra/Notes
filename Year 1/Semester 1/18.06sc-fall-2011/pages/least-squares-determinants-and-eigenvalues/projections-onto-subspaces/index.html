@@ -1,0 +1,3977 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NMQZ25T');</script>
+    
+  
+  
+
+
+
+
+    
+    <link href="../../../static_shared/css/course_offline.67582.css" rel="stylesheet">
+    
+
+
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  
+
+  <meta name="description" content="This section provides a lesson on projections onto subspaces.">
+  <meta name="keywords" content="opencourseware,MIT OCW,courseware,MIT opencourseware,Free Courses,class notes,class syllabus,class materials,tutorials,online courses,MIT courses">
+  
+  <meta property="og:site_name" content="MIT OpenCourseWare">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ocw.mit.edu/https://ocw.mit.edu/pages/least-squares-determinants-and-eigenvalues/projections-onto-subspaces/" />
+  <meta property="og:title" content="Projections onto Subspaces | Linear Algebra | Mathematics | MIT OpenCourseWare" />
+  <meta property="og:description" content="This section provides a lesson on projections onto subspaces." />
+
+  
+
+<meta property="og:image" content="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/ad862b68e2323331fd3ee944ed704f38_18-06scf11.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@mitocw" />
+<meta name="twitter:image:src" content="https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/ad862b68e2323331fd3ee944ed704f38_18-06scf11.jpg" />
+  
+  <link rel="canonical" href="https://ocw.mit.edu/https://ocw.mit.edu/pages/least-squares-determinants-and-eigenvalues/projections-onto-subspaces/" />
+
+  <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type" : "WebPage",
+        "name": "MIT OpenCourseWare",
+        "description": "This section provides a lesson on projections onto subspaces.",
+        "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/", 
+        "publisher": {
+          "@type": "CollegeOrUniversity",
+          "name": "MIT OpenCourseWare"
+        }
+      }
+  </script>
+
+  <title>Projections onto Subspaces | Linear Algebra | Mathematics | MIT OpenCourseWare</title>
+  
+  
+
+
+    
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <style>
+  @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(../../../static_shared/fonts/MaterialIcons-Regular.woff2) format('woff2'),
+      url(../../../static_shared/fonts/MaterialIcons-Regular.woff) format('woff'),
+      url(../../../static_shared/fonts/MaterialIcons-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Material Icons Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local("MaterialIcons-Round"),
+    url(../../../static_shared/fonts/MaterialIconsRound-Regular.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Cardo Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Cardo'),
+      local('Cardo-Bold'),
+      url(../../../static_shared/fonts/Cardo-Bold.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Cardo Italic';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Cardo'),
+      local('Cardo-Italic'),
+      url(../../../static_shared/fonts/Cardo-Italic.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Helvetica Light';
+    font-style: normal`;
+    font-weight: 400;
+    src: local('Helvetica Light'),
+      local('Helvetica-Light'),
+      url(../../../static_shared/fonts/Helvetica-Light.ttf) format('truetype');
+  }
+  </style>
+</head>
+
+<body class="course-home-page">
+  
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMQZ25T"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+  
+  <div class="overflow-auto">
+    <div
+  id="mobile-course-nav"
+  class="navbar-offcanvas offcanvas-toggle offcanvas-toggle-close medium-and-below-only drawer">
+  <h3 class="my-4 d-flex align-items-center justify-content-between">
+    Browse Course Material
+    <button
+      class="btn"
+      type="button"
+      aria-label="Close Course Menu"
+      onclick="$('#mobile-course-nav-toggle').click();"
+      >
+      <img
+        src="../../../static_shared/images/close_small.svg"
+        alt=""
+        width="12px"
+      />
+    </button>
+  </h3>
+  
+
+<nav class="course-nav">
+  <ul class="w-100 m-auto list-unstyled">
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="d8efae91-2fd6-02f9-ac2e-2cb9d064d22e"
+        href="../../../pages/syllabus/index.html">
+        Syllabus
+      </a>
+    </span>
+    
+    <a class="course-nav-section-toggle"
+      href="#nav-container_mobile_d8efae91-2fd6-02f9-ac2e-2cb9d064d22e"
+      data-toggle="collapse"
+      aria-controls="nav-container_mobile_d8efae91-2fd6-02f9-ac2e-2cb9d064d22e"
+      aria-expanded=""
+      data-uuid="d8efae91-2fd6-02f9-ac2e-2cb9d064d22e">
+      <i class="material-icons md-18"></i>
+    </a>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_d8efae91-2fd6-02f9-ac2e-2cb9d064d22e">
+    <ul class="course-nav-child-nav m-auto">
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="451c7be3-3c2f-f17f-4881-adfa981fc5e7"
+        href="../../../pages/syllabus/meet-the-tas/index.html">
+        Meet the TAs
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_451c7be3-3c2f-f17f-4881-adfa981fc5e7">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="df093ac7-c42d-8cf3-3aeb-2ba906d4fedc"
+        href="../../../pages/instructor-insights/index.html">
+        Instructor Insights
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_df093ac7-c42d-8cf3-3aeb-2ba906d4fedc">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="34303ce1-9b45-7241-22d2-bd33d64df688"
+        href="../../../pages/ax-b-and-the-four-subspaces/index.html">
+        Unit I: Ax = b and the Four Subspaces
+      </a>
+    </span>
+    
+    <a class="course-nav-section-toggle"
+      href="#nav-container_mobile_34303ce1-9b45-7241-22d2-bd33d64df688"
+      data-toggle="collapse"
+      aria-controls="nav-container_mobile_34303ce1-9b45-7241-22d2-bd33d64df688"
+      aria-expanded=""
+      data-uuid="34303ce1-9b45-7241-22d2-bd33d64df688">
+      <i class="material-icons md-18"></i>
+    </a>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_34303ce1-9b45-7241-22d2-bd33d64df688">
+    <ul class="course-nav-child-nav m-auto">
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="ee886403-2dd8-29b4-83a2-ae7dfeb2da55"
+        href="../../../pages/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/index.html">
+        The Geometry of Linear Equations
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_ee886403-2dd8-29b4-83a2-ae7dfeb2da55">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="ff755187-ef48-26e2-abaf-b9c76026cfdb"
+        href="../../../pages/ax-b-and-the-four-subspaces/an-overview-of-key-ideas/index.html">
+        An Overview of Key Ideas
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_ff755187-ef48-26e2-abaf-b9c76026cfdb">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="060c0abf-f399-49c6-f5be-ff6291e747a5"
+        href="../../../pages/ax-b-and-the-four-subspaces/elimination-with-matrices/index.html">
+        Elimination with Matrices
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_060c0abf-f399-49c6-f5be-ff6291e747a5">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="c6606cdd-9775-d774-f694-cdc5e6c30381"
+        href="../../../pages/ax-b-and-the-four-subspaces/multiplication-and-inverse-matrices/index.html">
+        Multiplication and Inverse Matrices
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_c6606cdd-9775-d774-f694-cdc5e6c30381">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="2817c81b-0904-0d03-c0c6-34f006d5a20d"
+        href="../../../pages/ax-b-and-the-four-subspaces/factorization-into-a-lu/index.html">
+        Factorization into A = LU
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_2817c81b-0904-0d03-c0c6-34f006d5a20d">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="78c64d70-411e-e481-e2bb-d7a7244a0bf3"
+        href="../../../pages/ax-b-and-the-four-subspaces/transposes-permutations-vector-spaces/index.html">
+        Transposes, Permutations, Vector Spaces
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_78c64d70-411e-e481-e2bb-d7a7244a0bf3">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="bb16f055-bb0c-2fa6-b00b-24a82c138877"
+        href="../../../pages/ax-b-and-the-four-subspaces/column-space-and-nullspace/index.html">
+        Column Space and Nullspace
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_bb16f055-bb0c-2fa6-b00b-24a82c138877">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="0689e9a0-f66b-a169-b57a-71e60e59cfa2"
+        href="../../../pages/ax-b-and-the-four-subspaces/solving-ax-0-pivot-variables-special-solutions/index.html">
+        Solving Ax = 0: Pivot Variables, Special Solutions
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_0689e9a0-f66b-a169-b57a-71e60e59cfa2">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="5fa61a8a-cb4b-ace2-b291-fa9364395075"
+        href="../../../pages/ax-b-and-the-four-subspaces/solving-ax-b-row-reduced-form-r/index.html">
+        Solving Ax = b: Row Reduced Form R
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_5fa61a8a-cb4b-ace2-b291-fa9364395075">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="f4986e82-13a7-cf7c-ebaa-aba5fa7882f0"
+        href="../../../pages/ax-b-and-the-four-subspaces/independence-basis-and-dimension/index.html">
+        Independence, Basis and Dimension
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_f4986e82-13a7-cf7c-ebaa-aba5fa7882f0">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="0050fe07-f47a-b375-ac0f-3abe492f8ae1"
+        href="../../../pages/ax-b-and-the-four-subspaces/the-four-fundamental-subspaces/index.html">
+        The Four Fundamental Subspaces
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_0050fe07-f47a-b375-ac0f-3abe492f8ae1">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="edaea805-267a-c1a3-9a73-e8d7f348edba"
+        href="../../../pages/ax-b-and-the-four-subspaces/matrix-spaces-rank-1-small-world-graphs/index.html">
+        Matrix Spaces; Rank 1; Small World Graphs
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_edaea805-267a-c1a3-9a73-e8d7f348edba">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="8be90057-9381-41d7-712d-45f0e42d1cfc"
+        href="../../../pages/ax-b-and-the-four-subspaces/graphs-networks-incidence-matrices/index.html">
+        Graphs, Networks, Incidence Matrices
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_8be90057-9381-41d7-712d-45f0e42d1cfc">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="e451ffac-351d-687a-8b19-3c0159c4b2a7"
+        href="../../../pages/ax-b-and-the-four-subspaces/exam-1-review/index.html">
+        Exam 1 Review
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_e451ffac-351d-687a-8b19-3c0159c4b2a7">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="f5c6f676-32a0-d7e7-bcdf-bc97569b662f"
+        href="../../../pages/ax-b-and-the-four-subspaces/exam-1/index.html">
+        Exam 1
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_f5c6f676-32a0-d7e7-bcdf-bc97569b662f">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="cf73d07a-c972-ab3c-450a-0f10d0be0664"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/index.html">
+        Unit II: Least Squares, Determinants and Eigenvalues
+      </a>
+    </span>
+    
+    <a class="course-nav-section-toggle"
+      href="#nav-container_mobile_cf73d07a-c972-ab3c-450a-0f10d0be0664"
+      data-toggle="collapse"
+      aria-controls="nav-container_mobile_cf73d07a-c972-ab3c-450a-0f10d0be0664"
+      aria-expanded=""
+      data-uuid="cf73d07a-c972-ab3c-450a-0f10d0be0664">
+      <i class="material-icons md-18"></i>
+    </a>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_cf73d07a-c972-ab3c-450a-0f10d0be0664">
+    <ul class="course-nav-child-nav m-auto">
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="fd8c8a4d-fa1b-e88c-ec23-abef203fca2a"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/orthogonal-vectors-and-subspaces/index.html">
+        Orthogonal Vectors and Subspaces
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_fd8c8a4d-fa1b-e88c-ec23-abef203fca2a">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="1ff24ba8-67b5-ac72-fcad-41dcf3e79e10"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/projections-onto-subspaces/index.html">
+        Projections onto Subspaces
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_1ff24ba8-67b5-ac72-fcad-41dcf3e79e10">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="5f12aef9-0a3e-a658-e59c-e968a672c0c2"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/projection-matrices-and-least-squares/index.html">
+        Projection Matrices and Least Squares
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_5f12aef9-0a3e-a658-e59c-e968a672c0c2">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="2376f3e0-0c4d-e0f6-6346-53041d685aed"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/orthogonal-matrices-and-gram-schmidt/index.html">
+        Orthogonal Matrices and Gram-Schmidt
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_2376f3e0-0c4d-e0f6-6346-53041d685aed">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="db45d276-fad6-eb49-f42e-287aaa9e22b6"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/properties-of-determinants/index.html">
+        Properties of Determinants
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_db45d276-fad6-eb49-f42e-287aaa9e22b6">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="172571ec-1468-8c38-e3a6-02925af8e7d9"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/determinant-formulas-and-cofactors/index.html">
+        Determinant Formulas and Cofactors
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_172571ec-1468-8c38-e3a6-02925af8e7d9">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="86cb2711-cb7c-4313-42de-c1540dfe8ce2"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/cramers-rule-inverse-matrix-and-volume/index.html">
+        Cramer&#39;s Rule, Inverse Matrix and Volume
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_86cb2711-cb7c-4313-42de-c1540dfe8ce2">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="3d8f60a8-0fef-5e0f-bd7a-13ad5eb457f7"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/eigenvalues-and-eigenvectors/index.html">
+        Eigenvalues and Eigenvectors
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_3d8f60a8-0fef-5e0f-bd7a-13ad5eb457f7">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="dcb9a660-b4e1-e1d4-837b-ad83344a716e"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/diagonalization-and-powers-of-a/index.html">
+        Diagonalization and Powers of A
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_dcb9a660-b4e1-e1d4-837b-ad83344a716e">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="2e8f3fde-52a4-42af-fa1d-8cd0213b4d74"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/differential-equations-and-exp-at/index.html">
+        Differential Equations and exp(At)
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_2e8f3fde-52a4-42af-fa1d-8cd0213b4d74">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="944c197c-016a-0c53-8f01-08eac297793a"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/markov-matrices-fourier-series/index.html">
+        Markov Matrices; Fourier Series
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_944c197c-016a-0c53-8f01-08eac297793a">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="1d326649-6e08-30e5-7e06-9f94d70f88bb"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/exam-2-review/index.html">
+        Exam 2 Review
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_1d326649-6e08-30e5-7e06-9f94d70f88bb">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="afe66f8e-2c8a-f216-34f4-261b58ca7f09"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/exam-2/index.html">
+        Exam 2
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_afe66f8e-2c8a-f216-34f4-261b58ca7f09">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="34f596bc-2328-22be-5fba-75646f6970c5"
+        href="../../../pages/positive-definite-matrices-and-applications/index.html">
+        Unit III: Positive Definite Matrices and Applications
+      </a>
+    </span>
+    
+    <a class="course-nav-section-toggle"
+      href="#nav-container_mobile_34f596bc-2328-22be-5fba-75646f6970c5"
+      data-toggle="collapse"
+      aria-controls="nav-container_mobile_34f596bc-2328-22be-5fba-75646f6970c5"
+      aria-expanded=""
+      data-uuid="34f596bc-2328-22be-5fba-75646f6970c5">
+      <i class="material-icons md-18"></i>
+    </a>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_34f596bc-2328-22be-5fba-75646f6970c5">
+    <ul class="course-nav-child-nav m-auto">
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="83daa789-4c9b-a2c7-ac6c-afe27aef0e1c"
+        href="../../../pages/positive-definite-matrices-and-applications/symmetric-matrices-and-positive-definiteness/index.html">
+        Symmetric Matrices and Positive Definiteness
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_83daa789-4c9b-a2c7-ac6c-afe27aef0e1c">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="d2f78aa2-97e6-82cc-aea1-20a362c5d934"
+        href="../../../pages/positive-definite-matrices-and-applications/complex-matrices-fast-fourier-transform-fft/index.html">
+        Complex Matrices; Fast Fourier Transform (FFT)
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_d2f78aa2-97e6-82cc-aea1-20a362c5d934">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="c75e4546-e980-a4f3-4fba-9c17295b6b7b"
+        href="../../../pages/positive-definite-matrices-and-applications/positive-definite-matrices-and-minima/index.html">
+        Positive Definite Matrices and Minima
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_c75e4546-e980-a4f3-4fba-9c17295b6b7b">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="b358f2d2-8636-54b7-503b-47b34cc0953a"
+        href="../../../pages/positive-definite-matrices-and-applications/similar-matrices-and-jordan-form/index.html">
+        Similar Matrices and Jordan Form
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_b358f2d2-8636-54b7-503b-47b34cc0953a">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="30164ec6-9f85-8d02-0a13-78d8b9c366fe"
+        href="../../../pages/positive-definite-matrices-and-applications/singular-value-decomposition/index.html">
+        Singular Value Decomposition
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_30164ec6-9f85-8d02-0a13-78d8b9c366fe">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="9b3392d9-9beb-d110-47c3-6d07bc404bbc"
+        href="../../../pages/positive-definite-matrices-and-applications/linear-transformations-and-their-matrices/index.html">
+        Linear Transformations and their Matrices
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_9b3392d9-9beb-d110-47c3-6d07bc404bbc">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="7b90bea0-f6ce-9bfd-c750-ada6103da88c"
+        href="../../../pages/positive-definite-matrices-and-applications/change-of-basis-image-compression/index.html">
+        Change of Basis; Image Compression
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_7b90bea0-f6ce-9bfd-c750-ada6103da88c">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="ab040c17-91a2-dbfe-0cb9-75cf0190634f"
+        href="../../../pages/positive-definite-matrices-and-applications/left-and-right-inverses-pseudoinverse/index.html">
+        Left and Right Inverses; Pseudoinverse
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_ab040c17-91a2-dbfe-0cb9-75cf0190634f">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="832ceb87-f20f-cd83-981c-236a6c11e277"
+        href="../../../pages/positive-definite-matrices-and-applications/exam-3-review/index.html">
+        Exam 3 Review
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_832ceb87-f20f-cd83-981c-236a6c11e277">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="3921e359-ef46-ef69-930f-0c922b456485"
+        href="../../../pages/positive-definite-matrices-and-applications/exam-3/index.html">
+        Exam 3
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_mobile_3921e359-ef46-ef69-930f-0c922b456485">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="a59901ce-cbc5-cc41-0b70-2826dc2ae39b"
+        href="../../../pages/final-course-review/index.html">
+        Final Course Review
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_a59901ce-cbc5-cc41-0b70-2826dc2ae39b">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="7aadf934-9df8-d886-6462-55a5ab83e424"
+        href="../../../pages/final-exam/index.html">
+        Final Exam
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_7aadf934-9df8-d886-6462-55a5ab83e424">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="8b8f9078-a29f-76c6-feba-bd9497648433"
+        href="../../../pages/related-resources/index.html">
+        Related Resources
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_8b8f9078-a29f-76c6-feba-bd9497648433">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="754d6be4-ca3c-378b-6c8b-2e4a955ffe64"
+        href="../../../pages/resource-index/index.html">
+        Resource Index
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_mobile_754d6be4-ca3c-378b-6c8b-2e4a955ffe64">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+  </ul>
+</nav>
+
+</div>
+
+    <div
+  id="course-info-drawer"
+  class="bg-faded pt-3 bg-light navbar-offcanvas navbar-offcanvas-right medium-and-below-only drawer"
+>
+  <div class="col-12">
+    <button
+      class="btn close-mobile-course-info"
+      type="button"
+      aria-label="Close Course Info"
+      onclick="$('#mobile-course-info-toggle').click();"
+      >
+      <img
+        class=""
+        src="../../../static_shared/images/close_small.svg"
+        alt=""
+        width="12px"
+      />
+    </button>
+  </div>
+    
+
+<div class="course-info">
+  <div class="course-detail-title bg-light-gray">
+    <div class="d-flex">
+      <h2 class="font-black py-1 pl-3 mt-2 m-0">
+        Course Info
+      </h2>
+      
+      <button
+        type="button"
+        class="btn close-course-info large-and-above-only"
+        id=""
+        aria-label="Close Course Info"
+        >
+        <img
+          class="toggle navbar-toggle offcanvas-toggle"
+          src="../../../static_shared/images/close_small.svg"
+          alt=""
+          width="12px"
+        />
+      </button>
+      
+    </div>
+  </div>
+  <div class="position-relative px-3 mt-4">
+    <div class="row">
+      <div class="col-12 ">
+        
+        <div class="">
+          
+          <h5 class="panel-course-info-title ">
+            Instructor
+            </h5>
+          <div class="course-info-content panel-course-info-text">
+            
+
+
+
+
+<ul class="list-unstyled m-0">
+  
+  
+  
+    
+  
+  <li>
+    <a class="course-info-instructor strip-link-offline"  href="https://ocw.mit.edu/search?q=Prof.&#43;Gilbert&#43;Strang">Prof. Gilbert Strang</a>
+  </li>
+  
+</ul>
+
+
+          </div>
+        </div>
+         
+        <div class="mt-4">
+          
+          <h5 class="panel-course-info-title ">
+            Departments
+          </h5>
+          <div class="course-info-content panel-course-info-text">
+            
+
+
+
+
+<ul class="list-unstyled m-0">
+  
+  
+  
+    
+  
+  <li>
+    <a class="course-info-department strip-link-offline"  href="https://ocw.mit.edu/search?d=Mathematics">Mathematics</a>
+  </li>
+  
+</ul>
+
+
+          </div>
+        </div>
+         
+        
+        <div class="mt-4">
+          <h5 class="panel-course-info-title ">
+            As Taught In
+          </h5>
+          <div class="course-info-content panel-course-info-text">
+            Fall
+            
+              2011
+            
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h5 class="panel-course-info-title ">
+            Level
+          </h5>
+          <div class="course-info-content panel-course-info-text">
+            
+              
+                <a class=" strip-link-offline"  href="https://ocw.mit.edu/search?l=Undergraduate">Undergraduate</a><br />
+              
+            
+          </div>
+        </div>
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+  
+
+
+
+
+
+<div class=" mt-4">
+  <h5 class="panel-course-info-title ">
+    Topics
+  </h5>
+  <ul class="list-unstyled pb-2 m-0 panel-course-info-text">
+      <li>
+
+
+
+
+
+
+
+<div class="position-relative pt-1 pb-1 pl-4 ml-n2 ">
+  
+  <a class="topic-toggle"
+    href="#subtopic-container_mobile_0"
+    data-toggle="collapse"
+    aria-controls="subtopic-container_mobile_0"
+    aria-expanded="true">
+    <i aria-hidden="true" class="material-icons"></i>
+  </a>
+  
+  <span class="topic-text-wrapper">
+    
+    <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Mathematics">Mathematics</a></span>
+</div>
+
+<div class="pl-4 subtopic-container collapse show" id="subtopic-container_mobile_0">
+  
+  
+  
+  <div class="position-relative pt-1 pb-1  pl-2 ">
+    
+    <span class="topic-text-wrapper">
+      
+      <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Linear&#43;Algebra">Linear Algebra</a></span>
+  </div>
+  <div class="collapse show" id="speciality-container_mobile_0_0">
+    
+  </div>
+  
+  
+</div>
+
+</li>
+      
+  </ul>
+</div>
+
+  
+
+
+
+<div class="">
+  <h5 class="course-detail-title panel-course-info-title mt-3">
+    Learning Resource Types
+  </h5>
+  <div>
+    <div class="row d-inline m-0">
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">theaters</i>
+    <span>Lecture Videos</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">grading</i>
+    <span>Exams with Solutions</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">notes</i>
+    <span>Lecture Notes</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">theaters</i>
+    <span>Recitation Videos</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">assignment_turned_in</i>
+    <span>Problem Sets with Solutions</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">laptop_windows</i>
+    <span>Simulations</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">groups</i>
+    <span>Course Introduction</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1"><span class="material-icons-round">
+        co_present
+      </span></i>
+    <span>Instructor Insights</span>
+  </div>
+</div>
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+<hr>
+<div class="pb-3">
+  <a class="download-course-link-button btn btn-outline-primary btn-link link-button text-decoration-none px-4 py-2"
+    role="button"
+    href="../../download/index.html">
+    <div class="text-center w-100">Browse Resources</div>
+  </a>
+</div>
+
+</div>
+
+    
+
+
+
+
+
+<div id="mobile-header" class="position-relative bg-black medium-and-below-only">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black d-flex">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="material-icons display-4 text-white align-bottom">menu</i>
+    </button>
+    <div class="mx-auto">
+      <a href="https://ocw.mit.edu/">
+        <img width="250" src="../../../static_shared/images/ocw_logo_white_v2.svg" alt="MIT OpenCourseWare"/>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto pl-2 pt-2">
+        <li class="nav-item"></li>
+        <li class="nav-item">
+          <a class="nav-link"  href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&amp;utm_medium=homepage_banner&amp;utm_campaign=nextgen_home">Give Now</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="https://ocw.mit.edu/about">About OCW</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  target="_blank"  href="https://mitocw.zendesk.com/hc/en-us">Help &amp; Faqs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="https://ocw.mit.edu/contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+<div id="desktop-header">
+  <div class="contents">
+    <div class="left">
+      <div class="ocw-logo mr-6">
+        <a href="https://ocw.mit.edu/">
+          <img src="../../../static_shared/images/ocw_logo_white_v2.svg" alt="MIT OpenCourseWare" />
+        </a>
+      </div>
+    </div>
+    <div class="right">
+      
+      <a class="give-button-header font-weight-bold py-2 px-3"  href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&amp;utm_medium=homepage_banner&amp;utm_campaign=nextgen_home">give now</a>
+      <a class="text-white text-decoration-none font-weight-bold pl-5 pr-3 py-2"  href="https://ocw.mit.edu/about">about ocw</a>
+      <a class="text-white text-decoration-none font-weight-bold px-3 py-2"  target="_blank"  href="https://mitocw.zendesk.com/hc/en-us">help &amp; faqs</a>
+      <a class="text-white text-decoration-none font-weight-bold px-3 py-2"  href="https://ocw.mit.edu/contact">contact us</a>
+    </div>
+  </div>
+</div>
+
+    
+    
+
+<div id="course-banner" class="p-0">
+  <div class="max-content-width course-banner-content m-auto py-3">
+    
+    <span class="course-number-term-detail">18.06SC | Fall 2011 | Undergraduate</span>
+    <br>
+    <h1>
+      <a
+        class="text-capitalize m-0 text-white"
+        href="../../../index.html"
+      >Linear Algebra</a>
+    </h1>
+  </div>
+</div>
+
+
+    <div id="course-main-content">
+      <div class="row">
+        <div class="col-12 course-home-grid">
+          <div class="medium-and-below-only">
+            <div class="d-flex align-items-center mb-3">
+              <div class="col-6 px-0">
+                <div>
+  <button
+    id="mobile-course-nav-toggle"
+    class="mobile-course-nav-toggle-btn d-inline-flex align-items-center offcanvas-toggle"
+    data-toggle="offcanvas"
+    data-target="#mobile-course-nav"
+  >
+    <img src="../../../static_shared/images/expand.svg" alt=""/>
+    <span class="pl-1">Menu</span>
+  </button>
+</div>
+
+              </div>
+              <div class="col-6 px-0">
+                
+
+
+  <button 
+    class="btn btn-link float-right mobile-course-info-toggle-btn toggle navbar-toggle offcanvas-toggle"
+    id="mobile-course-info-toggle"
+    data-toggle="offcanvas" 
+    data-target="#course-info-drawer">
+    More Info
+  </button>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row course-cards">
+        <div class="col-2 course-home-grid large-and-above-only">  
+          <div class="card">
+  <div class="card-body pr-2">
+    
+
+<nav class="course-nav">
+  <ul class="w-100 m-auto list-unstyled">
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="d8efae91-2fd6-02f9-ac2e-2cb9d064d22e"
+        href="../../../pages/syllabus/index.html">
+        Syllabus
+      </a>
+    </span>
+    
+    <a class="course-nav-section-toggle"
+      href="#nav-container_desktop_d8efae91-2fd6-02f9-ac2e-2cb9d064d22e"
+      data-toggle="collapse"
+      aria-controls="nav-container_desktop_d8efae91-2fd6-02f9-ac2e-2cb9d064d22e"
+      aria-expanded=""
+      data-uuid="d8efae91-2fd6-02f9-ac2e-2cb9d064d22e">
+      <i class="material-icons md-18"></i>
+    </a>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_d8efae91-2fd6-02f9-ac2e-2cb9d064d22e">
+    <ul class="course-nav-child-nav m-auto">
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="451c7be3-3c2f-f17f-4881-adfa981fc5e7"
+        href="../../../pages/syllabus/meet-the-tas/index.html">
+        Meet the TAs
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_451c7be3-3c2f-f17f-4881-adfa981fc5e7">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="df093ac7-c42d-8cf3-3aeb-2ba906d4fedc"
+        href="../../../pages/instructor-insights/index.html">
+        Instructor Insights
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_df093ac7-c42d-8cf3-3aeb-2ba906d4fedc">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="34303ce1-9b45-7241-22d2-bd33d64df688"
+        href="../../../pages/ax-b-and-the-four-subspaces/index.html">
+        Unit I: Ax = b and the Four Subspaces
+      </a>
+    </span>
+    
+    <a class="course-nav-section-toggle"
+      href="#nav-container_desktop_34303ce1-9b45-7241-22d2-bd33d64df688"
+      data-toggle="collapse"
+      aria-controls="nav-container_desktop_34303ce1-9b45-7241-22d2-bd33d64df688"
+      aria-expanded=""
+      data-uuid="34303ce1-9b45-7241-22d2-bd33d64df688">
+      <i class="material-icons md-18"></i>
+    </a>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_34303ce1-9b45-7241-22d2-bd33d64df688">
+    <ul class="course-nav-child-nav m-auto">
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="ee886403-2dd8-29b4-83a2-ae7dfeb2da55"
+        href="../../../pages/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/index.html">
+        The Geometry of Linear Equations
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_ee886403-2dd8-29b4-83a2-ae7dfeb2da55">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="ff755187-ef48-26e2-abaf-b9c76026cfdb"
+        href="../../../pages/ax-b-and-the-four-subspaces/an-overview-of-key-ideas/index.html">
+        An Overview of Key Ideas
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_ff755187-ef48-26e2-abaf-b9c76026cfdb">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="060c0abf-f399-49c6-f5be-ff6291e747a5"
+        href="../../../pages/ax-b-and-the-four-subspaces/elimination-with-matrices/index.html">
+        Elimination with Matrices
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_060c0abf-f399-49c6-f5be-ff6291e747a5">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="c6606cdd-9775-d774-f694-cdc5e6c30381"
+        href="../../../pages/ax-b-and-the-four-subspaces/multiplication-and-inverse-matrices/index.html">
+        Multiplication and Inverse Matrices
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_c6606cdd-9775-d774-f694-cdc5e6c30381">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="2817c81b-0904-0d03-c0c6-34f006d5a20d"
+        href="../../../pages/ax-b-and-the-four-subspaces/factorization-into-a-lu/index.html">
+        Factorization into A = LU
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_2817c81b-0904-0d03-c0c6-34f006d5a20d">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="78c64d70-411e-e481-e2bb-d7a7244a0bf3"
+        href="../../../pages/ax-b-and-the-four-subspaces/transposes-permutations-vector-spaces/index.html">
+        Transposes, Permutations, Vector Spaces
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_78c64d70-411e-e481-e2bb-d7a7244a0bf3">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="bb16f055-bb0c-2fa6-b00b-24a82c138877"
+        href="../../../pages/ax-b-and-the-four-subspaces/column-space-and-nullspace/index.html">
+        Column Space and Nullspace
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_bb16f055-bb0c-2fa6-b00b-24a82c138877">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="0689e9a0-f66b-a169-b57a-71e60e59cfa2"
+        href="../../../pages/ax-b-and-the-four-subspaces/solving-ax-0-pivot-variables-special-solutions/index.html">
+        Solving Ax = 0: Pivot Variables, Special Solutions
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_0689e9a0-f66b-a169-b57a-71e60e59cfa2">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="5fa61a8a-cb4b-ace2-b291-fa9364395075"
+        href="../../../pages/ax-b-and-the-four-subspaces/solving-ax-b-row-reduced-form-r/index.html">
+        Solving Ax = b: Row Reduced Form R
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_5fa61a8a-cb4b-ace2-b291-fa9364395075">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="f4986e82-13a7-cf7c-ebaa-aba5fa7882f0"
+        href="../../../pages/ax-b-and-the-four-subspaces/independence-basis-and-dimension/index.html">
+        Independence, Basis and Dimension
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_f4986e82-13a7-cf7c-ebaa-aba5fa7882f0">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="0050fe07-f47a-b375-ac0f-3abe492f8ae1"
+        href="../../../pages/ax-b-and-the-four-subspaces/the-four-fundamental-subspaces/index.html">
+        The Four Fundamental Subspaces
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_0050fe07-f47a-b375-ac0f-3abe492f8ae1">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="edaea805-267a-c1a3-9a73-e8d7f348edba"
+        href="../../../pages/ax-b-and-the-four-subspaces/matrix-spaces-rank-1-small-world-graphs/index.html">
+        Matrix Spaces; Rank 1; Small World Graphs
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_edaea805-267a-c1a3-9a73-e8d7f348edba">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="8be90057-9381-41d7-712d-45f0e42d1cfc"
+        href="../../../pages/ax-b-and-the-four-subspaces/graphs-networks-incidence-matrices/index.html">
+        Graphs, Networks, Incidence Matrices
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_8be90057-9381-41d7-712d-45f0e42d1cfc">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="e451ffac-351d-687a-8b19-3c0159c4b2a7"
+        href="../../../pages/ax-b-and-the-four-subspaces/exam-1-review/index.html">
+        Exam 1 Review
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_e451ffac-351d-687a-8b19-3c0159c4b2a7">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="f5c6f676-32a0-d7e7-bcdf-bc97569b662f"
+        href="../../../pages/ax-b-and-the-four-subspaces/exam-1/index.html">
+        Exam 1
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_f5c6f676-32a0-d7e7-bcdf-bc97569b662f">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="cf73d07a-c972-ab3c-450a-0f10d0be0664"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/index.html">
+        Unit II: Least Squares, Determinants and Eigenvalues
+      </a>
+    </span>
+    
+    <a class="course-nav-section-toggle"
+      href="#nav-container_desktop_cf73d07a-c972-ab3c-450a-0f10d0be0664"
+      data-toggle="collapse"
+      aria-controls="nav-container_desktop_cf73d07a-c972-ab3c-450a-0f10d0be0664"
+      aria-expanded=""
+      data-uuid="cf73d07a-c972-ab3c-450a-0f10d0be0664">
+      <i class="material-icons md-18"></i>
+    </a>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_cf73d07a-c972-ab3c-450a-0f10d0be0664">
+    <ul class="course-nav-child-nav m-auto">
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="fd8c8a4d-fa1b-e88c-ec23-abef203fca2a"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/orthogonal-vectors-and-subspaces/index.html">
+        Orthogonal Vectors and Subspaces
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_fd8c8a4d-fa1b-e88c-ec23-abef203fca2a">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="1ff24ba8-67b5-ac72-fcad-41dcf3e79e10"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/projections-onto-subspaces/index.html">
+        Projections onto Subspaces
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_1ff24ba8-67b5-ac72-fcad-41dcf3e79e10">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="5f12aef9-0a3e-a658-e59c-e968a672c0c2"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/projection-matrices-and-least-squares/index.html">
+        Projection Matrices and Least Squares
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_5f12aef9-0a3e-a658-e59c-e968a672c0c2">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="2376f3e0-0c4d-e0f6-6346-53041d685aed"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/orthogonal-matrices-and-gram-schmidt/index.html">
+        Orthogonal Matrices and Gram-Schmidt
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_2376f3e0-0c4d-e0f6-6346-53041d685aed">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="db45d276-fad6-eb49-f42e-287aaa9e22b6"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/properties-of-determinants/index.html">
+        Properties of Determinants
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_db45d276-fad6-eb49-f42e-287aaa9e22b6">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="172571ec-1468-8c38-e3a6-02925af8e7d9"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/determinant-formulas-and-cofactors/index.html">
+        Determinant Formulas and Cofactors
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_172571ec-1468-8c38-e3a6-02925af8e7d9">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="86cb2711-cb7c-4313-42de-c1540dfe8ce2"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/cramers-rule-inverse-matrix-and-volume/index.html">
+        Cramer&#39;s Rule, Inverse Matrix and Volume
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_86cb2711-cb7c-4313-42de-c1540dfe8ce2">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="3d8f60a8-0fef-5e0f-bd7a-13ad5eb457f7"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/eigenvalues-and-eigenvectors/index.html">
+        Eigenvalues and Eigenvectors
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_3d8f60a8-0fef-5e0f-bd7a-13ad5eb457f7">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="dcb9a660-b4e1-e1d4-837b-ad83344a716e"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/diagonalization-and-powers-of-a/index.html">
+        Diagonalization and Powers of A
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_dcb9a660-b4e1-e1d4-837b-ad83344a716e">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="2e8f3fde-52a4-42af-fa1d-8cd0213b4d74"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/differential-equations-and-exp-at/index.html">
+        Differential Equations and exp(At)
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_2e8f3fde-52a4-42af-fa1d-8cd0213b4d74">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="944c197c-016a-0c53-8f01-08eac297793a"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/markov-matrices-fourier-series/index.html">
+        Markov Matrices; Fourier Series
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_944c197c-016a-0c53-8f01-08eac297793a">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="1d326649-6e08-30e5-7e06-9f94d70f88bb"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/exam-2-review/index.html">
+        Exam 2 Review
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_1d326649-6e08-30e5-7e06-9f94d70f88bb">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="afe66f8e-2c8a-f216-34f4-261b58ca7f09"
+        href="../../../pages/least-squares-determinants-and-eigenvalues/exam-2/index.html">
+        Exam 2
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_afe66f8e-2c8a-f216-34f4-261b58ca7f09">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="34f596bc-2328-22be-5fba-75646f6970c5"
+        href="../../../pages/positive-definite-matrices-and-applications/index.html">
+        Unit III: Positive Definite Matrices and Applications
+      </a>
+    </span>
+    
+    <a class="course-nav-section-toggle"
+      href="#nav-container_desktop_34f596bc-2328-22be-5fba-75646f6970c5"
+      data-toggle="collapse"
+      aria-controls="nav-container_desktop_34f596bc-2328-22be-5fba-75646f6970c5"
+      aria-expanded=""
+      data-uuid="34f596bc-2328-22be-5fba-75646f6970c5">
+      <i class="material-icons md-18"></i>
+    </a>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_34f596bc-2328-22be-5fba-75646f6970c5">
+    <ul class="course-nav-child-nav m-auto">
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="83daa789-4c9b-a2c7-ac6c-afe27aef0e1c"
+        href="../../../pages/positive-definite-matrices-and-applications/symmetric-matrices-and-positive-definiteness/index.html">
+        Symmetric Matrices and Positive Definiteness
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_83daa789-4c9b-a2c7-ac6c-afe27aef0e1c">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="d2f78aa2-97e6-82cc-aea1-20a362c5d934"
+        href="../../../pages/positive-definite-matrices-and-applications/complex-matrices-fast-fourier-transform-fft/index.html">
+        Complex Matrices; Fast Fourier Transform (FFT)
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_d2f78aa2-97e6-82cc-aea1-20a362c5d934">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="c75e4546-e980-a4f3-4fba-9c17295b6b7b"
+        href="../../../pages/positive-definite-matrices-and-applications/positive-definite-matrices-and-minima/index.html">
+        Positive Definite Matrices and Minima
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_c75e4546-e980-a4f3-4fba-9c17295b6b7b">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="b358f2d2-8636-54b7-503b-47b34cc0953a"
+        href="../../../pages/positive-definite-matrices-and-applications/similar-matrices-and-jordan-form/index.html">
+        Similar Matrices and Jordan Form
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_b358f2d2-8636-54b7-503b-47b34cc0953a">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="30164ec6-9f85-8d02-0a13-78d8b9c366fe"
+        href="../../../pages/positive-definite-matrices-and-applications/singular-value-decomposition/index.html">
+        Singular Value Decomposition
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_30164ec6-9f85-8d02-0a13-78d8b9c366fe">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="9b3392d9-9beb-d110-47c3-6d07bc404bbc"
+        href="../../../pages/positive-definite-matrices-and-applications/linear-transformations-and-their-matrices/index.html">
+        Linear Transformations and their Matrices
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_9b3392d9-9beb-d110-47c3-6d07bc404bbc">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="7b90bea0-f6ce-9bfd-c750-ada6103da88c"
+        href="../../../pages/positive-definite-matrices-and-applications/change-of-basis-image-compression/index.html">
+        Change of Basis; Image Compression
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_7b90bea0-f6ce-9bfd-c750-ada6103da88c">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="ab040c17-91a2-dbfe-0cb9-75cf0190634f"
+        href="../../../pages/positive-definite-matrices-and-applications/left-and-right-inverses-pseudoinverse/index.html">
+        Left and Right Inverses; Pseudoinverse
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_ab040c17-91a2-dbfe-0cb9-75cf0190634f">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="832ceb87-f20f-cd83-981c-236a6c11e277"
+        href="../../../pages/positive-definite-matrices-and-applications/exam-3-review/index.html">
+        Exam 3 Review
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_832ceb87-f20f-cd83-981c-236a6c11e277">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+        
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="3921e359-ef46-ef69-930f-0c922b456485"
+        href="../../../pages/positive-definite-matrices-and-applications/exam-3/index.html">
+        Exam 3
+      </a>
+    </span>
+    
+  </div>
+  
+  <div class="collapse"
+    id="nav-container_desktop_3921e359-ef46-ef69-930f-0c922b456485">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="a59901ce-cbc5-cc41-0b70-2826dc2ae39b"
+        href="../../../pages/final-course-review/index.html">
+        Final Course Review
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_a59901ce-cbc5-cc41-0b70-2826dc2ae39b">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="7aadf934-9df8-d886-6462-55a5ab83e424"
+        href="../../../pages/final-exam/index.html">
+        Final Exam
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_7aadf934-9df8-d886-6462-55a5ab83e424">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="8b8f9078-a29f-76c6-feba-bd9497648433"
+        href="../../../pages/related-resources/index.html">
+        Related Resources
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_8b8f9078-a29f-76c6-feba-bd9497648433">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+      
+
+
+
+
+
+<li class="course-nav-list-item">
+  <div class="course-nav-parent d-flex flex-direction-row align-items-center justify-content-between">
+    <span class="course-nav-text-wrapper">
+      <a class="text-dark nav-link"
+        data-uuid="754d6be4-ca3c-378b-6c8b-2e4a955ffe64"
+        href="../../../pages/resource-index/index.html">
+        Resource Index
+      </a>
+    </span>
+    
+  </div>
+  
+  <span class="medium-and-below-only"><hr/></span>
+  
+  <div class="collapse"
+    id="nav-container_desktop_754d6be4-ca3c-378b-6c8b-2e4a955ffe64">
+    <ul class="course-nav-child-nav m-auto">
+      
+    </ul>
+  </div>
+</li>
+
+    
+  </ul>
+</nav>
+
+  </div>
+</div>
+
+        </div>
+        <div class="col-sm-12 col-lg-10 course-home-grid">
+          <div class="">
+            <div class="card">
+              <div class="d-flex">
+                <div class="col-12 p-0" id="main-course-section">
+                  <div class="card-body">
+                    
+                      <button 
+                        type="button" 
+                        class="btn show-course-info large-and-above-only"
+                        id="show-desktop-course-drawer"
+                        aria-label="Show Course Info"
+                        >
+                        <img src="../../../static_shared/images/left_arrow.svg" alt=""/>
+                      </button>
+                     
+                    
+<div class="mb-2">
+  <header>
+  <div class="course-section-title-container ">
+    <div id="course-title">
+      
+      <div class="course-content-parent-title">Unit II: Least Squares, Determinants and Eigenvalues</div>
+      
+      <h2 class="pb-1 mb-1">Projections onto Subspaces</h2>
+    </div>
+  </div>
+</header>
+
+  <article class="content pt-3 mt-1">
+    <main id="course-content-section"><p>« <a href="../../../pages/least-squares-determinants-and-eigenvalues/orthogonal-vectors-and-subspaces/index.html">Previous</a> | <a href="../../../pages/least-squares-determinants-and-eigenvalues/projection-matrices-and-least-squares/index.html">Next</a> »</p>
+
+    <h3 id="session-overview">Session Overview</h3>
+
+<p><table>
+<tbody>
+<tr>
+<td>
+
+<img src="../../static_resources/f3a1135f0ea96db373ef141535eee996_2_2.jpg" alt="Figure excerpted from &#39;Introduction to Linear Algebra&#39; by G.S. Strang" />
+</td>
+<td>
+
+We often want to find the line (or plane, or hyperplane) that best fits our data. This amounts to finding the best possible approximation to some unsolvable system of linear equations Ax = b. The algebra of finding these best fit solutions begins with the projection of a vector onto a subspace
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+    <h3 id="session-activities">Session Activities</h3>
+
+
+    <h4 id="lecture-video-and-summary">Lecture Video and Summary</h4>
+
+<ul>
+<li>Watch the video lecture <a href="../../../resources/lecture-15-projections-onto-subspaces/index.html">Lecture 15: Projections onto Subspaces</a></li>
+<li>Read the accompanying <a href="../../../resources/mit18_06scf11_ses2-2sum/index.html">lecture summary (PDF)</a></li>
+<li><a href="../../../resources/y_ac6kiq1t0-1/index.html">Lecture video transcript (PDF)</a></li>
+</ul>
+
+    <h4 id="suggested-reading">Suggested Reading</h4>
+
+<ul>
+<li>Read Section 4.2 in the 4<sup>th</sup> or 5<sup>th</sup> edition.</li>
+</ul>
+
+    <h4 id="problem-solving-video">Problem Solving Video</h4>
+
+<ul>
+<li>Watch the recitation video on <a href="../../../resources/problem-solving-projection-onto-subspaces/index.html">Problem Solving: Projection onto Subspaces</a></li>
+<li><a href="./resolveuid/698542ebda50e87f5918a2d4e49768c4/index.html">Recitation video transcript (PDF)</a></li>
+</ul>
+
+    <h3 id="check-yourself">Check Yourself</h3>
+
+
+    <h4 id="problems-and-solutions">Problems and Solutions</h4>
+
+<p>Work the problems on your own and check your answers when you&rsquo;re done.</p>
+<ul>
+<li><a href="../../../resources/mit18_06scf11_ses2-2prob/index.html">Problems (PDF)</a></li>
+<li><a href="../../../resources/mit18_06scf11_ses2-2sol/index.html">Solutions (PDF)</a></li>
+</ul>
+<p>« <a href="../../../pages/least-squares-determinants-and-eigenvalues/orthogonal-vectors-and-subspaces/index.html">Previous</a> | <a href="../../../pages/least-squares-determinants-and-eigenvalues/projection-matrices-and-least-squares/index.html">Next</a> »</p>
+</main>
+  </article>
+</div>
+
+
+                  </div>
+                </div>
+                
+                <div class="p-0 large-and-above-only d-none" id="desktop-course-drawer">
+                  
+                    <div class="border-left">
+  <div>
+      
+
+<div class="course-info">
+  <div class="course-detail-title bg-light-gray">
+    <div class="d-flex">
+      <h2 class="font-black py-1 pl-3 mt-2 m-0">
+        Course Info
+      </h2>
+      
+      <button
+        type="button"
+        class="btn close-course-info large-and-above-only"
+        id="hide-desktop-course-drawer"
+        aria-label="Close Course Info"
+        >
+        <img
+          class="toggle navbar-toggle offcanvas-toggle"
+          src="../../../static_shared/images/close_small.svg"
+          alt=""
+          width="12px"
+        />
+      </button>
+      
+    </div>
+  </div>
+  <div class="position-relative px-3 mt-4">
+    <div class="row">
+      <div class="col-12 ">
+        
+        <div class="">
+          
+          <h5 class="panel-course-info-title ">
+            Instructor
+            </h5>
+          <div class="course-info-content panel-course-info-text">
+            
+
+
+
+
+<ul class="list-unstyled m-0">
+  
+  
+  
+    
+  
+  <li>
+    <a class="course-info-instructor strip-link-offline"  href="https://ocw.mit.edu/search?q=Prof.&#43;Gilbert&#43;Strang">Prof. Gilbert Strang</a>
+  </li>
+  
+</ul>
+
+
+          </div>
+        </div>
+         
+        <div class="mt-4">
+          
+          <h5 class="panel-course-info-title ">
+            Departments
+          </h5>
+          <div class="course-info-content panel-course-info-text">
+            
+
+
+
+
+<ul class="list-unstyled m-0">
+  
+  
+  
+    
+  
+  <li>
+    <a class="course-info-department strip-link-offline"  href="https://ocw.mit.edu/search?d=Mathematics">Mathematics</a>
+  </li>
+  
+</ul>
+
+
+          </div>
+        </div>
+         
+        
+        <div class="mt-4">
+          <h5 class="panel-course-info-title ">
+            As Taught In
+          </h5>
+          <div class="course-info-content panel-course-info-text">
+            Fall
+            
+              2011
+            
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h5 class="panel-course-info-title ">
+            Level
+          </h5>
+          <div class="course-info-content panel-course-info-text">
+            
+              
+                <a class=" strip-link-offline"  href="https://ocw.mit.edu/search?l=Undergraduate">Undergraduate</a><br />
+              
+            
+          </div>
+        </div>
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+    <div class="px-3">
+      
+
+
+
+
+
+<div class=" mt-4">
+  <h5 class="panel-course-info-title ">
+    Topics
+  </h5>
+  <ul class="list-unstyled pb-2 m-0 panel-course-info-text">
+      <li>
+
+
+
+
+
+
+
+<div class="position-relative pt-1 pb-1 pl-4 ml-n2 ">
+  
+  <a class="topic-toggle"
+    href="#subtopic-container_desktop_0"
+    data-toggle="collapse"
+    aria-controls="subtopic-container_desktop_0"
+    aria-expanded="true">
+    <i aria-hidden="true" class="material-icons"></i>
+  </a>
+  
+  <span class="topic-text-wrapper">
+    
+    <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Mathematics">Mathematics</a></span>
+</div>
+
+<div class="pl-4 subtopic-container collapse show" id="subtopic-container_desktop_0">
+  
+  
+  
+  <div class="position-relative pt-1 pb-1  pl-2 ">
+    
+    <span class="topic-text-wrapper">
+      
+      <a class="text-black course-info-topic strip-link-offline"  href="https://ocw.mit.edu/search?t=Linear&#43;Algebra">Linear Algebra</a></span>
+  </div>
+  <div class="collapse show" id="speciality-container_desktop_0_0">
+    
+  </div>
+  
+  
+</div>
+
+</li>
+      
+  </ul>
+</div>
+
+      
+
+
+
+<div class="">
+  <h5 class="course-detail-title panel-course-info-title mt-3">
+    Learning Resource Types
+  </h5>
+  <div>
+    <div class="row d-inline m-0">
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">theaters</i>
+    <span>Lecture Videos</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">grading</i>
+    <span>Exams with Solutions</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">notes</i>
+    <span>Lecture Notes</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">theaters</i>
+    <span>Recitation Videos</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">assignment_turned_in</i>
+    <span>Problem Sets with Solutions</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">laptop_windows</i>
+    <span>Simulations</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1">groups</i>
+    <span>Course Introduction</span>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="panel-course-info-text my-2">
+          
+
+<div class="">
+  <div class="d-flex">
+    <i aria-hidden="true" class="material-icons pr-1"><span class="material-icons-round">
+        co_present
+      </span></i>
+    <span>Instructor Insights</span>
+  </div>
+</div>
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+      
+
+
+<hr>
+<div class="pb-3">
+  <a class="download-course-link-button btn btn-outline-primary btn-link link-button text-decoration-none px-4 py-2"
+    role="button"
+    href="../../download/index.html">
+    <div class="text-center w-100">Browse Resources</div>
+  </a>
+</div>
+
+    </div>
+  </div>
+</div>
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+<div class="footer">
+    <div class="footer-main-content mx-auto">
+    	<div class="col-12">
+        	<div class="row align-items-center">
+            	<div class="col-12 col-md-9">
+					<div class="d-md-flex align-items-center">
+						<a href="https://openlearning.mit.edu/" target="_blank">
+							<img width="150px" src="../../../static_shared/images/mit-ol.png" alt="MIT Open Learning" />
+						</a>
+						<div class="ml-md-3 mt-4 mt-md-0">
+							<div class="font-weight-bold">
+								Over 2,500 courses & materials
+							</div>
+							<div>
+								Freely sharing knowledge with learners and educators around the world. <a href='https://ocw.mit.edu/about'>Learn more</a>
+							</div>
+						</div>
+					</div>
+            	</div>
+				<div class="col-12 col-md-3 d-none d-md-block">
+					<div class="d-flex justify-content-md-end">
+	<div>
+		<a href="https://www.facebook.com/MITOCW" target="_blank">
+			<img class="footer-social-icon ml-0" src="../../../static_shared/images/Facebook.png" alt="facebook"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.instagram.com/mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../../static_shared/images/Instagram.png" alt="instagram"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://twitter.com/MITOCW" target="_blank">
+			<img class="footer-social-icon" src="../../../static_shared/images/Twitter.png" alt="twitter"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.youtube.com/mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../../static_shared/images/Youtube.png" alt="youtube"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.linkedin.com/company/mit-opencourseware/" target="_blank">
+			<img class="footer-social-icon" src="../../../static_shared/images/LinkedIn.png" alt="LinkedIn"/>
+		</a>
+	</div>
+</div>
+				</div>
+        	</div>
+    	</div>
+		
+		<div class="col-12 mt-3 mt-md-4">
+			<div class="row align-items-center">
+            	<div class="col-12 col-md-8">
+					<div class="d-lg-flex">
+						<div class="pr-md-2 mt-2 mt-lg-0 d-none d-lg-block">
+							© 2001–2023 Massachusetts Institute of Technology
+						</div>
+						<div class="px-md-2 mt-2 mt-lg-0">
+							<a href="https://accessibility.mit.edu" target="_blank">Accessibility</a>
+						</div>
+						<div class="px-md-2 mt-2 mt-lg-0">
+							<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons License</a>
+						</div>
+						<div class="px-md-2 mt-2 mt-lg-0">
+							<a class="hide-offline" href='https://ocw.mit.edu/pages/privacy-and-terms-of-use/'>Terms and Conditions</a>
+						</div>
+					</div>
+            	</div>
+				<div class="col-12 col-md-4">
+					<div class="d-flex justify-content-md-end mt-4 mt-lg-0">
+						<div>
+						Proud member of: 
+						<a href="https://www.oeglobal.org/" target="_blank">
+							<img class="oeg-logo" src="../../../static_shared/images/oeg_logo.png" alt="Open Education Global"/>
+						</a>
+						</div>
+					</div>
+				</div>
+        	</div>
+		</div>
+
+		<div class="col-12 mt-5 d-md-none">
+			<div class="d-flex justify-content-md-end">
+	<div>
+		<a href="https://www.facebook.com/MITOCW" target="_blank">
+			<img class="footer-social-icon ml-0" src="../../../static_shared/images/Facebook.png" alt="facebook"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.instagram.com/mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../../static_shared/images/Instagram.png" alt="instagram"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://twitter.com/MITOCW" target="_blank">
+			<img class="footer-social-icon" src="../../../static_shared/images/Twitter.png" alt="twitter"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.youtube.com/mitocw" target="_blank">
+			<img class="footer-social-icon" src="../../../static_shared/images/Youtube.png" alt="youtube"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.linkedin.com/company/mit-opencourseware/" target="_blank">
+			<img class="footer-social-icon" src="../../../static_shared/images/LinkedIn.png" alt="LinkedIn"/>
+		</a>
+	</div>
+</div>
+		</div>
+
+		<div class="col-12 mt-4 pl-3 pl-md-4 d-lg-none">
+			© 2001–2023 Massachusetts Institute of Technology
+		</div>
+	</div>
+</div>
+
+  </div>
+  <script>
+function hideLinksOffline(){
+  if (!window.navigator.onLine) {
+    const stripLinks = document.querySelectorAll(".strip-link-offline")
+    const hideOffline = document.querySelectorAll(".hide-offline")
+    const showOffline = document.querySelectorAll(".show-offline")
+    Array.prototype.forEach.call(stripLinks, function(link) {
+      link.outerHTML = link.innerHTML
+    })
+    Array.prototype.forEach.call(hideOffline, function(link) {
+      link.classList.add("d-none")
+    })
+    Array.prototype.forEach.call(showOffline, function(link) {
+      link.classList.remove("d-none")
+    })
+  }
+}
+hideLinksOffline()
+</script>
+
+  <script>
+    
+    
+    
+    
+    
+    
+    'use strict';
+    const COURSE_DRAWER_LOCAL_STORAGE_KEY = "desktopCourseDrawerState"
+    const COURSE_DRAWER_OPENED = "opened"
+    const COURSE_DRAWER_CLOSED = "closed"
+    
+    const DESKTOP_COURSE_DRAWER_ID = "desktop-course-drawer"
+    const SHOW_COURSE_DRAWER_BTN_ID = "show-desktop-course-drawer"
+    const HIDE_COURSE_DRAWER_BTN_ID = "hide-desktop-course-drawer"
+    const MAIN_COURSE_SECTION_ID = "main-course-section"
+
+    try{
+
+      
+
+      function maintainDesktopCourseDrawerState() {
+        const isCourseDrawerOpen = getLocalStorageItem(COURSE_DRAWER_LOCAL_STORAGE_KEY)
+        if (isCourseDrawerOpen === null) {
+          
+          setLocalStorageItem(COURSE_DRAWER_LOCAL_STORAGE_KEY, COURSE_DRAWER_OPENED)
+          showOrHideDesktopCourseDrawer(COURSE_DRAWER_OPENED)
+        } else {
+          showOrHideDesktopCourseDrawer(isCourseDrawerOpen)
+        }
+      }
+
+      
+
+      function toggleDesktopCourseDrawer() {
+        const showCourseDrawerBtn = document.getElementById(SHOW_COURSE_DRAWER_BTN_ID)
+        const hideCourseDrawerBtn = document.getElementById(HIDE_COURSE_DRAWER_BTN_ID)
+        showCourseDrawerBtn.addEventListener("click", () => {
+          setLocalStorageItem(COURSE_DRAWER_LOCAL_STORAGE_KEY, COURSE_DRAWER_OPENED)
+          showOrHideDesktopCourseDrawer(COURSE_DRAWER_OPENED)
+        })
+        hideCourseDrawerBtn.addEventListener("click", () => {
+          setLocalStorageItem(COURSE_DRAWER_LOCAL_STORAGE_KEY, COURSE_DRAWER_CLOSED)
+          showOrHideDesktopCourseDrawer(COURSE_DRAWER_CLOSED)
+        })
+      }
+
+      
+
+      function showOrHideDesktopCourseDrawer(state) {
+        const desktopCourseDrawer = document.getElementById(DESKTOP_COURSE_DRAWER_ID)
+        const showCourseDrawerBtn = document.getElementById(SHOW_COURSE_DRAWER_BTN_ID)
+        const mainCourseSection = document.getElementById(MAIN_COURSE_SECTION_ID)
+        if (state === COURSE_DRAWER_OPENED) {
+          desktopCourseDrawer.classList.add("col-3")
+          desktopCourseDrawer.classList.remove("d-none")
+          showCourseDrawerBtn.classList.add("d-none")
+          mainCourseSection.classList.add("col-lg-9")
+          mainCourseSection.classList.remove("col-md-12")
+        } else {
+          desktopCourseDrawer.classList.remove("col-3")
+          desktopCourseDrawer.classList.add("d-none")
+          showCourseDrawerBtn.classList.remove("d-none")
+          mainCourseSection.classList.remove("col-lg-9")
+          mainCourseSection.classList.add("col-md-12")
+        }
+      }
+
+      function setOrGetLocalStorageItem(action,key,value) {
+        try {
+          
+          if (typeof Storage !== "undefined") {
+            if (action === "set") {
+              localStorage.setItem(key, value)
+              return true
+            } else {
+              return localStorage.getItem(key)
+            }
+          }
+          console.error("This browser has no web storage support.")
+          return null
+        } catch (e) {
+          console.error("An exception occurred while storing/fetching data in/from localstorage: ", e)
+          return null
+        }
+      }
+
+      function setLocalStorageItem(key, value) {
+        return setOrGetLocalStorageItem("set", key, value)
+      }
+      
+      function getLocalStorageItem(key){
+        return setOrGetLocalStorageItem("get", key)
+      }
+
+      maintainDesktopCourseDrawerState()
+      toggleDesktopCourseDrawer()
+    }
+    catch(e){
+      console.error("Something went wrong in maintaining/toggling course drawer state", e)
+    }
+  </script>
+
+  
+
+<script>
+function expandNav(e,t){t.classList.add("show"),e.querySelector(".course-nav-section-toggle, video-tab-toggle-section").setAttribute("aria-expanded","true")}function courseNav(){document.querySelectorAll(".course-nav, .transcript-header").forEach(e=>{e.querySelectorAll(".nav-link").forEach(e=>{const t=e.getAttribute("href")?e.getAttribute("href"):"";if(t.replace(/\/$/,"")===window.location.pathname.replace(/\/$/,"")){e.classList.add("active");const s=e.dataset.uuid,t=e.closest(".course-nav-list-item"),n=t?.querySelector(".collapse"),o=Array.prototype.filter.call(document.querySelectorAll(".course-nav-section-toggle"),e=>e.dataset.uuid===s);t&&n&&o.length>0&&expandNav(t,n)}});const t=e.querySelector("a.nav-link.active");e.querySelectorAll(".course-nav-list-item").forEach(e=>{const n=e.querySelector(".collapse");n&&n.contains(t)&&expandNav(e,n)})})}courseNav()
+</script>
+
+  
+
+<script>
+(()=>{var e=()=>document.querySelectorAll("#course-content-section table"),t=()=>document.getElementById("course-content-section");function n(){const o=e(),n=t();if(!n)return;if(!window.ResizeObserver)return;const i=new ResizeObserver(()=>s());i.observe(n),o.forEach(e=>{const t=e.getElementsByTagName("th"),n=e.querySelectorAll("table tr");n.forEach(e=>{const n=e.querySelectorAll("td");n.forEach((e,s)=>{t.length>=s+1&&(n[s].dataset.title=t[s].innerText.trim().concat(": "))})})})}function s(){const s=e(),n=t();if(!n)return;s.forEach(e=>{const t=n.getBoundingClientRect(),o=+(e.dataset.minWidth??0);t.width>o&&e.classList.remove("mobile-table");const s=e.getBoundingClientRect();s.right>t.right&&(e.dataset.minWidth=`${s.width}`,e.classList.add("mobile-table"))})}n()})()
+</script>
+
+  
+
+
+    
+    <script src="../../../static_shared/js/course_offline.67582.js"></script>
+    
+
+  
+</body>
+
+</html>
