@@ -50,8 +50,16 @@ I think that those other questions are important to ask but I think that people 
 
 = My Quote
 #quote[
-  Just as Jake is confident the judge would agree that stealing is the right thing for Heinz to do, so Amy is confident that, "if Heinz and the druggeit had talked it out long enough, they could reach something besides stealing ." As he considers the law to "have mistakes," so she sees this drama as a mistake, believing that "the world should just share things more and then people wouldn't have to steal ." 
+  Just as Jake is confident the judge would agree that stealing is the right thing for Heinz to do, so Amy is confident that, "if Heinz and the druggist had talked it out long enough, they could reach something besides stealing ." As he considers the law to "have mistakes," so she sees this drama as a mistake, believing that "the world should just share things more and then people wouldn't have to steal ." 
 ]
+*Both children recognize the need for agreement but see it as mediate d
+in different ways — he impersonally through systems of logic and law, she personally through communication in relationship *
+
+The conclusion underscores the common ground between the two children — the acknowledgment of the necessity for agreement. However, their divergence lies in the methods of mediation. Jake favors an impersonal approach, relying on *systems of logic and law being utilitarian*, whereas Amy advocates for a more personal route, emphasizing the *importance of communication and relationship-building* to address societal issues. Overall, the passage illustrates how individuals may perceive and approach problem-solving through distinct lenses, influenced by their views on established systems and personal connections. *Even when we feel like laws are generally correct there are a lot of gray areas where some people think laws are at fault and others think our application of laws are at fault*. KANTIANISM SHE IS KANTIANISM
+
+
+
+
 
 = Ethical Dilemma
 You are clinging to a tree with your two children in a tsunami, and you can't hold on any longer to both children. You need to choose a child to let go of, how do you choose? Is it ethical to let go of the older child because they have a better chance of living?
