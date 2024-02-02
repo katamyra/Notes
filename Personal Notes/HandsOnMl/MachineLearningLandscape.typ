@@ -75,8 +75,19 @@ For example, say you have a lot of data about your blog's visitors. You can run 
   In *online learning*, you train the system incrementally by feeding it data instances sequentially, in "mini batches". This is especially useful when you have a continuous flow of new information. 
 ]
 
-These systems are especially good because they don't take much computation power since you don't need to retrain many times.
+These systems are especially good because they don't take much computation power since you don't need to retrain many times. 
 
-#note[
-  Stopped at top of page 17 of book
+#definition[
+  *Learning rate* is how fast a system should adapt to new data. 
+
+  If you set it too high, it will rapidly adapt but will also tend to quickly forget the old data. If it is lower, it will learn slowly but will be more receptive to remembering things and not being affected by _noise in the data_. 
+
+]
+
+== Instance vs Model-Based Learning
+#definition[
+  *Instance Based Learning* means learning something by heart and then generalizing to new cases by comparing them to learned examples using a _similarity measure_. 
+]
+#definition[
+  *Model Based Learning* means to build a model based on examples and use those models to make predictions. 
 ]
