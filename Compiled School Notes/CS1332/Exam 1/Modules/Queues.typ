@@ -1,4 +1,4 @@
-#import  "../../template.typ": *
+#import  "../../../../template.typ": *
 
 = Queues
 #definition[
@@ -58,6 +58,7 @@ For *dequeue*
 === Array Backed Deque 
 #note[
   Uses a front variable and a size variably (_circular again_)
+  
   *Important Indices*
   - arr[(front - 1) % capacity] = addFirst()
   - arr[front] = removeFirst()

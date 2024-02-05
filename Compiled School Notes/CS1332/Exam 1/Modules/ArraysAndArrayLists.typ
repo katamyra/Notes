@@ -1,4 +1,4 @@
-#import "../../template.typ": *
+#import "../../../../template.typ": *
 
 = Arrays
 Arrays allow you to store data in _contiguous space in memory_ 

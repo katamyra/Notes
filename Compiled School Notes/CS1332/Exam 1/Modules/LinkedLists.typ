@@ -1,4 +1,4 @@
-#import "../../template.typ": *
+#import "../../../../template.typ": *
 
 = LinkedList
 
@@ -15,6 +15,8 @@
   - Need to traverse to last node by iterating until curr.next is null (since we need access to last node). Set last mode w/data's next value to the new node.
   - If head is null, point head to new node
 
+]
+#theorem[
   #text(fill: rgb("#1a5fd6"))[*Removing*]
 
   *Removing from Front*: O(1)
@@ -25,7 +27,6 @@
   - If size is zero, throw exception
   - If size is 1, set head to null
 ]
-
 == Tail Pointer
 Having a *tail pointer* makes _adding to back easier_, since you can just set the tails next reference to the new node and update tail. So adding to back is now *O(1)*
 
@@ -48,6 +49,8 @@ Generally doubly linked lists always have both a head and tail pointer, and cont
   - Set the tail's next to the new node, and the new nodes previous to the tail. Then set tail to new node. 
   - When size = 0, set head and tail to new nodes
 
+]
+#theorem[
   #text(fill: rgb("#1a5fd6"))[*Removing*]
 
   *Removing from the Back*: O(1)
