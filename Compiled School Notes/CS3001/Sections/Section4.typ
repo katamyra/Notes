@@ -50,3 +50,7 @@ Furthermore, the notion of a "complex mindset" highlights the multifaceted natur
 = Term Proposal
 
 Bring up the issue of how social platforms such as twitter bring up tons of different moral issues such as their AI algorithms that amplify hate speech or allow hate speech to roam free and the idea of how as as a technological artifact they can cause lots of social good yet bad at the same time. So I would focus on how in the future we can have laws or proposals that can balance the power of these social platforms with making sure they stay ethical.
+
++ should/how can companies moderate hate speech 
++ hate speech being amplified and radicalized by AI algorithms 
++ AI algorithms filtering out people's opinions

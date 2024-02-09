@@ -18,5 +18,6 @@
 #set text(
   fill: rgb("#04055c")
 )
+= Digital Logic Structure
 #include "Modules/SequentialLogic.typ"
 #include "Modules/Storage.typ"
