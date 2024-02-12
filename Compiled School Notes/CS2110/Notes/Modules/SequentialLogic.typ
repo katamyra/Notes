@@ -1,5 +1,6 @@
 #import "../../../../template.typ": *
 
+= Digital Logic Structure
 == Sequential Logic
 
 === K-Maps 
