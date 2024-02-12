@@ -12,3 +12,4 @@
 )
 
 #include "Modules/VirtueEthics.typ"
+#include "Modules/InternalRealism.typ"
