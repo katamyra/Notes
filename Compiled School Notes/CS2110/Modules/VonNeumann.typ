@@ -1,4 +1,4 @@
-#import "../../../../template.typ": *
+#import "../../../template.typ": *
 
 = The Von Neumann Model 
 

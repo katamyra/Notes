@@ -1,4 +1,4 @@
-#import "../../../../template.typ": *
+#import "../../../template.typ": *
 
 = Bits, Data Types, and Operations 
 

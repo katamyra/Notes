@@ -1,4 +1,4 @@
-#import "../../../../template.typ": *
+#import "../../../template.typ": *
 
 == Basic Storage Elements
 - The other kind of storage element are those that involve the storage of information and those that do not
