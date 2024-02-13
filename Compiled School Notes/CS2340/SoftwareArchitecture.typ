@@ -1,4 +1,4 @@
-#import "../../../template.typ": *
+#import "../../template.typ": *
 #let so = [Software Architecture]
 = Software Architecture
 

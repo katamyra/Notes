@@ -22,4 +22,5 @@
 #include "Modules/BitsDataTypes.typ"
 #include "Modules/SequentialLogic.typ"
 #include "Modules/Storage.typ"
+#include "Modules/VonNeumann.typ"
 

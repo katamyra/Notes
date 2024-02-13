@@ -1,4 +1,4 @@
-#import "../../../template.typ": *
+#import "../../template.typ": *
 #show: template.with(
   title: [
     Objects and Design Lecture Notes 

@@ -1,4 +1,4 @@
-#import "../../../template.typ": *
+#import "../../template.typ": *
 #show: template.with(
   title: [CS 1332 Lecture Notes],
   authors: (
