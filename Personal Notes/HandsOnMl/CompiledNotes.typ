@@ -18,4 +18,5 @@
   fill: rgb("#04055c")
 )
 
-#include "MachineLearningLandScape.typ"
+#include "Modules/MachineLearningLandScape.typ"
+#include "Modules/Classification.typ"

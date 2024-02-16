@@ -1,4 +1,4 @@
-#import "../../template.typ": *
+#import "../../../template.typ": *
 = The Machine Learning Landscape
 == Types of Machine Learning systems
 
