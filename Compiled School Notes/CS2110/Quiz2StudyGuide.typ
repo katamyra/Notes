@@ -175,7 +175,7 @@ When doing operate instructions specifically ADD and AND, the arithmetic operati
 + DR #sym.arrow.l SR1 + SR2
 + DR #sym.arrow.l SR1 + sext[imm5]
 
-Note that imm5 is a sign extended 2's complement, so it ranges fro -16 to 15. 
+Note that imm5 is a sign extended 2's complement, so it ranges from -16 to 15. 
 
 Whether the operate instruction uses register addressing or this immediate value is determined by bit 5 of the instruction. Bit 5 is sent to the SR2MUX, therefore choosing between this second source register immediate value. 
 `ADD = [0001] [DR] [SR1] [0] [00] [SR2]` vs
@@ -228,6 +228,37 @@ Control instructions are used when we want loops or conditional statements, go-t
 ]
 #theorem[
   *JMP* - this _always_ updates the PC value, by doing PC #sym.arrow.l BaseReg. 
+]
+=== List of Some Instructions
+
+#theorem[
+  *LD*: Opcode 0010
+
+  LD is the load instruction. It loads the value at the memory address PC + PCOffset9 and stores it in a destination register. 
+
+  `DR = mem[PC* + PCPOffset9]` 
+
+  Also sets CC
+]
+
+#theorem[
+  *LDI*: Opcode 1010 
+
+  `DR = mem[mem[PC* + PFOffset9]]`
+
+  Allows you to access memory further from the PC
+
+  Also sets CC
+]
+
+#theorem[
+  *LDR*: Opcode 0110 
+
+  Adds the value of base register and a 6-bit 2's complement number to determine address in memory to load into destination register.
+
+  `DR = mem[BaseR + Offset6]`
+
+  Also sets CC
 ]
 == Datapath 
 #definition[
