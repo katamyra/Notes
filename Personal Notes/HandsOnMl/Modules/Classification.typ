@@ -19,7 +19,7 @@ print(mnist.DESCR)
 
 ]
 
-=== *Stochastic Gradient Descent (SDG) classifier* 
+== *Stochastic Gradient Descent (SDG) classifier* 
 
 #definition[
   *SDG Classifiers* are a type of machine learning algorithm used for classification tasks, based on the stochastic gradient descent optimization technique. 
