@@ -100,6 +100,8 @@ Memory is more complicated, we use a lot of Gated D Latches alongside a decoder 
 
 = State Machines 
 
+Digital logic structures that _both_ process information _and_ store decisions are called *sequential logic circuits*.
+
 #definition[
   The *state* of a system is a snapshot of all the relevant elements of the system at the moment the snapshot is taken.
 ]
@@ -117,6 +119,11 @@ Memory is more complicated, we use a lot of Gated D Latches alongside a decoder 
 State machines take in a state and action to spit out a new state and signal. We create them by building a combinational circuit (so kmaps) and adding sequential logic components, such as registers.
 
 The combinational circuit generates a new state that gets stored in the sequential component, which is then fed back into the combinational circuit. 
+
+== The Synchronous Finite State Machine 
+In the soda machine example for state machines, we could wait very long before having to put in the last coin into the machine and it would still work. However, most computers are different in that they are *synchronous*, meaning that the state transitions take place at identical fixed units of time. 
+
+This is often done with the use of the *clock*, which produces a value which alternatives between 0 and some voltage in a repeated sequence of identical intervals known as the _clock cycle_. 
 
 = LC-3 
 
@@ -227,7 +234,9 @@ Control instructions are used when we want loops or conditional statements, go-t
   *BR* - this branch instruction uses the CC to determine whether or not to branch to a new PC value. For example based on a CC register value we might update our PC value, otherwise we use our current `PC*` as our PC. 
 ]
 #theorem[
-  *JMP* - this _always_ updates the PC value, by doing PC #sym.arrow.l BaseReg. 
+  *JMP* - this _always_ updates the PC value, by doing PC #sym.arrow.l BaseReg.
+
+  Fact check? 
 ]
 === List of Some Instructions
 
@@ -260,6 +269,19 @@ Control instructions are used when we want loops or conditional statements, go-t
 
   Also sets CC
 ]
+
+#theorem[
+  *LEA*
+  Used to calculate the effective address of an operand in memory and load that address into register without actually accessing the memory. 
+
+  DR #sym.arrow.l PC + PCOffset9
+]
+
+#theorem[
+  *ST*
+  Puts the contents of a register into memory at the specific address (PC + offset)
+]
+
 == Datapath 
 #definition[
   The *bus* is a 16-bit wire on the datapath that is connected to most of the major components in the LC3, and is used as a highway to transmit data. We can only have one signal on the bus at a time, which we control with *tri-state buffers*. 

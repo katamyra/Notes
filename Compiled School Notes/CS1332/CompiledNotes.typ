@@ -16,4 +16,5 @@
 #include "Modules/Stacks.typ"
 #include "Modules/Queues.typ"
 #include "Modules/Trees.typ"
+#include "Modules/Heaps.typ"
 #include "Modules/Hashmaps.typ"
