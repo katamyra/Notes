@@ -18,3 +18,4 @@
 #include "Modules/Trees.typ"
 #include "Modules/Heaps.typ"
 #include "Modules/Hashmaps.typ"
+#include "Modules/AVL.typ"
