@@ -61,8 +61,16 @@ Now, once we have a data source, a model, and a well defined objective function,
 
 == Kinds of Machine Learning 
 
-== Supervised Learning
 
 *Supervised learning* describes tasks where we are given a dataset containing both features and labels and asked to produce a model that predicts the labels when given input features. 
 
 The supervision comes into play because for choosing parameters we produce the model with a dataset consisting of labeled examples. We are interested in estimating the conditional probability of a label given input features. 
+
+
+When labels take on arbitrary numerical values (even if its within some interval), we consider this to be a *regression problem*. 
+
+In most our chapters, we will try to learn models that minimize the squared error loss function. 
+
+In *classification*, we want our model to look at features and predict which category/class it belongs to. 
+
+*Reinforcement learning* gives a very general statement of a problem in which an agent interacts with an environment over a series of time steps. At each step, the agent receives some _observation_ from the environment and must chose an _action_ that is subsequently transmitted back into the environment leading to some reward by the ML model. 
