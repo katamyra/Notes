@@ -9,5 +9,5 @@ More thorough compiled notes that I write to study for tests are stored in Compi
 *CS 2340* - Objects and Design  
 *CS 3001* - CS Ethics  
 *CS 2110* - Computer Organization and Programming  
-*Hands On ML* - Notes based on ML Textbook  
+
 
