@@ -19,4 +19,5 @@
 #include "Modules/VirtueEthics.typ"
 #include "Modules/FreedomOfSpeech.typ"
 #include "Modules/ProfessionalEthics.typ"
+#include "Modules/Privacy.typ"
 #include "Modules/InternalRealism.typ"
