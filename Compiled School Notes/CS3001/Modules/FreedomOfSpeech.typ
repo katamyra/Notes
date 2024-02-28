@@ -1,6 +1,8 @@
 #import "../../../template.typ": *
 
-== Censorship 
+== Censorship
+
+Censorship is the attempt to suppress or regulate public access to material considered offensive or harmful. 
 
 *Direct Censorship*
 - *Government monopolization* - government owns TV stations, radio, and newspapers. This has become harder due to the internet.
@@ -18,6 +20,15 @@
 + The internet is global
 + It is hard to distinguish between children and adults on the internet 
 
+== Mill's Principle of Harm 
+However, a lack of government censorship can also lead to harm. 
+
+#definition[
+  *Principle of Harm*: the only purpose for which power can be rightfully exercised over any member of a civilized community, against his will, is to prevent harm to others. 
+
+  Basically, the government should not get involved in the private activities of individuals, even if the individuals are doing something that harm themselves (only if it harms others)
+]
+
 == Freedom of Expression 
 
 #blockquote[
@@ -30,3 +41,8 @@
   Protection is not given to "libel, reckless or calculated lies, slander, misrepresentation, perjury, false advertising, obscenity and profanity, solicitation of crime, and personal abuse or fighting words"
 ]
 
+
+A *web filter* is a piece of software that prevents certain Web pages from being displayed in your browser. 
+
+*CIPA* - Child Internet Protection Act
+- Ruled that autopornography filters do not violate the First Amendment

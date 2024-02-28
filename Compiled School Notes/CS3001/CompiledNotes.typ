@@ -10,7 +10,7 @@
   )
 
 )
-= ADD HOW TO ARGUE SECTION 
+
 #include "Modules/Therac25.typ"
 #include "Modules/Utilitarianism.typ"
 #include "Modules/Kantianism.typ"
@@ -18,6 +18,10 @@
 #include "Modules/StakeHolder.typ"
 #include "Modules/VirtueEthics.typ"
 #include "Modules/FreedomOfSpeech.typ"
+#include "Modules/WritingAnArgument.typ"
 #include "Modules/ProfessionalEthics.typ"
 #include "Modules/Privacy.typ"
+#include "Modules/IntellectualProperty.typ"
+#include "Modules/NetworkedCommunications.typ"
 #include "Modules/InternalRealism.typ"
+#include "Modules/BiometricData.typ"

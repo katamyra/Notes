@@ -48,17 +48,26 @@ _Rights_ can be classified according to the duties they put on others
 Rawl notes that both cooperative and competitive behavior can be found in every society. The former because social cooperation produces more benefits than a situation in which individuals are completely on their own. The former because it is important how the benefits are divided among society.
 
 To be well ordered, a society must establish the rights of its members and also determine a just way of distributing both the benefits and burdens of social cooperation
+#theorem[
+  *Rawl's Prunciples of Justice*
+  + Each person may claim a "fully adequate" number of basic rights and liberties, such as freedom of thought and speech, the right to be safe from harm, etc so long as these claims are consistent with everyone else having a claim to the same right and liberties 
+  + Any social and economic inequalities must satisfy two conditions: first, they are associated with positions in society that everyone has a fair and equal opportunity to assume, and second they are "to be to the greatest benefit of the least-advantaged members of society"
+]
 
+#definition[
+  *Difference principle*: societal and economic inequalities must be justified, which can only be done by showing that its overall effect is to benefit least advantaged members of society
+]
 
 *The Case For*:
 - It is framed in the language of rights 
+  - The cultures of many modern countries *FINISH REST OF SOCIAL CONTRACT*
 - It is based on a solid understanding of human nature, recognizing that rational people act ouf of self-interest in the absence of a common agreement 
 - It explains why under certain circumstances civil disobedience can be the morally right decision 
 *The Case Against*:
 - None of us signed the social contract 
 - Some actions can be characterized in multiple ways
 
-*How do the philoshphies compare?*
+*How do the philosophies compare?*
 _Reason for making a rule_: 
 - *Utilitarianism*: it causes the greatest happiness for the most people
 - *Kantianism*: it could be universalized for all people 
