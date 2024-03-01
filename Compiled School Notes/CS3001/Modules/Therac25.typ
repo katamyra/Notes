@@ -31,6 +31,6 @@ The system was not designed with being fail safe in mind
 
 In order for a moral agent to be responsible for a harmful event, two conditions must hold:
 
-- *Casual Condition*: The actions (or inactions) of agents must have caused the harm
+- *Causal Condition*: The actions (or inactions) of agents must have caused the harm
 - *Mental Condition*: The actions (or inactions) of agents must have been intended or willed by the agent\*
 \*This also includes unintended harm if it came from carelessness or negligence

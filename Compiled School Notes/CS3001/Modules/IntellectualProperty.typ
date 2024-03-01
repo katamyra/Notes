@@ -1,5 +1,6 @@
 #import "../../../template.typ": *
 
+= Intellectual Property
 #definition[
   *Intellectual property* refers to creations of the mind: inventions, literary works, names and images used in commerce, etc.
 ]

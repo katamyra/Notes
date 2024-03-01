@@ -13,7 +13,7 @@ Censorship is the attempt to suppress or regulate public access to material cons
 *Self Censorship*
 - A group deciding for itself not to publish content for whatever reason. 
 
-*Challenges posted by the internet*
+*Challenges posed by the internet*
 + Unlike traditional 1-many media, the internet supports many to many communications 
 + The internet is dynamic 
 + The internet is huge 

@@ -40,6 +40,7 @@ _Rights_ can be classified according to the duties they put on others
   - Right to free education 
   - Community and national security
   *Absolute Right* - guaranteed without exception 
+  
   *Limited Right* - may/can be restricted
 ]
 
@@ -49,7 +50,7 @@ Rawl notes that both cooperative and competitive behavior can be found in every 
 
 To be well ordered, a society must establish the rights of its members and also determine a just way of distributing both the benefits and burdens of social cooperation
 #theorem[
-  *Rawl's Prunciples of Justice*
+  *Rawl's Principles of Justice*
   + Each person may claim a "fully adequate" number of basic rights and liberties, such as freedom of thought and speech, the right to be safe from harm, etc so long as these claims are consistent with everyone else having a claim to the same right and liberties 
   + Any social and economic inequalities must satisfy two conditions: first, they are associated with positions in society that everyone has a fair and equal opportunity to assume, and second they are "to be to the greatest benefit of the least-advantaged members of society"
 ]

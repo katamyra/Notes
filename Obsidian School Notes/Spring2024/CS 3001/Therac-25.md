@@ -13,7 +13,7 @@
 * Lack of mechanism to detect overdoses
 # Moral Responsibility
 * In order for a moral agent to be held responsible, they need to meet these two conditions
-	* **Casual condition** - the actions (or inactions) of agents must have caused the harm
+	* **Causal condition** - the actions (or inactions) of agents must have caused the harm
 		* Basically not *necessarily*  on purpose but still caused by the actions of that purpose
 	* **Mental condition** - the actions (or inactions) must have been intended or willed by the agent
 		* Basically happened on purpose

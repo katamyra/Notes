@@ -9,7 +9,7 @@
 
 == Free Market View 
 #theorem[
-  From the fee market view, you can choose how much information you want to change and if you don't like a company's privacy practices, don't do business with them. 
+  From the free market view, you can choose how much information you want to exchange and if you don't like a company's privacy practices, don't do business with them. 
 
 ]
 == Consumer Protection View
