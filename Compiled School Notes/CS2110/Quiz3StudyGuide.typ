@@ -22,7 +22,7 @@
 
 == .FILL
 #definition[
-  *.FILL* tells the assembler to set aside the next location in the program and initializ with the value of an operand. The value can either be a number or label.
+  *.FILL* tells the assembler to set aside the next location in the program and initialize it with the value of an operand. The value can either be a number or label.
 ]
 
 == .BLKW
