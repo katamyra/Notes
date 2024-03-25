@@ -19,4 +19,5 @@
 #include "Modules/Heaps.typ"
 #include "Modules/Hashmaps.typ"
 #include "Modules/AVL.typ"
-#include "Modules/Sorts.typ"
+#include "Modules/IterativeSorts.typ"
+#include "Modules/DAndCSorts.typ"
