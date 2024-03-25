@@ -126,4 +126,3 @@ Stack buildup is the first half of the full calling convention.
 *Callee prepares for return* 
 + Store return value in previously allocated space 
 + Restore R0-R4 to previous value and pop from stack 
-do laterr
