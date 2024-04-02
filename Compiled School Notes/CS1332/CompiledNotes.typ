@@ -21,3 +21,4 @@
 #include "Modules/AVL.typ"
 #include "Modules/IterativeSorts.typ"
 #include "Modules/DAndCSorts.typ"
+#include "Modules/PatternMatching.typ"
